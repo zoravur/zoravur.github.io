@@ -83,13 +83,10 @@
     <p>
       Of note, this language consists of only numbers and easily pronounceable
       english words, and numbers are interchangeable with their word
-      equivalents. There is no punctuation of any kind, and in fact, all
-      punctuation is stripped during preprocessing. There is no indentation
-      either, meaning that all the parser is doing is converting a flat array of
-      english words into an abstract syntax tree. This AST is then interpreted
-      left-to-right, depth first (meaning it corresponds to normal program
-      execution), using the visitor pattern, as described in Crafting
-      Interpreters.
+      equivalents. Symbols can be multiple words, due to a carefully constructed
+      grammar. There is no punctuation of any kind, and in fact, all punctuation
+      and indentation is stripped during preprocessing. This leaves only a list
+      of words, which are ideally 1-1 mapped to sounds.
     </p>
     <p>
       The language features themselves are similar to Lox, except this language
@@ -112,6 +109,12 @@
       Interface to Python, that allows me to steal a lot of the useful code that
       already exists in Python libraries, for all different types of automation
       and machine learning.
+    </p>
+    <p>
+      Other features I want to include are: garbage collection, a standard
+      library, and static typing. I also want to add facilities to the
+      interpreter to improve the developer experience (being forced to one shot
+      your code without misspeaking even once is too difficult to be useful).
     </p>
     <p class="subtitle">Working with Voice</p>
     <p>
@@ -147,14 +150,19 @@
         not.
       </li>
       <li>
-        The infamous "Thank you for watching!", and random text in other
-        languages: on silence, whisper transcribes a bunch of garbage (quite
-        frequently), presumably because the subtitles it was trained on would
-        contain some text that isn't matching the audio that it should.
+        The infamous
+        <a
+          href="https://www.google.com/search?q=thank+you+for+watching+bug+chatgpt"
+          >"Thank you for watching!" bug</a
+        >, and random text in other languages: on silence, whisper transcribes a
+        bunch of garbage (quite frequently), presumably because the subtitles it
+        was trained on would contain some text that isn't matching the audio
+        that it should. I imagine something similar to threshold probabilities
+        would remedy this, but this is not easily configurable within Whisper.
       </li>
     </ul>
     <p>
-      I've addressed the first two by modifying the gramamar slightly, (notice,
+      I've addressed the first two by modifying the grammar slightly, (notice,
       "begin" is normally paired with "end", but here it is paired with
       "finish", and instead of left and right, we have lists joined with the
       word "and". The logical AND function is consequently called conj), but the
