@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Website on Zoravur's Blog</title><link>https://zoravur.github.io/tags/website/</link><description>Recent content in Website on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Sep 2024 21:40:14 -0400</lastBuildDate><atom:link href="https://zoravur.github.io/tags/website/index.xml" rel="self" type="application/rss+xml"/><item><title>Adopting Hugo</title><link>https://zoravur.github.io/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.github.io/adopting-hugo/</guid><description>&lt;p>I am changing from raw html to the static site generator Hugo.
+As I plan to put more writing on my blog, writing in markdown instead
+of plain HTML will become more important. Stay tuned for overviews of
+system design concepts (as I prepare to find more permanent employment),
+as well as security and statistics.&lt;/p>
+&lt;p>Get excited.&lt;/p></description></item><item><title>First Post</title><link>https://zoravur.github.io/first/</link><pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate><guid>https://zoravur.github.io/first/</guid><description>&lt;p>TODO:&lt;/p>
+&lt;ol>
+&lt;li>Put up résumé&lt;/li>
+&lt;li>Create projects page&lt;/li>
+&lt;li>Copy Chris Lattner&amp;rsquo;s website&lt;/li>
+&lt;/ol></description></item></channel></rss>
