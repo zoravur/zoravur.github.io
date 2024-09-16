@@ -26,8 +26,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages  # the branch where to deploy
         publish_dir: ./public
-        # use the `dest_branch` and `dest_dir` options to deploy to a specific folder for testing
-        dest_branch: gh-pages
-        dest_dir: go  # change this to the folder name you want to use for the "go" branch
+        destination_dir: go  # change this to the folder name you want to use for the "go" branch deployment
 
