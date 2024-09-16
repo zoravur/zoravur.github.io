@@ -28,5 +28,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages  # the branch where to deploy
         publish_dir: ./public
-        destination_dir: /  # change this to the folder name you want to use for the "go" branch deployment
+        # destination_dir: /  # change this to the folder name you want to use for the "go" branch deployment
 
