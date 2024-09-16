@@ -1,7 +1,9 @@
----
-title: "Spock: A Spoken Programming Language"
-date: "2024-08-13T00:00:00.000Z"
----
++++
+title = "Spock: A Spoken Programming Language"
+date = 2024-08-13T00:00:00.000Z
+draft = false
+tags = ["projects"]
++++
 
 In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:
 

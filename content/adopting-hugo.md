@@ -1,7 +1,7 @@
 +++
 title = 'Adopting Hugo'
 date = 2024-09-15T21:40:14-04:00
-draft = true
+draft = false
 tags = ["website"]
 +++
 
