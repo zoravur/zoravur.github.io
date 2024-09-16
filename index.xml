@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zoravur's Blog</title><link>https://zoravur.github.io/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Sep 2024 21:40:14 -0400</lastBuildDate><atom:link href="https://zoravur.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Adopting Hugo</title><link>https://zoravur.github.io/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.github.io/adopting-hugo/</guid><description>&lt;p>I am changing from raw html to the static site generator Hugo.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zoravur's Blog</title><link>https://zoravur.github.io/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 Sep 2024 12:07:58 -0400</lastBuildDate><atom:link href="https://zoravur.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.github.io/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.github.io/functional-and-nonfunctional-requirements/</guid><description>&lt;p>The common refrain when determining functional and nonfunctional requirements is that
+&amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
+describe how it does it.&amp;rdquo;&lt;/p>
+&lt;p>Here are some examples of nonfunctional requirements:&lt;/p>
+&lt;ul>
+&lt;li>Performance
+&lt;ul>
+&lt;li>Latency of various actions (page loads, content loading, server processing)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Availability
+&lt;ul>
+&lt;li>Uptime requirements (which may vary from system to system)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Scalability
+&lt;ul>
+&lt;li>Number of users&lt;/li>
+&lt;li>Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li>
+&lt;li>Throughput&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Observability
+&lt;ul>
+&lt;li>How easy it is to tell what is going on (or going wrong) with your application&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Reliability&lt;/li>
+&lt;li>Technology Stack&lt;/li>
+&lt;li>Security requirements
+&lt;ul>
+&lt;li>Authentication&lt;/li>
+&lt;li>Authorization&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Maintainability&lt;/li>
+&lt;li>Compliance
+&lt;ul>
+&lt;li>GDPR, COPPA, HIPAA, etc.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Adopting Hugo</title><link>https://zoravur.github.io/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.github.io/adopting-hugo/</guid><description>&lt;p>I am changing from raw html to the static site generator Hugo.
 As I plan to put more writing on my blog, writing in markdown instead
 of plain HTML will become more important. Stay tuned for overviews of
 system design concepts (as I prepare to find more permanent employment),
