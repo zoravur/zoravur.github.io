@@ -1,0 +1,33 @@
+name: deploy hugo site
+
+on:
+  push:
+    branches:
+      - main
+      - go  # include your "go" branch
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v3
+
+    - name: setup hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: build the hugo site
+      run: hugo --minify
+
+    - name: deploy to github pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        # use the `dest_branch` and `dest_dir` options to deploy to a specific folder for testing
+        dest_branch: gh-pages
+        dest_dir: go  # change this to the folder name you want to use for the "go" branch
+

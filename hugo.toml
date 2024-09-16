@@ -1,0 +1,32 @@
+baseURL = 'https://zoravur.github.io/'
+languageCode = 'en-us'
+title = "Zoravur's Blog"
+theme = 'ultron'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[[menus.main]]
+name = 'Github'
+url = 'https://github.com/zoravur'
+weight = 40
+[menus.main.params]
+rel = 'external'
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
