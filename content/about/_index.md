@@ -8,5 +8,3 @@ r&eacute;sum&eacute; [here](./resume.html), and my GitHub [here](https://github.
 Mess around with some gravity [here](https://zoravur.github.io/gravity/dist/).
 
 Because I'm diving into low-level programming, I created a practice tool for hexadecimal addition. You can find that [here](./hexadecimal-addition-practice/).
-
-*Last updated: Sep 16 2024*
