@@ -18,6 +18,7 @@ describe how it does it.&amp;rdquo;&lt;/p>
 &lt;li>Number of users&lt;/li>
 &lt;li>Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li>
 &lt;li>Throughput&lt;/li>
+&lt;li>Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Observability
