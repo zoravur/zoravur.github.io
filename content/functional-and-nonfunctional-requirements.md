@@ -17,6 +17,7 @@ Here are some examples of nonfunctional requirements:
     - Number of users
     - Expected growth in users in 3 months, 6 months, a year, etc.
     - Throughput
+    - Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)
 - Observability
     - How easy it is to tell what is going on (or going wrong) with your application
 - Reliability
