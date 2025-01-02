@@ -1,0 +1,1 @@
+- Run server with `hugo server --disableFastRender --ignoreCache`

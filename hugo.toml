@@ -2,6 +2,7 @@ baseURL = 'https://zoravur.github.io/'
 languageCode = 'en-us'
 title = "Zoravur's Blog"
 theme = 'ultron'
+contentDir = "content"
 
 [params]
 googleSiteVerification = "2CVKR391rIh2rZBTcGO37xvXZMVLAUGLF05_AceENA4"
