@@ -1,8 +1,8 @@
 +++
 title = "New Year's Resolutions 2025"
 date = '2025-01-01T17:06:06-05:00'
-draft = true
-tags = ["personal"]
+draft = false
+tags = ["personal", "productivity"]
 +++
 
 I feel the urge to Paul Graham this one -- really break down New Year's Resolutions, talk about why they work, why they don't work, 
@@ -12,79 +12,77 @@ post is not to write about New Year's resolutions, but rather to make the resolu
 It seems best if I start, though, by talking about what constitutes a good New Year's resolution, and what constitutes a good habit,
 more generally.
 
-In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually 
-started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
-and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
-a week. 
+The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment 
+and because I like my version better.
 
-Also in the month of December 2024, I started learning Rust, a programming language which I hadn't touched since 2018, when I read 
-a book on the syntax that I'd now forgotten nearly completely. The first few days were painful, even trying to do simple problems, with 
-the assistance of LLMs for the syntax. But after about 7-10 days once again, I was able to set up the initial scaffolding for the project 
-much much faster than I could at the start of the week. I found myself recalling syntax and patterns that I'd used 3 or 4 days ago -- I was 
-thinking something like "wow, I just used this language feature in day \[n-3\], how did it go again?" and then I would reinforce that 
-neural pathway by re-implementing that same pattern.
+Let's say that you're at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you 
+fill up your jar? Maybe you'd put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize 
+the value of your jar, you'd probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles 
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put 
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first -- seashells, rocks -- and then the 
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your 
+jar.
 
-Let's call this pattern of working on something a little bit every day, type B productivity.
+Now, let's say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them -- 
+hangouts, achievements, new skills, goals -- and it's up to me to fit in the ones that I believe are most important. Some activities are 
+easy and short but have a small impact -- like spending 5 minutes on learning the piano. Other activities are big and valuable, like 
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.
 
-I don't believe that working consistently on a project every single day is the key to productivity. I actually think that in terms of 
-absolute productivity, working on something a little bit at a time every single day is more of a morale booster than a productivity 
-booster. Working on something for, say, 15 minutes a day necessarily means that you're switching contexts more. Plus, there's the added
-fact that working on a project is essentially a time-sink / cost, and you don't yield the benefit from a project until it is actually 
-completed. Real productivity comes when you're neck deep in something, with all of the context loaded into your brain, and you can make
-changes lightning fast because you know where everything is. That's just not possible with 15 minutes a day.
+To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:
+- Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself
+- Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline
+- Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines
+- Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.
+- Weightlifting should happen at least twice a week per muscle group
+- Cardio should be 3 hours per week, ideally at 45-60 minute intervals 
 
-This latter pattern, of getting neck deep into something and really pushing on it, and allowing it to take over your life -- let's call that
-type A productivity. It's what you use when you're first building out a project, and it's how I've worked on so many of my side projects
-this past year, from ssdb (link), to canvas-datatable, to spock-lang (link), to novadyne (link). The best example of type B productivity
-is probably the initial prototype I built out for the order processing software for the company I work at. I was 
-able to get that into production in about 3 months as a solo dev, when previously I had never deployed anything on my own.
+If you're setting your own schedule, it's essential to be aware of the different things you're trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don't burn out and are able to build up a habit.
 
-If you can get out of the trap of running after the new shiny thing for a couple weeks, and really commit to something, then type BA
-productivity is really how you get shit done.
+For me, my primary goals are:
+- Continue to grow my skills as a developer -- currently I'm working on systems design <!--(TODO@Zoravur: link)-->, but this might also 
+    include more ML at some point.
+- Lose weight / build muscle / improve overall health
+- Be more social (still in lockdown mode somewhat)
+- Backpacking + hostels while I'm still young enough to do so
+- Move to a new city
 
-Let's compare and contrast type A and B productivity[1].
+Minor goals include:
+- Develop a stronger online presence (portfolio, blogs, etc.)
+- Learn to swim
+- More sports / games (goes hand in hand with social activities)
+- Improve my fashion sense
 
-![The Ebbinghaus "Forgetting" Curve](/ebbinghaus.png "Ebbinghaus Curve")
+Some nice-to-haves include:
+- Learning a new language
+- Learning piano / guitar / harmonium
 
-*The Forgetting Curve. The amount of information we remember after initial exposure to it follows a pattern for exponential decay; however,
-this can be staved off by reviewing the information at intervals spaced exponentially further apart. Every time the information is 
-reinforced, the rate at which it is forgotten decreases. The time between reinforcement is critical to long term retention of a concept.*
+I'd like to cultivate some traits as well:
+- Being someone who is easy to help -- diligence, as well as organization are key to this.
+- High morale: this one is from the book I'm reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome 
+most problems. I will talk about this more, because I find this concept quite interesting. <!--(TODO@Zoravur: link)-->
 
-Firstly, on a time crunch, it's obvious that type A prevails. You simply can't go anywhere fast on 15 minutes a day. Conversely anyone who's 
-crammed for a college assignment (which is pretty much everyone who's been to college) knows what monumental feats can be achieved if you 
-have a large project due in a few days. So, type A has the advantage of being better under the constraint of a deadline. Furthermore,
-with the added penalty of context switching, you're not really getting anything done at all until you violate your time constraint because 
-you actually want to get something done.[2]
+In terms of fitting all of these into the year, while maximizing productivity, it's essential that I both respect the cadences of each 
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I'm not 
+consistently making progress.
 
-In what situations do you want type B productivity? Well, the most obvious case is one where you get paid for the number of hours you work.
-In this case, you're bound to have time left over, because 8 hours doesn't take up your whole day -- you may, however, after factoring in 
-your daily routine, have only about an hour or less of actual free time per day. Obviously, in this scenario, it makes sense to use that time
-on whichever project you deem most important. What if you don't get paid hourly, and instead need to optimize for actual output such as 
-the number of features delivered? 
+The min-max on social activities for me seems to be between 2-10 per month, but I'd like to increase this number. Spacing them out is good 
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It's hard to schedule 
+things in advance, but it's always good when I can.
 
-In this case, it isn't so clear that type B productivity makes sense. Like I mentioned previously, the more projects you work on 
-simultaneously, the longer it takes for you to reap the benefit of any one of them, since they hold no value while incomplete. The primary
-use case for it, in my opinion, is when the primary goal is **learning or maintaining skill**. 
+Here's a proposed schedule on some of the blog posts I'd like to write this year:
+1. January 6 - how to plan a backpacking trip (for non-planners)
+2. January 8 - lessons learned from a year of solo-ish dev as a new grad
+3. January 13 - systems design series part 1 (will talk more about this later)
+4. January 20 - systems design series part 2 
+5. January 27 - systems design series part 3 (the conclusion, hopefully)
+6. Esprit de corps: notes on Andrew Robert's _Napoleon: A Life_
+7. Novadyne 
+8. Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games
 
-When you're learning a new skill, especially a complex one, it's essential to reinforce that skill over time, instead of trying to cram 
-learning it into a short window. This is how I was able to be so time efficient in learning the piano and Rust. By reinforcing the activity 
-every single day, and allowing my brain to work in the background in between the different tasks, I was able to be much more time efficient,
-and much better at the end of a week than I would have been had I simply did all the practice on a single day. Essentially, you're getting 
-spacing for free.
+6-8 are more tentative, and so I don't really care so much when they get done by, or if at all.
 
-The synergy goes further than just that, though. Unless you're a student, you don't really have time to just learn all day, but spending 15 
-minutes a day on something is well within most people's schedule. Add to that the fact that it's pretty convenient to work on something for 
-15 minutes without getting distracted or interrupted, and it's clear to see why strategy makes a lot of sense, at least for learning new 
-skills.
-
-
-[1] I recognize that I'm overloading the word productivity here, as it's almost paradoxical to say, as I do later in the essay, that type B
-productivity isn't actually that productive. I thought about using a less specific word, such as "work", but I want to avoid association 
-"work"'s association with employment, and all the rituals surrounding it that aren't necessarily core to getting the job done. Productivity, 
-on the other hand, has to do with completing the task that achieves the desired result, the thing that directly impacts the bottom line.
-
-[2] I don't know if I should be saying this with as much conviction as I am. I'm certainly not an expert in type B productivity. Maybe it's
-the case that after numerous days of genuinely trying to get productive work done in 15 minutes, it starts working, just as a married person 
-with children is more efficient with their time than someone who is unattached, just out of necessity.
-
-
+_Jan 3, 2024: I anticipate adding more to this post in the coming days._
