@@ -1,4 +1,4 @@
-baseURL = 'https://zoravur.github.io/'
+baseURL = 'https://zoravur.com/'
 languageCode = 'en-us'
 title = "Zoravur's Blog"
 theme = 'ultron'
