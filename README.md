@@ -1,1 +1,2 @@
 - Run server with `hugo server --disableFastRender --ignoreCache`
+- BTW CI actually works -- all you have to do is push it to origin/go

@@ -49,3 +49,10 @@ nav > ul {
 
   /*text-decoration: none;*/
 }
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  margin-left: 0;
+  padding-left: 1em;
+}

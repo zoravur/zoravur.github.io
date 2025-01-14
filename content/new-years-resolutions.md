@@ -42,7 +42,7 @@ If morale / sticking with something is an issue, scheduling becomes even more im
 that you see results quickly enough, but slowly enough that you don't burn out and are able to build up a habit.
 
 For me, my primary goals are:
-- Continue to grow my skills as a developer -- currently I'm working on systems design <!--(TODO@Zoravur: link)-->, but this might also 
+- Continue to grow my skills as a developer -- currently I'm working on systems design<!--(TODO@Zoravur: link)-->, but this might also 
     include more ML at some point.
 - Lose weight / build muscle / improve overall health
 - Be more social (still in lockdown mode somewhat)
@@ -60,7 +60,7 @@ Some nice-to-haves include:
 - Learning piano / guitar / harmonium
 
 I'd like to cultivate some traits as well:
-- Being someone who is easy to help -- diligence, as well as organization are key to this.
+- Being someone who is easy to help -- diligence and organization are key here.
 - High morale: this one is from the book I'm reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome 
 most problems. I will talk about this more, because I find this concept quite interesting. <!--(TODO@Zoravur: link)-->
 
