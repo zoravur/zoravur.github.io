@@ -2,6 +2,7 @@
 title = 'Examples of Non-functional Requirements'
 date = 2024-09-16T12:07:58-04:00
 draft = false
+tags = "systems design"
 +++
 
 The common refrain when determining functional and nonfunctional requirements is that 
