@@ -1,0 +1,2 @@
+hugo server --disableFastRender --ignoreCache 
+

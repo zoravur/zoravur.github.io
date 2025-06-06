@@ -1,7 +1,7 @@
 +++
 title = 'Avoiding Enshittification'
 date = '2024-01-31T00:00:00.000Z'
-draft = false
+draft = true
 +++
 
 
