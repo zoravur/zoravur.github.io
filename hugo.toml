@@ -29,6 +29,13 @@ weight = 40
 [menus.main.params]
 rel = 'external'
 
+[[menus.main]]
+name = 'YouTube'
+url = 'https://youtube.com/@zoravur'
+weight = 50
+[menus.main.params]
+rel = 'external'
+
 [sitemap]
   changeFreq = ''
   disable = false
