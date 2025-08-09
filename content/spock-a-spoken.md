@@ -67,4 +67,4 @@ With a large repository of language data, one may see spoken programming languag
 
 ## Notes
 
-1. The average speaking rate is 100-130 wpm according to Google, and I know people personally that type 130+ wpm, so it seems that speaking is comparable to typing in terms of max speed. Typing may win on an increased character set, but a fast speaker can easily go 160 wpm, so my not-so-scientific guess is that they're pretty comparable. Both, of course, are ultimately limited by the speed of thought.
+[^1]: The average speaking rate is 100-130 wpm according to Google, and I know people personally that type 130+ wpm, so it seems that speaking is comparable to typing in terms of max speed. Typing may win on an increased character set, but a fast speaker can easily go 160 wpm, so my not-so-scientific guess is that they're pretty comparable. Both, of course, are ultimately limited by the speed of thought.
