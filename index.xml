@@ -1,70 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 14:50:43 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p>the terraform knows what it should provision at all times.
-it knows this because it knows what it hasn’t provisioned.&lt;/p>
-&lt;p>by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em>plan&lt;/em>, or &lt;em>diff&lt;/em>.&lt;/p>
-&lt;p>the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p></description></item><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote>
-&lt;p>&lt;em>In the &lt;strong>client/server architecture&lt;/strong>, a &lt;strong>server&lt;/strong> manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong>client&lt;/strong>&lt;/em>.&lt;/p>&lt;/blockquote></description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote>
-&lt;p>&lt;em>&lt;strong>Tail Latency Amplification:&lt;/strong> A request in a distributed system is only as fast as its slowest dependency.&lt;/em>&lt;/p>&lt;/blockquote></description></item><item><title>Napkin Math 2: Applying It to Computers</title><link>https://zoravur.com/systems-design-2/</link><pubDate>Fri, 17 Jan 2025 08:50:16 -0500</pubDate><guid>https://zoravur.com/systems-design-2/</guid><description>&lt;p>In this post, I will be explaining the technique of estimating performance from first principles. It&amp;rsquo;s based heavily on the following talk:
-&lt;a href="https://www.youtube.com/watch?v=IxkSlnrRFqc">https://www.youtube.com/watch?v=IxkSlnrRFqc&lt;/a>.&lt;/p>
-&lt;p>To recap, the purpose of napkin math is to provide a quick approximation to within an order of magnitude of the real answer, for the purposes
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 08 Sep 2025 01:16:39 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Improvement</title><link>https://zoravur.com/improvement/</link><pubDate>Mon, 08 Sep 2025 01:16:39 -0400</pubDate><guid>https://zoravur.com/improvement/</guid><description>&lt;p&gt;I&amp;rsquo;ve noticed a counterintuitive fact about improvement most obviously from two activities: exercise and singing. And that fact is this:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The thing that you&amp;rsquo;re thinking is the obstacle to your improvement, that you need to deal with before you can start
+getting better: dealing with that obstacle &lt;strong&gt;is the improvement itself&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When I started running, I used to have a blocked / inflamed nose that made it impossible to breathe efficiently. So I&amp;rsquo;d have
+to breathe through my mouth, drying out my throat. Eventually, though, my nose cleared, and not only was I able to
+breathe more easily while running, I could breathe more easily in general.&lt;/p&gt;</description></item><item><title>A Nice Shell Alias</title><link>https://zoravur.com/a-nice-shell-alias/</link><pubDate>Mon, 08 Sep 2025 01:12:56 -0400</pubDate><guid>https://zoravur.com/a-nice-shell-alias/</guid><description>&lt;p&gt;You know how those installations always expect you to restart your shell for changes to take effect? closing / reopening and then &lt;code&gt;cd&lt;/code&gt;ing to your current directory can feel tedious. Luckily, there&amp;rsquo;s a bash one-liner that restarts your shell, in window:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;exec &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$SHELL&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dissection:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;exec&lt;/code&gt; &amp;ndash; run command, replacing current process&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;$SHELL&amp;quot;&lt;/code&gt; &amp;ndash; run the default shell.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-l&lt;/code&gt; &amp;ndash; Run it as a login shell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t know what the implications are of reloading a shell, but this does what I want right after I&amp;rsquo;m done installing something.&lt;/p&gt;</description></item><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p&gt;the terraform knows what it should provision at all times.
+it knows this because it knows what it hasn’t provisioned.&lt;/p&gt;
+&lt;p&gt;by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em&gt;plan&lt;/em&gt;, or &lt;em&gt;diff&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;</description></item><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>Napkin Math 2: Applying It to Computers</title><link>https://zoravur.com/systems-design-2/</link><pubDate>Fri, 17 Jan 2025 08:50:16 -0500</pubDate><guid>https://zoravur.com/systems-design-2/</guid><description>&lt;p&gt;In this post, I will be explaining the technique of estimating performance from first principles. It&amp;rsquo;s based heavily on the following talk:
+&lt;a href="https://www.youtube.com/watch?v=IxkSlnrRFqc"&gt;https://www.youtube.com/watch?v=IxkSlnrRFqc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, the purpose of napkin math is to provide a quick approximation to within an order of magnitude of the real answer, for the purposes
 of quickly testing the feasibility of the design of a system. Last time, we talked about Fermi estimation, which is (according to my definition)
-just napkin math where you&amp;rsquo;re primarily multiplying, and isn&amp;rsquo;t necessarily focus on computers.&lt;/p></description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p>Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p></description></item><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p>In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+just napkin math where you&amp;rsquo;re primarily multiplying, and isn&amp;rsquo;t necessarily focus on computers.&lt;/p&gt;</description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;</description></item><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
 started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
 and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
-a week.&lt;/p></description></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p>I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+a week.&lt;/p&gt;</description></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
 what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
-post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p>
-&lt;p>It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
-more generally.&lt;/p></description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p>The common refrain when determining functional and nonfunctional requirements is that
+post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
+&lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
+more generally.&lt;/p&gt;</description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
 &amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
-describe how it does it.&amp;rdquo;&lt;/p>
-&lt;p>Here are some examples of nonfunctional requirements:&lt;/p>
-&lt;ul>
-&lt;li>Performance
-&lt;ul>
-&lt;li>Latency of various actions (page loads, content loading, server processing)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Availability
-&lt;ul>
-&lt;li>Uptime requirements (which may vary from system to system)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Scalability
-&lt;ul>
-&lt;li>Number of users&lt;/li>
-&lt;li>Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li>
-&lt;li>Throughput&lt;/li>
-&lt;li>Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Observability
-&lt;ul>
-&lt;li>How easy it is to tell what is going on (or going wrong) with your application&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Reliability&lt;/li>
-&lt;li>Technology Stack&lt;/li>
-&lt;li>Security requirements
-&lt;ul>
-&lt;li>Authentication&lt;/li>
-&lt;li>Authorization&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Maintainability&lt;/li>
-&lt;li>Compliance
-&lt;ul>
-&lt;li>GDPR, COPPA, HIPAA, etc.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>Adopting Hugo</title><link>https://zoravur.com/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.com/adopting-hugo/</guid><description>&lt;p>I am changing from raw html to the static site generator Hugo.
+describe how it does it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Performance
+&lt;ul&gt;
+&lt;li&gt;Latency of various actions (page loads, content loading, server processing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Availability
+&lt;ul&gt;
+&lt;li&gt;Uptime requirements (which may vary from system to system)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scalability
+&lt;ul&gt;
+&lt;li&gt;Number of users&lt;/li&gt;
+&lt;li&gt;Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li&gt;
+&lt;li&gt;Throughput&lt;/li&gt;
+&lt;li&gt;Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observability
+&lt;ul&gt;
+&lt;li&gt;How easy it is to tell what is going on (or going wrong) with your application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reliability&lt;/li&gt;
+&lt;li&gt;Technology Stack&lt;/li&gt;
+&lt;li&gt;Security requirements
+&lt;ul&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Authorization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Maintainability&lt;/li&gt;
+&lt;li&gt;Compliance
+&lt;ul&gt;
+&lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Adopting Hugo</title><link>https://zoravur.com/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.com/adopting-hugo/</guid><description>&lt;p&gt;I am changing from raw html to the static site generator Hugo.
 As I plan to put more writing on my blog, writing in markdown instead
 of plain HTML will become more important. Stay tuned for overviews of
 system design concepts (as I prepare to find more permanent employment),
-as well as security and statistics.&lt;/p>
-&lt;p>Get excited.&lt;/p></description></item><item><title>Spock: A Spoken Programming Language</title><link>https://zoravur.com/spock-a-spoken/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://zoravur.com/spock-a-spoken/</guid><description>&lt;p>In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:&lt;/p>
-&lt;ul>
-&lt;li>It would allow you to program on the go without a laptop, while still approaching threshold efficiency (130wpm output&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>). Also, reducing the time from thought → action seemed like a powerful way to increase productivity.&lt;/li>
-&lt;li>It would be an interesting experiment to see how voice programming would change software: Would being able to speak algorithms increase fluency with them? Would programming languages naturally become more terse and expressive, mirroring natural language? Would voice-written software libraries become spaghetti, or would the necessity of fitting the entire problem domain in your brain at once lead to more elegant solutions?&lt;/li>
-&lt;li>There are many voice assistants which run code on your behalf, but none that are Turing complete. A language that allows you to communicate any task that a computer can conceivably do would be the ultimate in power and flexibility.&lt;/li>
-&lt;/ul>
-&lt;p>At the time, I couldn&amp;rsquo;t really pursue the idea due to other projects, nor had I really done any work in programming languages since second year, so I was forced to give up on the idea. Nonetheless, I briefly reviewed my course notes and kept the idea on the back burner.&lt;/p></description></item></channel></rss>
+as well as security and statistics.&lt;/p&gt;
+&lt;p&gt;Get excited.&lt;/p&gt;</description></item><item><title>Spock: A Spoken Programming Language</title><link>https://zoravur.com/spock-a-spoken/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://zoravur.com/spock-a-spoken/</guid><description>&lt;p&gt;In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It would allow you to program on the go without a laptop, while still approaching threshold efficiency (130wpm output&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;). Also, reducing the time from thought → action seemed like a powerful way to increase productivity.&lt;/li&gt;
+&lt;li&gt;It would be an interesting experiment to see how voice programming would change software: Would being able to speak algorithms increase fluency with them? Would programming languages naturally become more terse and expressive, mirroring natural language? Would voice-written software libraries become spaghetti, or would the necessity of fitting the entire problem domain in your brain at once lead to more elegant solutions?&lt;/li&gt;
+&lt;li&gt;There are many voice assistants which run code on your behalf, but none that are Turing complete. A language that allows you to communicate any task that a computer can conceivably do would be the ultimate in power and flexibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the time, I couldn&amp;rsquo;t really pursue the idea due to other projects, nor had I really done any work in programming languages since second year, so I was forced to give up on the idea. Nonetheless, I briefly reviewed my course notes and kept the idea on the back burner.&lt;/p&gt;</description></item></channel></rss>

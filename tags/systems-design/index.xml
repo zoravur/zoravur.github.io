@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems-Design on Zoravur's Blog</title><link>https://zoravur.com/tags/systems-design/</link><description>Recent content in Systems-Design on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 11:11:42 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/systems-design/index.xml" rel="self" type="application/rss+xml"/><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote>
-&lt;p>&lt;em>In the &lt;strong>client/server architecture&lt;/strong>, a &lt;strong>server&lt;/strong> manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong>client&lt;/strong>&lt;/em>.&lt;/p>&lt;/blockquote></description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote>
-&lt;p>&lt;em>&lt;strong>Tail Latency Amplification:&lt;/strong> A request in a distributed system is only as fast as its slowest dependency.&lt;/em>&lt;/p>&lt;/blockquote></description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p>Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p></description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p>The common refrain when determining functional and nonfunctional requirements is that
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems-Design on Zoravur's Blog</title><link>https://zoravur.com/tags/systems-design/</link><description>Recent content in Systems-Design on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 11:11:42 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/systems-design/index.xml" rel="self" type="application/rss+xml"/><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;</description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;</description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
 &amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
-describe how it does it.&amp;rdquo;&lt;/p>
-&lt;p>Here are some examples of nonfunctional requirements:&lt;/p>
-&lt;ul>
-&lt;li>Performance
-&lt;ul>
-&lt;li>Latency of various actions (page loads, content loading, server processing)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Availability
-&lt;ul>
-&lt;li>Uptime requirements (which may vary from system to system)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Scalability
-&lt;ul>
-&lt;li>Number of users&lt;/li>
-&lt;li>Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li>
-&lt;li>Throughput&lt;/li>
-&lt;li>Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Observability
-&lt;ul>
-&lt;li>How easy it is to tell what is going on (or going wrong) with your application&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Reliability&lt;/li>
-&lt;li>Technology Stack&lt;/li>
-&lt;li>Security requirements
-&lt;ul>
-&lt;li>Authentication&lt;/li>
-&lt;li>Authorization&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Maintainability&lt;/li>
-&lt;li>Compliance
-&lt;ul>
-&lt;li>GDPR, COPPA, HIPAA, etc.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+describe how it does it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Performance
+&lt;ul&gt;
+&lt;li&gt;Latency of various actions (page loads, content loading, server processing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Availability
+&lt;ul&gt;
+&lt;li&gt;Uptime requirements (which may vary from system to system)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scalability
+&lt;ul&gt;
+&lt;li&gt;Number of users&lt;/li&gt;
+&lt;li&gt;Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li&gt;
+&lt;li&gt;Throughput&lt;/li&gt;
+&lt;li&gt;Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observability
+&lt;ul&gt;
+&lt;li&gt;How easy it is to tell what is going on (or going wrong) with your application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reliability&lt;/li&gt;
+&lt;li&gt;Technology Stack&lt;/li&gt;
+&lt;li&gt;Security requirements
+&lt;ul&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Authorization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Maintainability&lt;/li&gt;
+&lt;li&gt;Compliance
+&lt;ul&gt;
+&lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
