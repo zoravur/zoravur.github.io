@@ -55,6 +55,7 @@ As a result, you can expect a lot more in the coming months.
 **Stuff that I've been enjoying recently**
 - The Go programming language
 - The roguelike game Gambonanza
+- The crazyhouse chess variant
 
 
 ## Post ideas
