@@ -14,7 +14,7 @@ Dissection:
 - `"$SHELL"` -- run the default shell.
 - `-l` -- Run it as a login shell.
 
-I don't know what the implications are of reloading a shell, but this does what I want right after I'm done installing something.
+This does what I want right after I'm done installing something.
 
 I've created an alias for this:
 ```bash

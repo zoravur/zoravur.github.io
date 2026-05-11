@@ -1,7 +1,7 @@
 +++
 title = 'Improvement'
 date = 2025-09-08T01:16:39-04:00
-draft = false
+draft = true
 +++
 
 I've noticed a counterintuitive fact about improvement most obviously from two activities: exercise and singing. And that fact is this:
