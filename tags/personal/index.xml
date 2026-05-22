@@ -1,5 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal on Zoravur's Blog</title><link>https://zoravur.com/tags/personal/</link><description>Recent content in Personal on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 17:06:06 -0500</lastBuildDate><atom:link href="https://zoravur.com/tags/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Personal on Zoravur's Blog</title><link>https://zoravur.com/tags/personal/</link><description>Recent content in Personal on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 17:06:06 -0500</lastBuildDate><atom:link href="https://zoravur.com/tags/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
 what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
 post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
 &lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
-more generally.&lt;/p&gt;</description></item></channel></rss>
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</description><content:encoded>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
+post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
+&lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

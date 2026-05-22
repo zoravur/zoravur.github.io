@@ -1,8 +1,269 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Zoravur's Blog</title><link>https://zoravur.com/tags/productivity/</link><description>Recent content in Productivity on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2025 07:05:38 -0500</lastBuildDate><atom:link href="https://zoravur.com/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Productivity on Zoravur's Blog</title><link>https://zoravur.com/tags/productivity/</link><description>Recent content in Productivity on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2025 07:05:38 -0500</lastBuildDate><atom:link href="https://zoravur.com/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
 started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
 and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
-a week.&lt;/p&gt;</description></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+a week.&lt;/p&gt;
+&lt;p&gt;Also in the month of December 2024, I started learning Rust, a programming language which I hadn&amp;rsquo;t touched since 2018, when I read
+a book on the syntax that I&amp;rsquo;d now forgotten nearly completely. The first few days were painful, even trying to do simple problems, with
+the assistance of LLMs for the syntax. But after about 7-10 days once again, I was able to set up the initial scaffolding for the project
+much much faster than I could at the start of the week. I found myself recalling syntax and patterns that I&amp;rsquo;d used 3 or 4 days ago &amp;ndash; I was
+thinking something like &amp;ldquo;wow, I just used this language feature in day [n-3], how did it go again?&amp;rdquo; and then I would reinforce that
+neural pathway by re-implementing that same pattern.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s call this pattern of working on something a little bit every day, type B productivity.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t believe that working consistently on a project every single day is the key to productivity. I actually think that in terms of
+absolute productivity, working on something a little bit at a time every single day is more of a morale booster than a productivity
+booster. Working on something for, say, 15 minutes a day necessarily means that you&amp;rsquo;re switching contexts more. Plus, there&amp;rsquo;s the added
+fact that working on a project is essentially a time-sink / cost, and you don&amp;rsquo;t yield the benefit from a project until it is actually
+completed. Real productivity comes when you&amp;rsquo;re neck deep in something, with all of the context loaded into your brain, and you can make
+changes lightning fast because you know where everything is. That&amp;rsquo;s just not possible with 15 minutes a day.&lt;/p&gt;
+&lt;p&gt;This latter pattern, of getting neck deep into something and really pushing on it, and allowing it to take over your life &amp;ndash; let&amp;rsquo;s call that
+type A productivity. It&amp;rsquo;s what you use when you&amp;rsquo;re first building out a project, and it&amp;rsquo;s how I&amp;rsquo;ve worked on so many of my side projects
+this past year, from ssdb (link), to canvas-datatable, to spock-lang (link), to novadyne (link). The best example of type B productivity
+is probably the initial prototype I built out for the order processing software for the company I work at. I was
+able to get that into production in about 3 months as a solo dev, when previously I had never deployed anything on my own.&lt;/p&gt;
+&lt;p&gt;If you can get out of the trap of running after the new shiny thing for a couple weeks, and really commit to something, then type BA
+productivity is really how you get shit done.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s compare and contrast type A and B productivity[1].&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://zoravur.com/ebbinghaus.png" alt="The Ebbinghaus &amp;ldquo;Forgetting&amp;rdquo; Curve" title="Ebbinghaus Curve"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Forgetting Curve. The amount of information we remember after initial exposure to it follows a pattern for exponential decay; however,
+this can be staved off by reviewing the information at intervals spaced exponentially further apart. Every time the information is
+reinforced, the rate at which it is forgotten decreases. The time between reinforcement is critical to long term retention of a concept.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Firstly, on a time crunch, it&amp;rsquo;s obvious that type A prevails. You simply can&amp;rsquo;t go anywhere fast on 15 minutes a day. Conversely anyone who&amp;rsquo;s
+crammed for a college assignment (which is pretty much everyone who&amp;rsquo;s been to college) knows what monumental feats can be achieved if you
+have a large project due in a few days. So, type A has the advantage of being better under the constraint of a deadline. Furthermore,
+with the added penalty of context switching, you&amp;rsquo;re not really getting anything done at all until you violate your time constraint because
+you actually want to get something done.[2]&lt;/p&gt;
+&lt;p&gt;In what situations do you want type B productivity? Well, the most obvious case is one where you get paid for the number of hours you work.
+In this case, you&amp;rsquo;re bound to have time left over, because 8 hours doesn&amp;rsquo;t take up your whole day &amp;ndash; you may, however, after factoring in
+your daily routine, have only about an hour or less of actual free time per day. Obviously, in this scenario, it makes sense to use that time
+on whichever project you deem most important. What if you don&amp;rsquo;t get paid hourly, and instead need to optimize for actual output such as
+the number of features delivered?&lt;/p&gt;
+&lt;p&gt;In this case, it isn&amp;rsquo;t so clear that type B productivity makes sense. Like I mentioned previously, the more projects you work on
+simultaneously, the longer it takes for you to reap the benefit of any one of them, since they hold no value while incomplete. The primary
+use case for it, in my opinion, is when the primary goal is &lt;strong&gt;learning or maintaining skill&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re learning a new skill, especially a complex one, it&amp;rsquo;s essential to reinforce that skill over time, instead of trying to cram
+learning it into a short window. This is how I was able to be so time efficient in learning the piano and Rust. By reinforcing the activity
+every single day, and allowing my brain to work in the background in between the different tasks, I was able to be much more time efficient,
+and much better at the end of a week than I would have been had I simply did all the practice on a single day. Essentially, you&amp;rsquo;re getting
+spacing for free.&lt;/p&gt;
+&lt;p&gt;The synergy goes further than just that, though. Unless you&amp;rsquo;re a student, you don&amp;rsquo;t really have time to just learn all day, but spending 15
+minutes a day on something is well within most people&amp;rsquo;s schedule. Add to that the fact that it&amp;rsquo;s pretty convenient to work on something for
+15 minutes without getting distracted or interrupted, and it&amp;rsquo;s clear to see why strategy makes a lot of sense, at least for learning new
+skills.&lt;/p&gt;
+&lt;p&gt;[1] I recognize that I&amp;rsquo;m overloading the word productivity here, as it&amp;rsquo;s almost paradoxical to say, as I do later in the essay, that type B
+productivity isn&amp;rsquo;t actually that productive. I thought about using a less specific word, such as &amp;ldquo;work&amp;rdquo;, but I want to avoid association
+&amp;ldquo;work&amp;rdquo;&amp;rsquo;s association with employment, and all the rituals surrounding it that aren&amp;rsquo;t necessarily core to getting the job done. Productivity,
+on the other hand, has to do with completing the task that achieves the desired result, the thing that directly impacts the bottom line.&lt;/p&gt;
+&lt;p&gt;[2] I don&amp;rsquo;t know if I should be saying this with as much conviction as I am. I&amp;rsquo;m certainly not an expert in type B productivity. Maybe it&amp;rsquo;s
+the case that after numerous days of genuinely trying to get productive work done in 15 minutes, it starts working, just as a married person
+with children is more efficient with their time than someone who is unattached, just out of necessity.&lt;/p&gt;</description><content:encoded>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
+and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
+a week.&lt;/p&gt;
+&lt;p&gt;Also in the month of December 2024, I started learning Rust, a programming language which I hadn&amp;rsquo;t touched since 2018, when I read
+a book on the syntax that I&amp;rsquo;d now forgotten nearly completely. The first few days were painful, even trying to do simple problems, with
+the assistance of LLMs for the syntax. But after about 7-10 days once again, I was able to set up the initial scaffolding for the project
+much much faster than I could at the start of the week. I found myself recalling syntax and patterns that I&amp;rsquo;d used 3 or 4 days ago &amp;ndash; I was
+thinking something like &amp;ldquo;wow, I just used this language feature in day [n-3], how did it go again?&amp;rdquo; and then I would reinforce that
+neural pathway by re-implementing that same pattern.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s call this pattern of working on something a little bit every day, type B productivity.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t believe that working consistently on a project every single day is the key to productivity. I actually think that in terms of
+absolute productivity, working on something a little bit at a time every single day is more of a morale booster than a productivity
+booster. Working on something for, say, 15 minutes a day necessarily means that you&amp;rsquo;re switching contexts more. Plus, there&amp;rsquo;s the added
+fact that working on a project is essentially a time-sink / cost, and you don&amp;rsquo;t yield the benefit from a project until it is actually
+completed. Real productivity comes when you&amp;rsquo;re neck deep in something, with all of the context loaded into your brain, and you can make
+changes lightning fast because you know where everything is. That&amp;rsquo;s just not possible with 15 minutes a day.&lt;/p&gt;
+&lt;p&gt;This latter pattern, of getting neck deep into something and really pushing on it, and allowing it to take over your life &amp;ndash; let&amp;rsquo;s call that
+type A productivity. It&amp;rsquo;s what you use when you&amp;rsquo;re first building out a project, and it&amp;rsquo;s how I&amp;rsquo;ve worked on so many of my side projects
+this past year, from ssdb (link), to canvas-datatable, to spock-lang (link), to novadyne (link). The best example of type B productivity
+is probably the initial prototype I built out for the order processing software for the company I work at. I was
+able to get that into production in about 3 months as a solo dev, when previously I had never deployed anything on my own.&lt;/p&gt;
+&lt;p&gt;If you can get out of the trap of running after the new shiny thing for a couple weeks, and really commit to something, then type BA
+productivity is really how you get shit done.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s compare and contrast type A and B productivity[1].&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://zoravur.com/ebbinghaus.png" alt="The Ebbinghaus &amp;ldquo;Forgetting&amp;rdquo; Curve" title="Ebbinghaus Curve"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Forgetting Curve. The amount of information we remember after initial exposure to it follows a pattern for exponential decay; however,
+this can be staved off by reviewing the information at intervals spaced exponentially further apart. Every time the information is
+reinforced, the rate at which it is forgotten decreases. The time between reinforcement is critical to long term retention of a concept.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Firstly, on a time crunch, it&amp;rsquo;s obvious that type A prevails. You simply can&amp;rsquo;t go anywhere fast on 15 minutes a day. Conversely anyone who&amp;rsquo;s
+crammed for a college assignment (which is pretty much everyone who&amp;rsquo;s been to college) knows what monumental feats can be achieved if you
+have a large project due in a few days. So, type A has the advantage of being better under the constraint of a deadline. Furthermore,
+with the added penalty of context switching, you&amp;rsquo;re not really getting anything done at all until you violate your time constraint because
+you actually want to get something done.[2]&lt;/p&gt;
+&lt;p&gt;In what situations do you want type B productivity? Well, the most obvious case is one where you get paid for the number of hours you work.
+In this case, you&amp;rsquo;re bound to have time left over, because 8 hours doesn&amp;rsquo;t take up your whole day &amp;ndash; you may, however, after factoring in
+your daily routine, have only about an hour or less of actual free time per day. Obviously, in this scenario, it makes sense to use that time
+on whichever project you deem most important. What if you don&amp;rsquo;t get paid hourly, and instead need to optimize for actual output such as
+the number of features delivered?&lt;/p&gt;
+&lt;p&gt;In this case, it isn&amp;rsquo;t so clear that type B productivity makes sense. Like I mentioned previously, the more projects you work on
+simultaneously, the longer it takes for you to reap the benefit of any one of them, since they hold no value while incomplete. The primary
+use case for it, in my opinion, is when the primary goal is &lt;strong&gt;learning or maintaining skill&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re learning a new skill, especially a complex one, it&amp;rsquo;s essential to reinforce that skill over time, instead of trying to cram
+learning it into a short window. This is how I was able to be so time efficient in learning the piano and Rust. By reinforcing the activity
+every single day, and allowing my brain to work in the background in between the different tasks, I was able to be much more time efficient,
+and much better at the end of a week than I would have been had I simply did all the practice on a single day. Essentially, you&amp;rsquo;re getting
+spacing for free.&lt;/p&gt;
+&lt;p&gt;The synergy goes further than just that, though. Unless you&amp;rsquo;re a student, you don&amp;rsquo;t really have time to just learn all day, but spending 15
+minutes a day on something is well within most people&amp;rsquo;s schedule. Add to that the fact that it&amp;rsquo;s pretty convenient to work on something for
+15 minutes without getting distracted or interrupted, and it&amp;rsquo;s clear to see why strategy makes a lot of sense, at least for learning new
+skills.&lt;/p&gt;
+&lt;p&gt;[1] I recognize that I&amp;rsquo;m overloading the word productivity here, as it&amp;rsquo;s almost paradoxical to say, as I do later in the essay, that type B
+productivity isn&amp;rsquo;t actually that productive. I thought about using a less specific word, such as &amp;ldquo;work&amp;rdquo;, but I want to avoid association
+&amp;ldquo;work&amp;rdquo;&amp;rsquo;s association with employment, and all the rituals surrounding it that aren&amp;rsquo;t necessarily core to getting the job done. Productivity,
+on the other hand, has to do with completing the task that achieves the desired result, the thing that directly impacts the bottom line.&lt;/p&gt;
+&lt;p&gt;[2] I don&amp;rsquo;t know if I should be saying this with as much conviction as I am. I&amp;rsquo;m certainly not an expert in type B productivity. Maybe it&amp;rsquo;s
+the case that after numerous days of genuinely trying to get productive work done in 15 minutes, it starts working, just as a married person
+with children is more efficient with their time than someone who is unattached, just out of necessity.&lt;/p&gt;</content:encoded></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
 what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
 post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
 &lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
-more generally.&lt;/p&gt;</description></item></channel></rss>
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</description><content:encoded>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
+post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
+&lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

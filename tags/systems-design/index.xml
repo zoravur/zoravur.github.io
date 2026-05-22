@@ -1,8 +1,268 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems-Design on Zoravur's Blog</title><link>https://zoravur.com/tags/systems-design/</link><description>Recent content in Systems-Design on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 11:11:42 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/systems-design/index.xml" rel="self" type="application/rss+xml"/><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Systems Design on Zoravur's Blog</title><link>https://zoravur.com/tags/systems-design/</link><description>Recent content in Systems Design on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 11:11:42 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/systems-design/index.xml" rel="self" type="application/rss+xml"/><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
+&lt;/blockquote&gt;</description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;</description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
+&lt;/blockquote&gt;</description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;
+&lt;p&gt;One common technique used in napkin math is Fermi estimation, which I&amp;rsquo;ll demonstrate below. Given the breadth of this topic, I&amp;rsquo;ll be breaking this discussion into digestible parts, with this serving as the first in what I hope will be a series of posts on systems design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 1: How many text messages are sent in the United States in a single day?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Think about how you would go about solving a question like this. Most people don&amp;rsquo;t think about this number a lot, so it&amp;rsquo;s hard to build an
+intuition for it. However, if you&amp;rsquo;re tempted to estimate it using some known reference points, it suddenly isn&amp;rsquo;t so difficult, at least to get
+an approximate answer. You might think about how many texts you send in a day, and how many people there are in the United States. You might do
+a little better by estimating the average number of texts instead of using your own, because you might have some idea whether or not you text
+more or fewer people than average. A good estimate for this might be between 20-40 texts a day. Multiplying this by the current population of
+the United States, you get around 340 million * 30 = 10.2 billion texts per day.&lt;/p&gt;
+&lt;p&gt;We can get a precise estimate by taking the number of yearly texts in 2021 (2 trillion), and divide it by the number of days in a year (365). This
+yields about 6 billion texts a year, in 2021. So, our answer is not terribly precise, but not bad for an answer that took thirty seconds and is
+within a factor of 2.&lt;/p&gt;
+&lt;p&gt;A problem where this technique, of multiplying known or estimated reference points, is known as a Fermi problem. Let&amp;rsquo;s look at a slightly more
+complicated example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 2: How many pizzas are eaten in New York City on a typical Friday night?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was the first problem that I attempted with Claude. I found practicing with an LLM made this process much easier and more intuitive than
+it was in the beginning. Here&amp;rsquo;s my original attempt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;There are around 10 million people in NYC.&lt;/li&gt;
+&lt;li&gt;I probably order pizza around once every 2-3 months. But I also don&amp;rsquo;t get out much. So maybe the average person eats pizza once a month,
+and when they do, they eat maybe 3 slices (on average).&lt;/li&gt;
+&lt;li&gt;So maybe the average person a whole pizza every 4 months&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 3 pizzas per year.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 30 million pizzas a year.&lt;/li&gt;
+&lt;li&gt;Pizza is a party food, so let&amp;rsquo;s say that roughly a third of all pizzas are eaten on a friday night.&lt;/li&gt;
+&lt;li&gt;So that drops it back down to 10 million on fridays. Divided by the number of fridays (52 ~= 50), we get around 200000 pizzas on a Friday
+night.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This seems high to me&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oftentimes, it helps to validate the same problem using multiple techniques. Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help analyze your reasoning and suggest another approach:&lt;/p&gt;
+&lt;p&gt;Your method is logical, but you&amp;rsquo;re right to be skeptical of the final number. Let&amp;rsquo;s try another way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;NYC Population: ~10 million&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On a Friday night, what percentage of people eat pizza?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a popular Friday dinner option&lt;/li&gt;
+&lt;li&gt;But competes with other takeout, restaurants, home cooking&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say 10% of people eat pizza on a given Friday&lt;/li&gt;
+&lt;li&gt;So that&amp;rsquo;s 1 million people eating pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Average pizza serves 2-3 people on Friday night&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some eat alone (whole pizza)&lt;/li&gt;
+&lt;li&gt;Some families/groups share (1/3 or 1/4 pizza per person)&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say average is 2.5 people per pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculation:
+1 million people ÷ 2.5 people per pizza = 400,000 pizzas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Interestingly, we got to a similar order of magnitude through a different method! This suggests we might be closer than you think. Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NYC has thousands of pizza places&lt;/li&gt;
+&lt;li&gt;Many are extremely busy on Friday nights&lt;/li&gt;
+&lt;li&gt;A busy pizzeria might make 100-200 pizzas on a Friday&lt;/li&gt;
+&lt;li&gt;With several thousand pizzerias, these numbers become plausible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Would you like to try estimating this a third way to further validate our thinking?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude makes a calculation error here &amp;ndash; it assumes that it takes between 3 and 4 people to finish a pizza, and then assumes an average of
+2.5 people per pizza, which is incorrect. Interestingly, if we plug in 3.5, we get something closer to our original 200 000 number. In this way,
+we can begin verifying our estimate by arriving at a similar result using different assumptions.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s move on to a different example, before I start getting hungry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 3: How many people are on airplanes over the United States right now?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My answer follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The US doesn&amp;rsquo;t really seem like a flyover country, just given the geography, except for the case when you&amp;rsquo;re traveling from countries below canada up to canada or vice versa. Let&amp;rsquo;s discount this, and focus on flights into and out of the US.&lt;/p&gt;
+&lt;p&gt;The average US citizen flies about once every 6 months, I&amp;rsquo;d say, with frequent flyers dominating. So let&amp;rsquo;s say that 2/365 * 330 million = 500000 people are in planes over the united states.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to gut check this.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d estimate the carrying capacity of a plane taking the number of rows (around 40) and multiply it by the number of seats in a row (let&amp;rsquo;s say 6 on average). Then, we get around 240 passengers per plane. Dividing 500000 by this figure yields 2000 planes over the US, which seems reasonable?&lt;/p&gt;
+&lt;p&gt;There are probably at least 100 airports, and an average of 20 planes at an airport at any time doesn&amp;rsquo;t seem that bad. So maybe our original answer isn&amp;rsquo;t too bad. I&amp;rsquo;m locking in 500k.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help verify this with another approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Major airlines in the US typically operate around 15,000-20,000 flights per day&lt;/li&gt;
+&lt;li&gt;Average flight duration is about 2 hours&lt;/li&gt;
+&lt;li&gt;There are roughly 24 hours in a day&lt;/li&gt;
+&lt;li&gt;So at any given moment: (15,000 flights × 2 hours) ÷ 24 hours = about 1,250 flights in the air&lt;/li&gt;
+&lt;li&gt;With your estimate of 240 passengers per plane: 1,250 × 240 = 300,000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our two estimates (500,000 vs 300,000) are remarkably close - within the same order of magnitude and differing by less than a factor of 2! This suggests we&amp;rsquo;re probably in the right ballpark.&lt;/p&gt;
+&lt;p&gt;Your gut check using airports was clever too. The fact that three different ways of thinking about it (passenger-based, flight-based, and airport-based) all lead to similar numbers gives us confidence in the estimate.&lt;/p&gt;
+&lt;p&gt;Would you like to try another problem? This time I can give you one with even fewer moving parts to minimize compounding errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once again, within a factor of 2! We&amp;rsquo;re getting pretty lucky, but that&amp;rsquo;s also because I didn&amp;rsquo;t include the one I got wrong. Here&amp;rsquo;s one I skipped
+over from earlier. I encourage you to try this one yourself, for a challenge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How many books are in all US public libraries combined?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 330 million people in the US.
+Let&amp;rsquo;s say 5% of them visit libraries regularly.
+When I go to a library, I&amp;rsquo;d say there&amp;rsquo;s usually around an average of 50 people there. There&amp;rsquo;s more at some times (during summer, during exam week, in student libraries), and less in others, but let&amp;rsquo;s say 50 is a good average.
+Let&amp;rsquo;s say the average person visits a library for about 2 hours when they do go. There are shorter visits, but also many students who grind out a lot of work.
+Let&amp;rsquo;s say the library is open for 8 hours a day on average.
+Then let&amp;rsquo;s say the average daily visitors to a library is about 50 * 8 / 2 = 200.
+So, there must be 0.05 * 330 = 15.5 million library users.
+I&amp;rsquo;d say the average person that does visit a library does so about once a month. So we can divide this figure by 30 to get ~500,000 daily library visitors, throughout the entire US.
+500000 / 200 yields about 25000 libraries in the entire US.
+This seems high to me. But compared to the number of pizzerias in new york (6680), it doesn&amp;rsquo;t seem like that high a number.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The average library, is probably 2 floors on average, with big, public libraries and university libraries being much much larger. This counteracts the smaller libraries.
+Let&amp;rsquo;s say that the average floor of a library is about four times the area of the house that I&amp;rsquo;m currently in, which kind of makes sense given I have a pretty good feel for the size of this place. I know that the square footage of this is 3600, so multiplying that by 4, I get 13400 sq ft.
+13400 sq ft * 2 =~ 25000 sq ft. A bookshelf takes up about 10 sq ft, and would contain, by my estimation, about 400 books.
+We can get more precise here. Let&amp;rsquo;s say that the average library bookshelf is double sided, has 8 shelves, and is about 8 feet long, and about 2 feet wide. this yields an area of about 16 sq ft.
+This yields a total shelf space of 8 * 8 = 64 feet, which is 64 12 ~= 664 inches. *
+The average book is, I&amp;rsquo;d say, 1.2 inches thick, including the cover. This is just from lived experience.
+So 664 / 1.2 ~= 110 books per book shelf. Double sided, that&amp;rsquo;s 220. So fewer than I originally thought.
+25000 sq ft&amp;hellip; The lower floor is usually more open, with upper floors having more books. You need to accommodate for reading areas. Let&amp;rsquo;s say that 20% of floor space is used by actual bookshelves. This also makes the math easier (5000 sq ft of just bookshelves).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5000 / 16 ~= 512 / 16 * 10 = 320 bookshelves 110 books per shelf * * 25000 libraries *= 35200 * 25000 = 35 25 * 10 ^ 5 = 87,500,000 books.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude suggests that it should be closer to 1 billion. I&amp;rsquo;d be interested in hearing what you think. If you&amp;rsquo;d like to discuss it, I&amp;rsquo;ve enable
+discussions on the blog repo at &lt;a href="https://github.com/zoravur/zoravur.github.io/discussions"&gt;https://github.com/zoravur/zoravur.github.io/discussions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Like Mr. Miyagi and Daniel-san, Fermi estimation is the fence-painting you need to practice in order to become better at napkin math, and
+eventually systems design. Part 2 will apply the technique of fermi estimation to computer related problems.&lt;/p&gt;</description><content:encoded>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;
+&lt;p&gt;One common technique used in napkin math is Fermi estimation, which I&amp;rsquo;ll demonstrate below. Given the breadth of this topic, I&amp;rsquo;ll be breaking this discussion into digestible parts, with this serving as the first in what I hope will be a series of posts on systems design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 1: How many text messages are sent in the United States in a single day?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Think about how you would go about solving a question like this. Most people don&amp;rsquo;t think about this number a lot, so it&amp;rsquo;s hard to build an
+intuition for it. However, if you&amp;rsquo;re tempted to estimate it using some known reference points, it suddenly isn&amp;rsquo;t so difficult, at least to get
+an approximate answer. You might think about how many texts you send in a day, and how many people there are in the United States. You might do
+a little better by estimating the average number of texts instead of using your own, because you might have some idea whether or not you text
+more or fewer people than average. A good estimate for this might be between 20-40 texts a day. Multiplying this by the current population of
+the United States, you get around 340 million * 30 = 10.2 billion texts per day.&lt;/p&gt;
+&lt;p&gt;We can get a precise estimate by taking the number of yearly texts in 2021 (2 trillion), and divide it by the number of days in a year (365). This
+yields about 6 billion texts a year, in 2021. So, our answer is not terribly precise, but not bad for an answer that took thirty seconds and is
+within a factor of 2.&lt;/p&gt;
+&lt;p&gt;A problem where this technique, of multiplying known or estimated reference points, is known as a Fermi problem. Let&amp;rsquo;s look at a slightly more
+complicated example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 2: How many pizzas are eaten in New York City on a typical Friday night?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was the first problem that I attempted with Claude. I found practicing with an LLM made this process much easier and more intuitive than
+it was in the beginning. Here&amp;rsquo;s my original attempt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;There are around 10 million people in NYC.&lt;/li&gt;
+&lt;li&gt;I probably order pizza around once every 2-3 months. But I also don&amp;rsquo;t get out much. So maybe the average person eats pizza once a month,
+and when they do, they eat maybe 3 slices (on average).&lt;/li&gt;
+&lt;li&gt;So maybe the average person a whole pizza every 4 months&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 3 pizzas per year.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 30 million pizzas a year.&lt;/li&gt;
+&lt;li&gt;Pizza is a party food, so let&amp;rsquo;s say that roughly a third of all pizzas are eaten on a friday night.&lt;/li&gt;
+&lt;li&gt;So that drops it back down to 10 million on fridays. Divided by the number of fridays (52 ~= 50), we get around 200000 pizzas on a Friday
+night.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This seems high to me&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oftentimes, it helps to validate the same problem using multiple techniques. Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help analyze your reasoning and suggest another approach:&lt;/p&gt;
+&lt;p&gt;Your method is logical, but you&amp;rsquo;re right to be skeptical of the final number. Let&amp;rsquo;s try another way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;NYC Population: ~10 million&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On a Friday night, what percentage of people eat pizza?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a popular Friday dinner option&lt;/li&gt;
+&lt;li&gt;But competes with other takeout, restaurants, home cooking&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say 10% of people eat pizza on a given Friday&lt;/li&gt;
+&lt;li&gt;So that&amp;rsquo;s 1 million people eating pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Average pizza serves 2-3 people on Friday night&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some eat alone (whole pizza)&lt;/li&gt;
+&lt;li&gt;Some families/groups share (1/3 or 1/4 pizza per person)&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say average is 2.5 people per pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculation:
+1 million people ÷ 2.5 people per pizza = 400,000 pizzas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Interestingly, we got to a similar order of magnitude through a different method! This suggests we might be closer than you think. Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NYC has thousands of pizza places&lt;/li&gt;
+&lt;li&gt;Many are extremely busy on Friday nights&lt;/li&gt;
+&lt;li&gt;A busy pizzeria might make 100-200 pizzas on a Friday&lt;/li&gt;
+&lt;li&gt;With several thousand pizzerias, these numbers become plausible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Would you like to try estimating this a third way to further validate our thinking?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude makes a calculation error here &amp;ndash; it assumes that it takes between 3 and 4 people to finish a pizza, and then assumes an average of
+2.5 people per pizza, which is incorrect. Interestingly, if we plug in 3.5, we get something closer to our original 200 000 number. In this way,
+we can begin verifying our estimate by arriving at a similar result using different assumptions.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s move on to a different example, before I start getting hungry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 3: How many people are on airplanes over the United States right now?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My answer follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The US doesn&amp;rsquo;t really seem like a flyover country, just given the geography, except for the case when you&amp;rsquo;re traveling from countries below canada up to canada or vice versa. Let&amp;rsquo;s discount this, and focus on flights into and out of the US.&lt;/p&gt;
+&lt;p&gt;The average US citizen flies about once every 6 months, I&amp;rsquo;d say, with frequent flyers dominating. So let&amp;rsquo;s say that 2/365 * 330 million = 500000 people are in planes over the united states.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to gut check this.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d estimate the carrying capacity of a plane taking the number of rows (around 40) and multiply it by the number of seats in a row (let&amp;rsquo;s say 6 on average). Then, we get around 240 passengers per plane. Dividing 500000 by this figure yields 2000 planes over the US, which seems reasonable?&lt;/p&gt;
+&lt;p&gt;There are probably at least 100 airports, and an average of 20 planes at an airport at any time doesn&amp;rsquo;t seem that bad. So maybe our original answer isn&amp;rsquo;t too bad. I&amp;rsquo;m locking in 500k.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help verify this with another approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Major airlines in the US typically operate around 15,000-20,000 flights per day&lt;/li&gt;
+&lt;li&gt;Average flight duration is about 2 hours&lt;/li&gt;
+&lt;li&gt;There are roughly 24 hours in a day&lt;/li&gt;
+&lt;li&gt;So at any given moment: (15,000 flights × 2 hours) ÷ 24 hours = about 1,250 flights in the air&lt;/li&gt;
+&lt;li&gt;With your estimate of 240 passengers per plane: 1,250 × 240 = 300,000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our two estimates (500,000 vs 300,000) are remarkably close - within the same order of magnitude and differing by less than a factor of 2! This suggests we&amp;rsquo;re probably in the right ballpark.&lt;/p&gt;
+&lt;p&gt;Your gut check using airports was clever too. The fact that three different ways of thinking about it (passenger-based, flight-based, and airport-based) all lead to similar numbers gives us confidence in the estimate.&lt;/p&gt;
+&lt;p&gt;Would you like to try another problem? This time I can give you one with even fewer moving parts to minimize compounding errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once again, within a factor of 2! We&amp;rsquo;re getting pretty lucky, but that&amp;rsquo;s also because I didn&amp;rsquo;t include the one I got wrong. Here&amp;rsquo;s one I skipped
+over from earlier. I encourage you to try this one yourself, for a challenge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How many books are in all US public libraries combined?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 330 million people in the US.
+Let&amp;rsquo;s say 5% of them visit libraries regularly.
+When I go to a library, I&amp;rsquo;d say there&amp;rsquo;s usually around an average of 50 people there. There&amp;rsquo;s more at some times (during summer, during exam week, in student libraries), and less in others, but let&amp;rsquo;s say 50 is a good average.
+Let&amp;rsquo;s say the average person visits a library for about 2 hours when they do go. There are shorter visits, but also many students who grind out a lot of work.
+Let&amp;rsquo;s say the library is open for 8 hours a day on average.
+Then let&amp;rsquo;s say the average daily visitors to a library is about 50 * 8 / 2 = 200.
+So, there must be 0.05 * 330 = 15.5 million library users.
+I&amp;rsquo;d say the average person that does visit a library does so about once a month. So we can divide this figure by 30 to get ~500,000 daily library visitors, throughout the entire US.
+500000 / 200 yields about 25000 libraries in the entire US.
+This seems high to me. But compared to the number of pizzerias in new york (6680), it doesn&amp;rsquo;t seem like that high a number.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The average library, is probably 2 floors on average, with big, public libraries and university libraries being much much larger. This counteracts the smaller libraries.
+Let&amp;rsquo;s say that the average floor of a library is about four times the area of the house that I&amp;rsquo;m currently in, which kind of makes sense given I have a pretty good feel for the size of this place. I know that the square footage of this is 3600, so multiplying that by 4, I get 13400 sq ft.
+13400 sq ft * 2 =~ 25000 sq ft. A bookshelf takes up about 10 sq ft, and would contain, by my estimation, about 400 books.
+We can get more precise here. Let&amp;rsquo;s say that the average library bookshelf is double sided, has 8 shelves, and is about 8 feet long, and about 2 feet wide. this yields an area of about 16 sq ft.
+This yields a total shelf space of 8 * 8 = 64 feet, which is 64 12 ~= 664 inches. *
+The average book is, I&amp;rsquo;d say, 1.2 inches thick, including the cover. This is just from lived experience.
+So 664 / 1.2 ~= 110 books per book shelf. Double sided, that&amp;rsquo;s 220. So fewer than I originally thought.
+25000 sq ft&amp;hellip; The lower floor is usually more open, with upper floors having more books. You need to accommodate for reading areas. Let&amp;rsquo;s say that 20% of floor space is used by actual bookshelves. This also makes the math easier (5000 sq ft of just bookshelves).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5000 / 16 ~= 512 / 16 * 10 = 320 bookshelves 110 books per shelf * * 25000 libraries *= 35200 * 25000 = 35 25 * 10 ^ 5 = 87,500,000 books.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude suggests that it should be closer to 1 billion. I&amp;rsquo;d be interested in hearing what you think. If you&amp;rsquo;d like to discuss it, I&amp;rsquo;ve enable
+discussions on the blog repo at &lt;a href="https://github.com/zoravur/zoravur.github.io/discussions"&gt;https://github.com/zoravur/zoravur.github.io/discussions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Like Mr. Miyagi and Daniel-san, Fermi estimation is the fence-painting you need to practice in order to become better at napkin math, and
+eventually systems design. Part 2 will apply the technique of fermi estimation to computer related problems.&lt;/p&gt;</content:encoded></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
 &amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
 describe how it does it.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
@@ -44,4 +304,46 @@ describe how it does it.&amp;rdquo;&lt;/p&gt;
 &lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description><content:encoded>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
+&amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
+describe how it does it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Performance
+&lt;ul&gt;
+&lt;li&gt;Latency of various actions (page loads, content loading, server processing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Availability
+&lt;ul&gt;
+&lt;li&gt;Uptime requirements (which may vary from system to system)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scalability
+&lt;ul&gt;
+&lt;li&gt;Number of users&lt;/li&gt;
+&lt;li&gt;Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li&gt;
+&lt;li&gt;Throughput&lt;/li&gt;
+&lt;li&gt;Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observability
+&lt;ul&gt;
+&lt;li&gt;How easy it is to tell what is going on (or going wrong) with your application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reliability&lt;/li&gt;
+&lt;li&gt;Technology Stack&lt;/li&gt;
+&lt;li&gt;Security requirements
+&lt;ul&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Authorization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Maintainability&lt;/li&gt;
+&lt;li&gt;Compliance
+&lt;ul&gt;
+&lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

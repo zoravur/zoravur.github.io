@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Memes on Zoravur's Blog</title><link>https://zoravur.com/tags/memes/</link><description>Recent content in Memes on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 14:50:43 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/memes/index.xml" rel="self" type="application/rss+xml"/><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p&gt;the terraform knows what it should provision at all times.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Memes on Zoravur's Blog</title><link>https://zoravur.com/tags/memes/</link><description>Recent content in Memes on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 14:50:43 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/memes/index.xml" rel="self" type="application/rss+xml"/><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p&gt;the terraform knows what it should provision at all times.
 it knows this because it knows what it hasn’t provisioned.&lt;/p&gt;
 &lt;p&gt;by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em&gt;plan&lt;/em&gt;, or &lt;em&gt;diff&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;
+&lt;p&gt;consequently, the state that now &lt;em&gt;is&lt;/em&gt;, is not the state that &lt;em&gt;was&lt;/em&gt;, and therefore the state that &lt;em&gt;was&lt;/em&gt; is no longer what &lt;em&gt;is&lt;/em&gt;.
+this is called &lt;em&gt;idempotence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;in the event that the state that is does not match the state that should be, the system has acquired &lt;em&gt;drift&lt;/em&gt;.
+drift is the discrepancy between the actual state and the desired state, and if drift is nontrivial, the terraform will attempt &lt;em&gt;reconciliation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;however, terraform must also know what it last applied.&lt;/p&gt;
+&lt;p&gt;the terraform plan execution proceeds as follows:
+because drift may have invalidated some resource attributes, terraform is not exactly sure what &lt;em&gt;is&lt;/em&gt;,
+but it is sure what &lt;em&gt;should be&lt;/em&gt;,
+and within tolerances, what &lt;em&gt;was&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;it now subtracts what &lt;em&gt;should be&lt;/em&gt; from what &lt;em&gt;is not yet&lt;/em&gt;, or vice versa, and by interpolating this against the algebraic projection of what &lt;em&gt;must not be&lt;/em&gt;, it obtains the &lt;em&gt;execution plan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;this plan, when applied, corrects the infra such that what &lt;em&gt;should be&lt;/em&gt; &lt;em&gt;becomes&lt;/em&gt;, what &lt;em&gt;was&lt;/em&gt; is &lt;em&gt;forgotten&lt;/em&gt;, and what &lt;em&gt;is not yet&lt;/em&gt; is now &lt;em&gt;managed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Happy Canada Day.&lt;/p&gt;</description><content:encoded>&lt;p&gt;the terraform knows what it should provision at all times.
+it knows this because it knows what it hasn’t provisioned.&lt;/p&gt;
+&lt;p&gt;by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em&gt;plan&lt;/em&gt;, or &lt;em&gt;diff&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;
+&lt;p&gt;consequently, the state that now &lt;em&gt;is&lt;/em&gt;, is not the state that &lt;em&gt;was&lt;/em&gt;, and therefore the state that &lt;em&gt;was&lt;/em&gt; is no longer what &lt;em&gt;is&lt;/em&gt;.
+this is called &lt;em&gt;idempotence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;in the event that the state that is does not match the state that should be, the system has acquired &lt;em&gt;drift&lt;/em&gt;.
+drift is the discrepancy between the actual state and the desired state, and if drift is nontrivial, the terraform will attempt &lt;em&gt;reconciliation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;however, terraform must also know what it last applied.&lt;/p&gt;
+&lt;p&gt;the terraform plan execution proceeds as follows:
+because drift may have invalidated some resource attributes, terraform is not exactly sure what &lt;em&gt;is&lt;/em&gt;,
+but it is sure what &lt;em&gt;should be&lt;/em&gt;,
+and within tolerances, what &lt;em&gt;was&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;it now subtracts what &lt;em&gt;should be&lt;/em&gt; from what &lt;em&gt;is not yet&lt;/em&gt;, or vice versa, and by interpolating this against the algebraic projection of what &lt;em&gt;must not be&lt;/em&gt;, it obtains the &lt;em&gt;execution plan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;this plan, when applied, corrects the infra such that what &lt;em&gt;should be&lt;/em&gt; &lt;em&gt;becomes&lt;/em&gt;, what &lt;em&gt;was&lt;/em&gt; is &lt;em&gt;forgotten&lt;/em&gt;, and what &lt;em&gt;is not yet&lt;/em&gt; is now &lt;em&gt;managed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Happy Canada Day.&lt;/p&gt;</content:encoded></item></channel></rss>

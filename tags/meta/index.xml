@@ -1,1 +1,203 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meta on Zoravur's Blog</title><link>https://zoravur.com/tags/meta/</link><description>Recent content in Meta on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 09:03:49 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Changes, Life Updates, and Upcoming Posts</title><link>https://zoravur.com/upcoming-posts/</link><pubDate>Mon, 11 May 2026 09:03:49 -0400</pubDate><guid>https://zoravur.com/upcoming-posts/</guid><description>I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives. As a result, you can expect a lot more in the coming months.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on Zoravur's Blog</title><link>https://zoravur.com/tags/meta/</link><description>Recent content in Meta on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 09:03:49 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Changes, Life Updates, and Upcoming Posts</title><link>https://zoravur.com/upcoming-posts/</link><pubDate>Mon, 11 May 2026 09:03:49 -0400</pubDate><guid>https://zoravur.com/upcoming-posts/</guid><description>&lt;p&gt;I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what
+I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives.
+As a result, you can expect a lot more in the coming months.&lt;/p&gt;
+&lt;h2 id="problems-with-my-current-workflow"&gt;Problems with my current workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;There are times when I need to dig up old work because I&amp;rsquo;ve solved a problem in it that I need to solve
+again. Sometimes I worry that I&amp;rsquo;ll end up wasting time re-deriving the solution to something I&amp;rsquo;ve already
+solved before.
+&lt;ul&gt;
+&lt;li&gt;This tacit knowledge that I have doesn&amp;rsquo;t really benefit other people because no one will know where to
+look unless they are me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I feel like I&amp;rsquo;m not contributing the full variety of perspectives that I have because the friction is too
+high.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="opportunities-with-my-current-workflow"&gt;Opportunities with my current workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sometimes I&amp;rsquo;ll google something that feels like it&amp;rsquo;s a question that a reference work can easily answer.
+&lt;ul&gt;
+&lt;li&gt;E.g. &amp;ldquo;Go function syntax&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ill-be-doing-differently"&gt;What I&amp;rsquo;ll be doing differently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing the proportion of my thoughts which are public / open&lt;/li&gt;
+&lt;li&gt;Have more working documents, such as post idea lists, reference works, and what I&amp;rsquo;m calling atomic posts
+&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Turning the website into more of a reference work, by
+&lt;ul&gt;
+&lt;li&gt;consolidating as many of my existing notes into one place as possible&lt;/li&gt;
+&lt;li&gt;documenting the answers to questions I&amp;rsquo;ve googled as posts&lt;/li&gt;
+&lt;li&gt;making the website a default collection point for writing capture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ive-been-up-to"&gt;What I&amp;rsquo;ve been up to&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I might do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Functional programming (especially Haskell)&lt;/li&gt;
+&lt;li&gt;Hacking on spreadsheets and distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Life&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just did a 10k yesterday&lt;/li&gt;
+&lt;li&gt;Getting my M license this summer&lt;/li&gt;
+&lt;li&gt;Hanging out with friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The aforementioned friends have a working group for &lt;a href="https://memex.mememaps.net"&gt;memex software&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
+that I&amp;rsquo;m a part of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stuff that I&amp;rsquo;ve been enjoying recently&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Go programming language&lt;/li&gt;
+&lt;li&gt;The roguelike game Gambonanza&lt;/li&gt;
+&lt;li&gt;The crazyhouse chess variant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="post-ideas"&gt;Post ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why I want to do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Pierce, programming languages, and functional programming
+&lt;ul&gt;
+&lt;li&gt;Lambda calculus implementation code-along&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding spreadsheets:
+&lt;ul&gt;
+&lt;li&gt;How to build a performant html5 datatable component (hint: it&amp;rsquo;s not virtualization!)&lt;/li&gt;
+&lt;li&gt;CRDT notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding website changes:
+&lt;ul&gt;
+&lt;li&gt;Unstatic-ing my website and adding search (will be a super short 2 part series, documenting my progress towards the next thing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding ultra-short reference works:
+&lt;ul&gt;
+&lt;li&gt;Go function syntax, anything else I think of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Atomic posts are alternatives to drafts that are written such that they can be considered &amp;ldquo;complete&amp;rdquo;
+between writing sessions. In other words, in an atomic post, the priority is minimizing the number of
+iterations which are not fit for a general audience. This idea is inspired by the fact that posts can be
+treated like programs, in the sense that it&amp;rsquo;s better to write a minimal post expressing a complete idea
+and improve it in every session rather than accumulate sessions writing parts of a longer, more detailed
+post, that may not see the light of day because of shifting priorities.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Think interlinked notetaking a la Notion, Obsidian, Roam Research.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><content:encoded>&lt;p&gt;I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what
+I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives.
+As a result, you can expect a lot more in the coming months.&lt;/p&gt;
+&lt;h2 id="problems-with-my-current-workflow"&gt;Problems with my current workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;There are times when I need to dig up old work because I&amp;rsquo;ve solved a problem in it that I need to solve
+again. Sometimes I worry that I&amp;rsquo;ll end up wasting time re-deriving the solution to something I&amp;rsquo;ve already
+solved before.
+&lt;ul&gt;
+&lt;li&gt;This tacit knowledge that I have doesn&amp;rsquo;t really benefit other people because no one will know where to
+look unless they are me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I feel like I&amp;rsquo;m not contributing the full variety of perspectives that I have because the friction is too
+high.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="opportunities-with-my-current-workflow"&gt;Opportunities with my current workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sometimes I&amp;rsquo;ll google something that feels like it&amp;rsquo;s a question that a reference work can easily answer.
+&lt;ul&gt;
+&lt;li&gt;E.g. &amp;ldquo;Go function syntax&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ill-be-doing-differently"&gt;What I&amp;rsquo;ll be doing differently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing the proportion of my thoughts which are public / open&lt;/li&gt;
+&lt;li&gt;Have more working documents, such as post idea lists, reference works, and what I&amp;rsquo;m calling atomic posts
+&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Turning the website into more of a reference work, by
+&lt;ul&gt;
+&lt;li&gt;consolidating as many of my existing notes into one place as possible&lt;/li&gt;
+&lt;li&gt;documenting the answers to questions I&amp;rsquo;ve googled as posts&lt;/li&gt;
+&lt;li&gt;making the website a default collection point for writing capture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ive-been-up-to"&gt;What I&amp;rsquo;ve been up to&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I might do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Functional programming (especially Haskell)&lt;/li&gt;
+&lt;li&gt;Hacking on spreadsheets and distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Life&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just did a 10k yesterday&lt;/li&gt;
+&lt;li&gt;Getting my M license this summer&lt;/li&gt;
+&lt;li&gt;Hanging out with friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The aforementioned friends have a working group for &lt;a href="https://memex.mememaps.net"&gt;memex software&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
+that I&amp;rsquo;m a part of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stuff that I&amp;rsquo;ve been enjoying recently&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Go programming language&lt;/li&gt;
+&lt;li&gt;The roguelike game Gambonanza&lt;/li&gt;
+&lt;li&gt;The crazyhouse chess variant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="post-ideas"&gt;Post ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why I want to do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Pierce, programming languages, and functional programming
+&lt;ul&gt;
+&lt;li&gt;Lambda calculus implementation code-along&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding spreadsheets:
+&lt;ul&gt;
+&lt;li&gt;How to build a performant html5 datatable component (hint: it&amp;rsquo;s not virtualization!)&lt;/li&gt;
+&lt;li&gt;CRDT notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding website changes:
+&lt;ul&gt;
+&lt;li&gt;Unstatic-ing my website and adding search (will be a super short 2 part series, documenting my progress towards the next thing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding ultra-short reference works:
+&lt;ul&gt;
+&lt;li&gt;Go function syntax, anything else I think of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Atomic posts are alternatives to drafts that are written such that they can be considered &amp;ldquo;complete&amp;rdquo;
+between writing sessions. In other words, in an atomic post, the priority is minimizing the number of
+iterations which are not fit for a general audience. This idea is inspired by the fact that posts can be
+treated like programs, in the sense that it&amp;rsquo;s better to write a minimal post expressing a complete idea
+and improve it in every session rather than accumulate sessions writing parts of a longer, more detailed
+post, that may not see the light of day because of shifting priorities.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Think interlinked notetaking a la Notion, Obsidian, Roam Research.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>

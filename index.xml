@@ -1,4 +1,338 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 09:03:49 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Changes, Life Updates, and Upcoming Posts</title><link>https://zoravur.com/upcoming-posts/</link><pubDate>Mon, 11 May 2026 09:03:49 -0400</pubDate><guid>https://zoravur.com/upcoming-posts/</guid><description>I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives. As a result, you can expect a lot more in the coming months.</description></item><item><title>Thoughts on Improvement</title><link>https://zoravur.com/improvement/</link><pubDate>Mon, 08 Sep 2025 01:16:39 -0400</pubDate><guid>https://zoravur.com/improvement/</guid><description>Megapost of all my thoughts on improvement, indexed chronologically.</description></item><item><title>A Nice Shell Alias</title><link>https://zoravur.com/a-nice-shell-alias/</link><pubDate>Mon, 08 Sep 2025 01:12:56 -0400</pubDate><guid>https://zoravur.com/a-nice-shell-alias/</guid><description>&lt;p&gt;You know how those installations always expect you to restart your shell for changes to take effect? closing / reopening and then &lt;code&gt;cd&lt;/code&gt;ing to your current directory can feel tedious. Luckily, there&amp;rsquo;s a bash one-liner that restarts your shell, in window:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2026 09:03:49 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Changes, Life Updates, and Upcoming Posts</title><link>https://zoravur.com/upcoming-posts/</link><pubDate>Mon, 11 May 2026 09:03:49 -0400</pubDate><guid>https://zoravur.com/upcoming-posts/</guid><description>&lt;p&gt;I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what
+I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives.
+As a result, you can expect a lot more in the coming months.&lt;/p&gt;
+&lt;h2 id="problems-with-my-current-workflow"&gt;Problems with my current workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;There are times when I need to dig up old work because I&amp;rsquo;ve solved a problem in it that I need to solve
+again. Sometimes I worry that I&amp;rsquo;ll end up wasting time re-deriving the solution to something I&amp;rsquo;ve already
+solved before.
+&lt;ul&gt;
+&lt;li&gt;This tacit knowledge that I have doesn&amp;rsquo;t really benefit other people because no one will know where to
+look unless they are me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I feel like I&amp;rsquo;m not contributing the full variety of perspectives that I have because the friction is too
+high.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="opportunities-with-my-current-workflow"&gt;Opportunities with my current workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sometimes I&amp;rsquo;ll google something that feels like it&amp;rsquo;s a question that a reference work can easily answer.
+&lt;ul&gt;
+&lt;li&gt;E.g. &amp;ldquo;Go function syntax&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ill-be-doing-differently"&gt;What I&amp;rsquo;ll be doing differently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing the proportion of my thoughts which are public / open&lt;/li&gt;
+&lt;li&gt;Have more working documents, such as post idea lists, reference works, and what I&amp;rsquo;m calling atomic posts
+&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Turning the website into more of a reference work, by
+&lt;ul&gt;
+&lt;li&gt;consolidating as many of my existing notes into one place as possible&lt;/li&gt;
+&lt;li&gt;documenting the answers to questions I&amp;rsquo;ve googled as posts&lt;/li&gt;
+&lt;li&gt;making the website a default collection point for writing capture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ive-been-up-to"&gt;What I&amp;rsquo;ve been up to&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I might do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Functional programming (especially Haskell)&lt;/li&gt;
+&lt;li&gt;Hacking on spreadsheets and distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Life&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just did a 10k yesterday&lt;/li&gt;
+&lt;li&gt;Getting my M license this summer&lt;/li&gt;
+&lt;li&gt;Hanging out with friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The aforementioned friends have a working group for &lt;a href="https://memex.mememaps.net"&gt;memex software&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
+that I&amp;rsquo;m a part of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stuff that I&amp;rsquo;ve been enjoying recently&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Go programming language&lt;/li&gt;
+&lt;li&gt;The roguelike game Gambonanza&lt;/li&gt;
+&lt;li&gt;The crazyhouse chess variant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="post-ideas"&gt;Post ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why I want to do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Pierce, programming languages, and functional programming
+&lt;ul&gt;
+&lt;li&gt;Lambda calculus implementation code-along&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding spreadsheets:
+&lt;ul&gt;
+&lt;li&gt;How to build a performant html5 datatable component (hint: it&amp;rsquo;s not virtualization!)&lt;/li&gt;
+&lt;li&gt;CRDT notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding website changes:
+&lt;ul&gt;
+&lt;li&gt;Unstatic-ing my website and adding search (will be a super short 2 part series, documenting my progress towards the next thing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding ultra-short reference works:
+&lt;ul&gt;
+&lt;li&gt;Go function syntax, anything else I think of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Atomic posts are alternatives to drafts that are written such that they can be considered &amp;ldquo;complete&amp;rdquo;
+between writing sessions. In other words, in an atomic post, the priority is minimizing the number of
+iterations which are not fit for a general audience. This idea is inspired by the fact that posts can be
+treated like programs, in the sense that it&amp;rsquo;s better to write a minimal post expressing a complete idea
+and improve it in every session rather than accumulate sessions writing parts of a longer, more detailed
+post, that may not see the light of day because of shifting priorities.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Think interlinked notetaking a la Notion, Obsidian, Roam Research.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><content:encoded>&lt;p&gt;I&amp;rsquo;d like to turn this blog into a useful reference for my future self, a living document of what
+I&amp;rsquo;m thinking about, and a commitment device that forces me to follow through on my objectives.
+As a result, you can expect a lot more in the coming months.&lt;/p&gt;
+&lt;h2 id="problems-with-my-current-workflow"&gt;Problems with my current workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;There are times when I need to dig up old work because I&amp;rsquo;ve solved a problem in it that I need to solve
+again. Sometimes I worry that I&amp;rsquo;ll end up wasting time re-deriving the solution to something I&amp;rsquo;ve already
+solved before.
+&lt;ul&gt;
+&lt;li&gt;This tacit knowledge that I have doesn&amp;rsquo;t really benefit other people because no one will know where to
+look unless they are me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;I feel like I&amp;rsquo;m not contributing the full variety of perspectives that I have because the friction is too
+high.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="opportunities-with-my-current-workflow"&gt;Opportunities with my current workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sometimes I&amp;rsquo;ll google something that feels like it&amp;rsquo;s a question that a reference work can easily answer.
+&lt;ul&gt;
+&lt;li&gt;E.g. &amp;ldquo;Go function syntax&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ill-be-doing-differently"&gt;What I&amp;rsquo;ll be doing differently&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing the proportion of my thoughts which are public / open&lt;/li&gt;
+&lt;li&gt;Have more working documents, such as post idea lists, reference works, and what I&amp;rsquo;m calling atomic posts
+&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Turning the website into more of a reference work, by
+&lt;ul&gt;
+&lt;li&gt;consolidating as many of my existing notes into one place as possible&lt;/li&gt;
+&lt;li&gt;documenting the answers to questions I&amp;rsquo;ve googled as posts&lt;/li&gt;
+&lt;li&gt;making the website a default collection point for writing capture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-ive-been-up-to"&gt;What I&amp;rsquo;ve been up to&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programming&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I might do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Functional programming (especially Haskell)&lt;/li&gt;
+&lt;li&gt;Hacking on spreadsheets and distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Life&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just did a 10k yesterday&lt;/li&gt;
+&lt;li&gt;Getting my M license this summer&lt;/li&gt;
+&lt;li&gt;Hanging out with friends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The aforementioned friends have a working group for &lt;a href="https://memex.mememaps.net"&gt;memex software&lt;/a&gt;&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;
+that I&amp;rsquo;m a part of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Stuff that I&amp;rsquo;ve been enjoying recently&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Go programming language&lt;/li&gt;
+&lt;li&gt;The roguelike game Gambonanza&lt;/li&gt;
+&lt;li&gt;The crazyhouse chess variant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="post-ideas"&gt;Post ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Why I want to do a master&amp;rsquo;s in PL and AI Software Verification&lt;/li&gt;
+&lt;li&gt;Pierce, programming languages, and functional programming
+&lt;ul&gt;
+&lt;li&gt;Lambda calculus implementation code-along&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding spreadsheets:
+&lt;ul&gt;
+&lt;li&gt;How to build a performant html5 datatable component (hint: it&amp;rsquo;s not virtualization!)&lt;/li&gt;
+&lt;li&gt;CRDT notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding website changes:
+&lt;ul&gt;
+&lt;li&gt;Unstatic-ing my website and adding search (will be a super short 2 part series, documenting my progress towards the next thing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regarding ultra-short reference works:
+&lt;ul&gt;
+&lt;li&gt;Go function syntax, anything else I think of.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Atomic posts are alternatives to drafts that are written such that they can be considered &amp;ldquo;complete&amp;rdquo;
+between writing sessions. In other words, in an atomic post, the priority is minimizing the number of
+iterations which are not fit for a general audience. This idea is inspired by the fact that posts can be
+treated like programs, in the sense that it&amp;rsquo;s better to write a minimal post expressing a complete idea
+and improve it in every session rather than accumulate sessions writing parts of a longer, more detailed
+post, that may not see the light of day because of shifting priorities.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;Think interlinked notetaking a la Notion, Obsidian, Roam Research.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title>Thoughts on Improvement</title><link>https://zoravur.com/improvement/</link><pubDate>Mon, 08 Sep 2025 01:16:39 -0400</pubDate><guid>https://zoravur.com/improvement/</guid><description>&lt;h2 id="2026-05-22"&gt;2026-05-22&lt;/h2&gt;
+&lt;p&gt;The precursors to being in shape and making money are healthy habits and learning skills.&lt;/p&gt;
+&lt;p&gt;Why is this useful to know? Besides the obvious fact that one actulaly has to know how to get in shape and make money, it&amp;rsquo;s also
+useful because it turns an adjective (&amp;ldquo;rich&amp;rdquo;, &amp;ldquo;hot&amp;rdquo;) into verbs (&amp;ldquo;exercise&amp;rdquo;, &amp;ldquo;diet&amp;rdquo;, &amp;ldquo;learn&amp;rdquo;). As such, it turns an identity
+you desire into a routine that you can execute.&lt;/p&gt;
+&lt;p&gt;The next thing to know is that as you get older, you need more and more inputs to get reliable results. This is because you
+are less mutable, which means change is harder, but you are also less mutable, meaning positive habits are more likely to
+endure. It also makes the consequences of negative habits more severe, and more worth avoiding.&lt;/p&gt;
+&lt;p&gt;Commensurately, it&amp;rsquo;s useful to increase the unit of time over which you measure change. Not just because change is slower,
+but because subjectively, time passes more quickly. What feels like a long time when you&amp;rsquo;re young feels shorter when you&amp;rsquo;re
+older, meaning not only is patience for outcomes required, but it&amp;rsquo;s also an input that you get more of as you age.&lt;/p&gt;
+&lt;p&gt;Also, as you get older, seasons of your life become longer. The amount of time you have to benefit from a habit
+increases as you age. (Really, this is a mental trick; you don&amp;rsquo;t literally get more time, but the period of time across which
+a habit is effective gets longer automatically because you are less mutable). Therefore it makes sense to increase the
+amount of time required to execute that change in behaviour. A habit that takes 2 years to build is a long warmup period,
+but taken over a 50-60 year period, the net effect of that habit on your life is massive. So:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spend more time building your foundations&lt;/li&gt;
+&lt;li&gt;Increase the length of what you consider a &amp;ldquo;season&amp;rdquo; as you age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another common refrain: &amp;ldquo;slow is smooth, smooth is fast&amp;rdquo;. People often think &amp;ldquo;slow&amp;rdquo; means passive or hesitant. In reality,
+slow really means &amp;ldquo;not rushed&amp;rdquo; when taken objectively (subjectively, &amp;ldquo;slow&amp;rdquo; is what &amp;ldquo;not rushing&amp;rdquo; feels like when there&amp;rsquo;s a
+strong sense of urgency). Rushing is how you make mistakes, backtrack, duplicate work, and take shortcuts that don&amp;rsquo;t hold
+up over time. Urgency is still there &amp;ndash; every action must still be taken, and stalling prevents growth, but by going at a
+tolerable cadence you eliminate errors, which are the real cause of delays. The tortoise and the hare embody this as well.&lt;/p&gt;
+&lt;p&gt;The same pattern shows up everywhere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;controlled lifting builds strength faster than ego liftin&lt;/li&gt;
+&lt;li&gt;consistency beats cramming, especially for retention&lt;/li&gt;
+&lt;li&gt;stable investing beats emotionality or chasing huge returns&lt;/li&gt;
+&lt;li&gt;sustainable routines outperform motivational spikes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Slowness leading to speed is also a feedback loop that works both ways. The more you rush, the more mistakes you make. The more
+mistakes you make, the more you stall. The more you stall, the more you feel behind, and the more you try to compensate by
+going faster. Conversely, the more you take your time, the fewer mistakes you make. The fewer mistakes, the less you need to
+backtrack. The less you backtrack, the faster things get done. The faster they get done, the more time you have. The more
+time you have, the more you can take your time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Improvement is hard. Building habits is hard. The other thing that helps, besides increasing the duration of each season, is
+increasing the skill of obsrvation. By noticing the 0.1% improvements, the tiny records always being broken, whether it&amp;rsquo;s
+consistency, PRs, technique, diet, weight, trajectory, streaks, or something else, you gain a more accurate baromeetr of your
+progress.&lt;/p&gt;
+&lt;p&gt;Making drastic change, being consistent, and increasing powers of obseraviton all feel like contradictory strategies, but they
+actually complement each other.&lt;/p&gt;
+&lt;p&gt;If you stack increased patience with noticing imperceptible changes and humility, suddenly the pace of change is fast enough
+that it feels like feedback.&lt;/p&gt;
+&lt;h2 id="2025-09-08"&gt;2025-09-08&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve noticed a counterintuitive fact about improvement most obviously from two activities: exercise and singing. And that fact is this:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The thing that you&amp;rsquo;re thinking is the obstacle to your improvement, that you need to deal with before you can start
+getting better: dealing with that obstacle &lt;strong&gt;is the improvement itself&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When I started running, I used to have a blocked / inflamed nose that made it impossible to breathe efficiently. So I&amp;rsquo;d have
+to breathe through my mouth, drying out my throat. Eventually, though, my nose cleared, and not only was I able to
+breathe more easily while running, I could breathe more easily in general.&lt;/p&gt;
+&lt;p&gt;Even many years into singing, I would consistently sing notes 30+ cents sharp, perhaps because early on it was difficult for
+me to project over my harmonium. I had to go back and retrain every single note, singing into a tuner as my voice wavered
+wildly.&lt;/p&gt;
+&lt;p&gt;When I got back into the gym with some level of consistency with the gym after COVID, I initially only went a couple of times
+per week. Eventually I developed pain in both shoulders. Thanks to my trainer, I learned some exercises that helped,
+but it wasn&amp;rsquo;t until almost a year later that I resolved to dedicate every session to hammering this weak point, until they
+got better. After about a month, the pain was gone.&lt;/p&gt;
+&lt;p&gt;When singing (or at the gurudwara), you&amp;rsquo;re supposed to sit cross-legged on the floor. I would force myself to sit
+cross-legged, let my feet fall asleep, wake them up, repeatedly. After about six months to a year of this, I&amp;rsquo;m now able to
+sit cross-legged, pain free. I was convinced I&amp;rsquo;d never perform for long periods again, and now an hour passes, with the pain
+lessened to the point where I barely notice it, and I&amp;rsquo;m able to stand and walk after, where before I would have to sit and
+massage my feet. The body adjusts.&lt;/p&gt;
+&lt;p&gt;It took so long for me to nail the basics, but once I finally did, my rate of improvement skyrocketed. Dealing with the
+obstacle to improvement is improving.&lt;/p&gt;</description><content:encoded>&lt;h2 id="2026-05-22"&gt;2026-05-22&lt;/h2&gt;
+&lt;p&gt;The precursors to being in shape and making money are healthy habits and learning skills.&lt;/p&gt;
+&lt;p&gt;Why is this useful to know? Besides the obvious fact that one actulaly has to know how to get in shape and make money, it&amp;rsquo;s also
+useful because it turns an adjective (&amp;ldquo;rich&amp;rdquo;, &amp;ldquo;hot&amp;rdquo;) into verbs (&amp;ldquo;exercise&amp;rdquo;, &amp;ldquo;diet&amp;rdquo;, &amp;ldquo;learn&amp;rdquo;). As such, it turns an identity
+you desire into a routine that you can execute.&lt;/p&gt;
+&lt;p&gt;The next thing to know is that as you get older, you need more and more inputs to get reliable results. This is because you
+are less mutable, which means change is harder, but you are also less mutable, meaning positive habits are more likely to
+endure. It also makes the consequences of negative habits more severe, and more worth avoiding.&lt;/p&gt;
+&lt;p&gt;Commensurately, it&amp;rsquo;s useful to increase the unit of time over which you measure change. Not just because change is slower,
+but because subjectively, time passes more quickly. What feels like a long time when you&amp;rsquo;re young feels shorter when you&amp;rsquo;re
+older, meaning not only is patience for outcomes required, but it&amp;rsquo;s also an input that you get more of as you age.&lt;/p&gt;
+&lt;p&gt;Also, as you get older, seasons of your life become longer. The amount of time you have to benefit from a habit
+increases as you age. (Really, this is a mental trick; you don&amp;rsquo;t literally get more time, but the period of time across which
+a habit is effective gets longer automatically because you are less mutable). Therefore it makes sense to increase the
+amount of time required to execute that change in behaviour. A habit that takes 2 years to build is a long warmup period,
+but taken over a 50-60 year period, the net effect of that habit on your life is massive. So:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spend more time building your foundations&lt;/li&gt;
+&lt;li&gt;Increase the length of what you consider a &amp;ldquo;season&amp;rdquo; as you age&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Another common refrain: &amp;ldquo;slow is smooth, smooth is fast&amp;rdquo;. People often think &amp;ldquo;slow&amp;rdquo; means passive or hesitant. In reality,
+slow really means &amp;ldquo;not rushed&amp;rdquo; when taken objectively (subjectively, &amp;ldquo;slow&amp;rdquo; is what &amp;ldquo;not rushing&amp;rdquo; feels like when there&amp;rsquo;s a
+strong sense of urgency). Rushing is how you make mistakes, backtrack, duplicate work, and take shortcuts that don&amp;rsquo;t hold
+up over time. Urgency is still there &amp;ndash; every action must still be taken, and stalling prevents growth, but by going at a
+tolerable cadence you eliminate errors, which are the real cause of delays. The tortoise and the hare embody this as well.&lt;/p&gt;
+&lt;p&gt;The same pattern shows up everywhere:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;controlled lifting builds strength faster than ego liftin&lt;/li&gt;
+&lt;li&gt;consistency beats cramming, especially for retention&lt;/li&gt;
+&lt;li&gt;stable investing beats emotionality or chasing huge returns&lt;/li&gt;
+&lt;li&gt;sustainable routines outperform motivational spikes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Slowness leading to speed is also a feedback loop that works both ways. The more you rush, the more mistakes you make. The more
+mistakes you make, the more you stall. The more you stall, the more you feel behind, and the more you try to compensate by
+going faster. Conversely, the more you take your time, the fewer mistakes you make. The fewer mistakes, the less you need to
+backtrack. The less you backtrack, the faster things get done. The faster they get done, the more time you have. The more
+time you have, the more you can take your time.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Improvement is hard. Building habits is hard. The other thing that helps, besides increasing the duration of each season, is
+increasing the skill of obsrvation. By noticing the 0.1% improvements, the tiny records always being broken, whether it&amp;rsquo;s
+consistency, PRs, technique, diet, weight, trajectory, streaks, or something else, you gain a more accurate baromeetr of your
+progress.&lt;/p&gt;
+&lt;p&gt;Making drastic change, being consistent, and increasing powers of obseraviton all feel like contradictory strategies, but they
+actually complement each other.&lt;/p&gt;
+&lt;p&gt;If you stack increased patience with noticing imperceptible changes and humility, suddenly the pace of change is fast enough
+that it feels like feedback.&lt;/p&gt;
+&lt;h2 id="2025-09-08"&gt;2025-09-08&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve noticed a counterintuitive fact about improvement most obviously from two activities: exercise and singing. And that fact is this:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The thing that you&amp;rsquo;re thinking is the obstacle to your improvement, that you need to deal with before you can start
+getting better: dealing with that obstacle &lt;strong&gt;is the improvement itself&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When I started running, I used to have a blocked / inflamed nose that made it impossible to breathe efficiently. So I&amp;rsquo;d have
+to breathe through my mouth, drying out my throat. Eventually, though, my nose cleared, and not only was I able to
+breathe more easily while running, I could breathe more easily in general.&lt;/p&gt;
+&lt;p&gt;Even many years into singing, I would consistently sing notes 30+ cents sharp, perhaps because early on it was difficult for
+me to project over my harmonium. I had to go back and retrain every single note, singing into a tuner as my voice wavered
+wildly.&lt;/p&gt;
+&lt;p&gt;When I got back into the gym with some level of consistency with the gym after COVID, I initially only went a couple of times
+per week. Eventually I developed pain in both shoulders. Thanks to my trainer, I learned some exercises that helped,
+but it wasn&amp;rsquo;t until almost a year later that I resolved to dedicate every session to hammering this weak point, until they
+got better. After about a month, the pain was gone.&lt;/p&gt;
+&lt;p&gt;When singing (or at the gurudwara), you&amp;rsquo;re supposed to sit cross-legged on the floor. I would force myself to sit
+cross-legged, let my feet fall asleep, wake them up, repeatedly. After about six months to a year of this, I&amp;rsquo;m now able to
+sit cross-legged, pain free. I was convinced I&amp;rsquo;d never perform for long periods again, and now an hour passes, with the pain
+lessened to the point where I barely notice it, and I&amp;rsquo;m able to stand and walk after, where before I would have to sit and
+massage my feet. The body adjusts.&lt;/p&gt;
+&lt;p&gt;It took so long for me to nail the basics, but once I finally did, my rate of improvement skyrocketed. Dealing with the
+obstacle to improvement is improving.&lt;/p&gt;</content:encoded></item><item><title>A Nice Shell Alias</title><link>https://zoravur.com/a-nice-shell-alias/</link><pubDate>Mon, 08 Sep 2025 01:12:56 -0400</pubDate><guid>https://zoravur.com/a-nice-shell-alias/</guid><description>&lt;p&gt;You know how those installations always expect you to restart your shell for changes to take effect? closing / reopening and then &lt;code&gt;cd&lt;/code&gt;ing to your current directory can feel tedious. Luckily, there&amp;rsquo;s a bash one-liner that restarts your shell, in window:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;exec &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$SHELL&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; -l
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dissection:&lt;/p&gt;
 &lt;ul&gt;
@@ -6,25 +340,1329 @@
 &lt;li&gt;&lt;code&gt;&amp;quot;$SHELL&amp;quot;&lt;/code&gt; &amp;ndash; run the default shell.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-l&lt;/code&gt; &amp;ndash; Run it as a login shell.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This does what I want right after I&amp;rsquo;m done installing something.&lt;/p&gt;</description></item><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p&gt;the terraform knows what it should provision at all times.
+&lt;p&gt;This does what I want right after I&amp;rsquo;m done installing something.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve created an alias for this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;alias reload&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;exec &amp;#34;$SHELL&amp;#34; -l&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pretty nifty.&lt;/p&gt;</description><content:encoded>&lt;p&gt;You know how those installations always expect you to restart your shell for changes to take effect? closing / reopening and then &lt;code&gt;cd&lt;/code&gt;ing to your current directory can feel tedious. Luckily, there&amp;rsquo;s a bash one-liner that restarts your shell, in window:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;exec &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$SHELL&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dissection:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;exec&lt;/code&gt; &amp;ndash; run command, replacing current process&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;quot;$SHELL&amp;quot;&lt;/code&gt; &amp;ndash; run the default shell.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-l&lt;/code&gt; &amp;ndash; Run it as a login shell.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This does what I want right after I&amp;rsquo;m done installing something.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve created an alias for this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;alias reload&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;exec &amp;#34;$SHELL&amp;#34; -l&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pretty nifty.&lt;/p&gt;</content:encoded></item><item><title>The Terraform Knows What It Should Provision At All Times.</title><link>https://zoravur.com/the-terraform-knows/</link><pubDate>Tue, 01 Jul 2025 14:50:43 -0400</pubDate><guid>https://zoravur.com/the-terraform-knows/</guid><description>&lt;p&gt;the terraform knows what it should provision at all times.
 it knows this because it knows what it hasn’t provisioned.&lt;/p&gt;
 &lt;p&gt;by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em&gt;plan&lt;/em&gt;, or &lt;em&gt;diff&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;</description></item><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;
+&lt;p&gt;consequently, the state that now &lt;em&gt;is&lt;/em&gt;, is not the state that &lt;em&gt;was&lt;/em&gt;, and therefore the state that &lt;em&gt;was&lt;/em&gt; is no longer what &lt;em&gt;is&lt;/em&gt;.
+this is called &lt;em&gt;idempotence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;in the event that the state that is does not match the state that should be, the system has acquired &lt;em&gt;drift&lt;/em&gt;.
+drift is the discrepancy between the actual state and the desired state, and if drift is nontrivial, the terraform will attempt &lt;em&gt;reconciliation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;however, terraform must also know what it last applied.&lt;/p&gt;
+&lt;p&gt;the terraform plan execution proceeds as follows:
+because drift may have invalidated some resource attributes, terraform is not exactly sure what &lt;em&gt;is&lt;/em&gt;,
+but it is sure what &lt;em&gt;should be&lt;/em&gt;,
+and within tolerances, what &lt;em&gt;was&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;it now subtracts what &lt;em&gt;should be&lt;/em&gt; from what &lt;em&gt;is not yet&lt;/em&gt;, or vice versa, and by interpolating this against the algebraic projection of what &lt;em&gt;must not be&lt;/em&gt;, it obtains the &lt;em&gt;execution plan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;this plan, when applied, corrects the infra such that what &lt;em&gt;should be&lt;/em&gt; &lt;em&gt;becomes&lt;/em&gt;, what &lt;em&gt;was&lt;/em&gt; is &lt;em&gt;forgotten&lt;/em&gt;, and what &lt;em&gt;is not yet&lt;/em&gt; is now &lt;em&gt;managed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Happy Canada Day.&lt;/p&gt;</description><content:encoded>&lt;p&gt;the terraform knows what it should provision at all times.
+it knows this because it knows what it hasn’t provisioned.&lt;/p&gt;
+&lt;p&gt;by subtracting what is from what ought to be (or what ought to be from what is, depending on provider drift), it obtains a &lt;em&gt;plan&lt;/em&gt;, or &lt;em&gt;diff&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;the planning subsystem uses diffs to generate imperative operations to drive the infrastructure from a state that is, to a state that isn’t, and in arriving at a state that wasn’t, it now is.&lt;/p&gt;
+&lt;p&gt;consequently, the state that now &lt;em&gt;is&lt;/em&gt;, is not the state that &lt;em&gt;was&lt;/em&gt;, and therefore the state that &lt;em&gt;was&lt;/em&gt; is no longer what &lt;em&gt;is&lt;/em&gt;.
+this is called &lt;em&gt;idempotence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;in the event that the state that is does not match the state that should be, the system has acquired &lt;em&gt;drift&lt;/em&gt;.
+drift is the discrepancy between the actual state and the desired state, and if drift is nontrivial, the terraform will attempt &lt;em&gt;reconciliation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;however, terraform must also know what it last applied.&lt;/p&gt;
+&lt;p&gt;the terraform plan execution proceeds as follows:
+because drift may have invalidated some resource attributes, terraform is not exactly sure what &lt;em&gt;is&lt;/em&gt;,
+but it is sure what &lt;em&gt;should be&lt;/em&gt;,
+and within tolerances, what &lt;em&gt;was&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;it now subtracts what &lt;em&gt;should be&lt;/em&gt; from what &lt;em&gt;is not yet&lt;/em&gt;, or vice versa, and by interpolating this against the algebraic projection of what &lt;em&gt;must not be&lt;/em&gt;, it obtains the &lt;em&gt;execution plan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;this plan, when applied, corrects the infra such that what &lt;em&gt;should be&lt;/em&gt; &lt;em&gt;becomes&lt;/em&gt;, what &lt;em&gt;was&lt;/em&gt; is &lt;em&gt;forgotten&lt;/em&gt;, and what &lt;em&gt;is not yet&lt;/em&gt; is now &lt;em&gt;managed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Happy Canada Day.&lt;/p&gt;</content:encoded></item><item><title>The Client/Server Architecture</title><link>https://zoravur.com/client-server-architecture/</link><pubDate>Mon, 30 Jun 2025 11:11:42 -0400</pubDate><guid>https://zoravur.com/client-server-architecture/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
+&lt;/blockquote&gt;</description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;In the &lt;strong&gt;client/server architecture&lt;/strong&gt;, a &lt;strong&gt;server&lt;/strong&gt; manages access to a centralized resource, fulfilling coherent requests on behalf of a &lt;strong&gt;client&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Tail Latency Amplification</title><link>https://zoravur.com/tail-latency-amplification/</link><pubDate>Fri, 06 Jun 2025 11:06:01 -0400</pubDate><guid>https://zoravur.com/tail-latency-amplification/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>Napkin Math 2: Applying It to Computers</title><link>https://zoravur.com/systems-design-2/</link><pubDate>Fri, 17 Jan 2025 08:50:16 -0500</pubDate><guid>https://zoravur.com/systems-design-2/</guid><description>&lt;p&gt;In this post, I will be explaining the technique of estimating performance from first principles. It&amp;rsquo;s based heavily on the following talk:
+&lt;/blockquote&gt;</description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Tail Latency Amplification:&lt;/strong&gt; A request in a distributed system is only as fast as its slowest dependency.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title>Napkin Math 2: Applying It to Computers</title><link>https://zoravur.com/systems-design-2/</link><pubDate>Fri, 17 Jan 2025 08:50:16 -0500</pubDate><guid>https://zoravur.com/systems-design-2/</guid><description>&lt;p&gt;In this post, I will be explaining the technique of estimating performance from first principles. It&amp;rsquo;s based heavily on the following talk:
 &lt;a href="https://www.youtube.com/watch?v=IxkSlnrRFqc"&gt;https://www.youtube.com/watch?v=IxkSlnrRFqc&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To recap, the purpose of napkin math is to provide a quick approximation to within an order of magnitude of the real answer, for the purposes
 of quickly testing the feasibility of the design of a system. Last time, we talked about Fermi estimation, which is (according to my definition)
-just napkin math where you&amp;rsquo;re primarily multiplying, and isn&amp;rsquo;t necessarily focus on computers.&lt;/p&gt;</description></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;</description></item><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+just napkin math where you&amp;rsquo;re primarily multiplying, and isn&amp;rsquo;t necessarily focus on computers.&lt;/p&gt;
+&lt;p&gt;But for our purposes, the goal has always been to eventually estimate the performance of computer systems. Take, for example, the following
+problem, also presented within the talk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a local client, written in Rust (take this to mean, no performance issues), talking to a Redis instance on the same machine.&lt;/li&gt;
+&lt;li&gt;The Rust client is repeatedly measuring the latency of the GET operation, transferring an 8 byte payload each time.&lt;/li&gt;
+&lt;li&gt;How long can we expect this to take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I had memorized some base rates / did some googling, before arriving at my answer. If you don&amp;rsquo;t have the base rates off the top of your head,
+I encourage you to do the same. Here was my line of reasoning:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We may assume no performance issues with the client&lt;/li&gt;
+&lt;li&gt;8 bytes is a trivially small payload, meaning we can ignore the data throughput speed here, and focus solely on latency&lt;/li&gt;
+&lt;li&gt;Redis is an in-memory database&lt;/li&gt;
+&lt;li&gt;Memory access is on the order of 100 ns.&lt;/li&gt;
+&lt;li&gt;How does Redis communicate with the client? Is it a separate process?&lt;/li&gt;
+&lt;li&gt;(Googles)&lt;/li&gt;
+&lt;li&gt;Redis is a separate process. Therefore it must rely on ipc.&lt;/li&gt;
+&lt;li&gt;What is the latency of IPC?&lt;/li&gt;
+&lt;li&gt;(ChatGPTs)&lt;/li&gt;
+&lt;li&gt;Okay, unix domain sockets are 1-10 us, while tcp/udp loobpack is 10-100 us.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At this point, I waited for the speaker&amp;rsquo;s multiple choice options. My thought was that it would be dominated by the ipc latency, since
+reading from memory was on the order of 100 ns, and ipc is a higher order of magnitude here. Post-hoc, I could additionally justify this choice
+by noting that Redis&amp;rsquo;s GET operation is O(1). The options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10 ms&lt;/li&gt;
+&lt;li&gt;1 ms&lt;/li&gt;
+&lt;li&gt;100 us&lt;/li&gt;
+&lt;li&gt;10 us&lt;/li&gt;
+&lt;li&gt;1 us&lt;/li&gt;
+&lt;li&gt;&amp;lt; 1 us&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ended up picking 10us, because I wasn&amp;rsquo;t sure if it would use unix domain sockets or tcp/udp loopback as the transport. But the answer was
+25 us, so I basically picked the correct order of magnitude.&lt;/p&gt;
+&lt;p&gt;If we didn&amp;rsquo;t know the speed of memory access and IPC, it would have been much much more difficult to arrive at the correct answer. Therefore,
+it&amp;rsquo;s essential that we know as many of these reference points for computers that we can manage, so that we can solve these types of problems.
+It won&amp;rsquo;t get us the whole way though; we also needed some qualitative understanding of Redis and its implementation in order to arrive at the
+correct value. This is why it&amp;rsquo;s important to also read blog posts and understand the larger systems design ecosystem.&lt;/p&gt;
+&lt;p&gt;So let&amp;rsquo;s learn some reference points.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Operation&lt;/th&gt;
+&lt;th&gt;Latency&lt;/th&gt;
+&lt;th&gt;Throughput&lt;/th&gt;
+&lt;th&gt;1 MiB&lt;/th&gt;
+&lt;th&gt;1 GiB&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential Memory R/W (64 bytes)&lt;/td&gt;
+&lt;td&gt;0.5 ns&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Single Thread, No SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Single Thread, SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;20 GiB/s&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Threaded, No SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;30 GiB/s&lt;/td&gt;
+&lt;td&gt;35 μs&lt;/td&gt;
+&lt;td&gt;35 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Threaded, SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;35 GiB/s&lt;/td&gt;
+&lt;td&gt;30 μs&lt;/td&gt;
+&lt;td&gt;30 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network Same-Zone&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Inside VPC&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Outside VPC&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3 GiB/s&lt;/td&gt;
+&lt;td&gt;300 μs&lt;/td&gt;
+&lt;td&gt;300 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hashing, not crypto-safe (64 bytes)&lt;/td&gt;
+&lt;td&gt;25 ns&lt;/td&gt;
+&lt;td&gt;2 GiB/s&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;500 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random Memory R/W (64 bytes)&lt;/td&gt;
+&lt;td&gt;50 ns&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fast Serialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fast Deserialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;System Call&lt;/td&gt;
+&lt;td&gt;500 ns&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hashing, crypto-safe (64 bytes)&lt;/td&gt;
+&lt;td&gt;100 ns&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD read (8 KiB)&lt;/td&gt;
+&lt;td&gt;1 μs&lt;/td&gt;
+&lt;td&gt;4 GiB/s&lt;/td&gt;
+&lt;td&gt;200 μs&lt;/td&gt;
+&lt;td&gt;200 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Context Switch &lt;code&gt;[1] [2]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD write, -fsync (8KiB)&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TCP Echo Server (32 KiB)&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;4 GiB/s&lt;/td&gt;
+&lt;td&gt;200 μs&lt;/td&gt;
+&lt;td&gt;200 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Decompression &lt;code&gt;[11]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Compression &lt;code&gt;[11]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;500 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD write, +fsync (8KiB)&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;10 MiB/s&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;td&gt;2 min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sorting (64-bit integers)&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;200 MiB/s&lt;/td&gt;
+&lt;td&gt;5 ms&lt;/td&gt;
+&lt;td&gt;5s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential HDD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;250 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage GET, 1 conn&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;500 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage GET, n conn (offsets)&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;NW limit&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage PUT, 1 conn&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage PUT, n conn (multipart)&lt;/td&gt;
+&lt;td&gt;150 ms&lt;/td&gt;
+&lt;td&gt;NW limit&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random SSD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;70 MiB/s&lt;/td&gt;
+&lt;td&gt;15 ms&lt;/td&gt;
+&lt;td&gt;15s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Serialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Deserialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Proxy: Envoy/ProxySQL/Nginx/HAProxy&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network within same region&lt;/td&gt;
+&lt;td&gt;250 μs&lt;/td&gt;
+&lt;td&gt;2 GiB/s&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;500 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Premium network within zone/VPC&lt;/td&gt;
+&lt;td&gt;250 μs&lt;/td&gt;
+&lt;td&gt;25 GiB/s&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;{MySQL, Memcached, Redis, ..} Query&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random HDD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;0.7 MiB/s&lt;/td&gt;
+&lt;td&gt;2 s&lt;/td&gt;
+&lt;td&gt;30m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network between regions &lt;code&gt;[6]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[Varies][i]&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA Central &amp;lt;-&amp;gt; East&lt;/td&gt;
+&lt;td&gt;25 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA Central &amp;lt;-&amp;gt; West&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA East &amp;lt;-&amp;gt; West&lt;/td&gt;
+&lt;td&gt;60 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; NA East&lt;/td&gt;
+&lt;td&gt;80 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; NA Central&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA West &amp;lt;-&amp;gt; Singapore&lt;/td&gt;
+&lt;td&gt;180 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; Singapore&lt;/td&gt;
+&lt;td&gt;160 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Taken from &lt;a href="https://github.com/sirupsen/napkin-math"&gt;https://github.com/sirupsen/napkin-math&lt;/a&gt;.&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Whoa! That&amp;rsquo;s a lot. I don&amp;rsquo;t know about you, but I don&amp;rsquo;t really feel like memorizing this table. It&amp;rsquo;s a lot of values that don&amp;rsquo;t really
+mean much to me right now. We can get around this by learning the table incrementally &amp;ndash; we do a practice problem, looking up the numbers as we
+need them, and then we add them to our Anki deck. We review our Anki deck every day, and hopefully we have it in our heads the next time we see
+a similar problem.&lt;/p&gt;
+&lt;p&gt;My next step in my systems design journey is to in fact go through the problems accompanying sirupsen&amp;rsquo;s talk, where problem n can be found at
+&lt;code&gt;https://sirupsen.com/napkin/problem-{n}&lt;/code&gt;. I highly encourage you to watch it, and then go through these problems yourself. But that&amp;rsquo;s all I
+have to say about systems design for now.&lt;/p&gt;</description><content:encoded>&lt;p&gt;In this post, I will be explaining the technique of estimating performance from first principles. It&amp;rsquo;s based heavily on the following talk:
+&lt;a href="https://www.youtube.com/watch?v=IxkSlnrRFqc"&gt;https://www.youtube.com/watch?v=IxkSlnrRFqc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To recap, the purpose of napkin math is to provide a quick approximation to within an order of magnitude of the real answer, for the purposes
+of quickly testing the feasibility of the design of a system. Last time, we talked about Fermi estimation, which is (according to my definition)
+just napkin math where you&amp;rsquo;re primarily multiplying, and isn&amp;rsquo;t necessarily focus on computers.&lt;/p&gt;
+&lt;p&gt;But for our purposes, the goal has always been to eventually estimate the performance of computer systems. Take, for example, the following
+problem, also presented within the talk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a local client, written in Rust (take this to mean, no performance issues), talking to a Redis instance on the same machine.&lt;/li&gt;
+&lt;li&gt;The Rust client is repeatedly measuring the latency of the GET operation, transferring an 8 byte payload each time.&lt;/li&gt;
+&lt;li&gt;How long can we expect this to take?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I had memorized some base rates / did some googling, before arriving at my answer. If you don&amp;rsquo;t have the base rates off the top of your head,
+I encourage you to do the same. Here was my line of reasoning:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We may assume no performance issues with the client&lt;/li&gt;
+&lt;li&gt;8 bytes is a trivially small payload, meaning we can ignore the data throughput speed here, and focus solely on latency&lt;/li&gt;
+&lt;li&gt;Redis is an in-memory database&lt;/li&gt;
+&lt;li&gt;Memory access is on the order of 100 ns.&lt;/li&gt;
+&lt;li&gt;How does Redis communicate with the client? Is it a separate process?&lt;/li&gt;
+&lt;li&gt;(Googles)&lt;/li&gt;
+&lt;li&gt;Redis is a separate process. Therefore it must rely on ipc.&lt;/li&gt;
+&lt;li&gt;What is the latency of IPC?&lt;/li&gt;
+&lt;li&gt;(ChatGPTs)&lt;/li&gt;
+&lt;li&gt;Okay, unix domain sockets are 1-10 us, while tcp/udp loobpack is 10-100 us.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At this point, I waited for the speaker&amp;rsquo;s multiple choice options. My thought was that it would be dominated by the ipc latency, since
+reading from memory was on the order of 100 ns, and ipc is a higher order of magnitude here. Post-hoc, I could additionally justify this choice
+by noting that Redis&amp;rsquo;s GET operation is O(1). The options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10 ms&lt;/li&gt;
+&lt;li&gt;1 ms&lt;/li&gt;
+&lt;li&gt;100 us&lt;/li&gt;
+&lt;li&gt;10 us&lt;/li&gt;
+&lt;li&gt;1 us&lt;/li&gt;
+&lt;li&gt;&amp;lt; 1 us&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ended up picking 10us, because I wasn&amp;rsquo;t sure if it would use unix domain sockets or tcp/udp loopback as the transport. But the answer was
+25 us, so I basically picked the correct order of magnitude.&lt;/p&gt;
+&lt;p&gt;If we didn&amp;rsquo;t know the speed of memory access and IPC, it would have been much much more difficult to arrive at the correct answer. Therefore,
+it&amp;rsquo;s essential that we know as many of these reference points for computers that we can manage, so that we can solve these types of problems.
+It won&amp;rsquo;t get us the whole way though; we also needed some qualitative understanding of Redis and its implementation in order to arrive at the
+correct value. This is why it&amp;rsquo;s important to also read blog posts and understand the larger systems design ecosystem.&lt;/p&gt;
+&lt;p&gt;So let&amp;rsquo;s learn some reference points.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Operation&lt;/th&gt;
+&lt;th&gt;Latency&lt;/th&gt;
+&lt;th&gt;Throughput&lt;/th&gt;
+&lt;th&gt;1 MiB&lt;/th&gt;
+&lt;th&gt;1 GiB&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential Memory R/W (64 bytes)&lt;/td&gt;
+&lt;td&gt;0.5 ns&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Single Thread, No SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Single Thread, SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;20 GiB/s&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Threaded, No SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;30 GiB/s&lt;/td&gt;
+&lt;td&gt;35 μs&lt;/td&gt;
+&lt;td&gt;35 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Threaded, SIMD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;35 GiB/s&lt;/td&gt;
+&lt;td&gt;30 μs&lt;/td&gt;
+&lt;td&gt;30 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network Same-Zone&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Inside VPC&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10 GiB/s&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;├ Outside VPC&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;3 GiB/s&lt;/td&gt;
+&lt;td&gt;300 μs&lt;/td&gt;
+&lt;td&gt;300 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hashing, not crypto-safe (64 bytes)&lt;/td&gt;
+&lt;td&gt;25 ns&lt;/td&gt;
+&lt;td&gt;2 GiB/s&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;500 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random Memory R/W (64 bytes)&lt;/td&gt;
+&lt;td&gt;50 ns&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fast Serialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fast Deserialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;System Call&lt;/td&gt;
+&lt;td&gt;500 ns&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hashing, crypto-safe (64 bytes)&lt;/td&gt;
+&lt;td&gt;100 ns&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD read (8 KiB)&lt;/td&gt;
+&lt;td&gt;1 μs&lt;/td&gt;
+&lt;td&gt;4 GiB/s&lt;/td&gt;
+&lt;td&gt;200 μs&lt;/td&gt;
+&lt;td&gt;200 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Context Switch &lt;code&gt;[1] [2]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD write, -fsync (8KiB)&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TCP Echo Server (32 KiB)&lt;/td&gt;
+&lt;td&gt;10 μs&lt;/td&gt;
+&lt;td&gt;4 GiB/s&lt;/td&gt;
+&lt;td&gt;200 μs&lt;/td&gt;
+&lt;td&gt;200 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Decompression &lt;code&gt;[11]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;1 GiB/s&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;1s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Compression &lt;code&gt;[11]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;500 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential SSD write, +fsync (8KiB)&lt;/td&gt;
+&lt;td&gt;1 ms&lt;/td&gt;
+&lt;td&gt;10 MiB/s&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;td&gt;2 min&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sorting (64-bit integers)&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;200 MiB/s&lt;/td&gt;
+&lt;td&gt;5 ms&lt;/td&gt;
+&lt;td&gt;5s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sequential HDD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;250 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage GET, 1 conn&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;500 MiB/s&lt;/td&gt;
+&lt;td&gt;2 ms&lt;/td&gt;
+&lt;td&gt;2s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage GET, n conn (offsets)&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;NW limit&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage PUT, 1 conn&lt;/td&gt;
+&lt;td&gt;50 ms&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blob Storage PUT, n conn (multipart)&lt;/td&gt;
+&lt;td&gt;150 ms&lt;/td&gt;
+&lt;td&gt;NW limit&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random SSD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;100 μs&lt;/td&gt;
+&lt;td&gt;70 MiB/s&lt;/td&gt;
+&lt;td&gt;15 ms&lt;/td&gt;
+&lt;td&gt;15s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Serialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Deserialization &lt;code&gt;[8]&lt;/code&gt; &lt;code&gt;[9]&lt;/code&gt; †&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;100 MiB/s&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;10s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Proxy: Envoy/ProxySQL/Nginx/HAProxy&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network within same region&lt;/td&gt;
+&lt;td&gt;250 μs&lt;/td&gt;
+&lt;td&gt;2 GiB/s&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;500 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Premium network within zone/VPC&lt;/td&gt;
+&lt;td&gt;250 μs&lt;/td&gt;
+&lt;td&gt;25 GiB/s&lt;/td&gt;
+&lt;td&gt;50 μs&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;{MySQL, Memcached, Redis, ..} Query&lt;/td&gt;
+&lt;td&gt;500 μs&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Random HDD Read (8 KiB)&lt;/td&gt;
+&lt;td&gt;10 ms&lt;/td&gt;
+&lt;td&gt;0.7 MiB/s&lt;/td&gt;
+&lt;td&gt;2 s&lt;/td&gt;
+&lt;td&gt;30m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network between regions &lt;code&gt;[6]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;[Varies][i]&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA Central &amp;lt;-&amp;gt; East&lt;/td&gt;
+&lt;td&gt;25 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA Central &amp;lt;-&amp;gt; West&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA East &amp;lt;-&amp;gt; West&lt;/td&gt;
+&lt;td&gt;60 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; NA East&lt;/td&gt;
+&lt;td&gt;80 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; NA Central&lt;/td&gt;
+&lt;td&gt;100 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network NA West &amp;lt;-&amp;gt; Singapore&lt;/td&gt;
+&lt;td&gt;180 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Network EU West &amp;lt;-&amp;gt; Singapore&lt;/td&gt;
+&lt;td&gt;160 ms&lt;/td&gt;
+&lt;td&gt;25 MiB/s&lt;/td&gt;
+&lt;td&gt;40 ms&lt;/td&gt;
+&lt;td&gt;40s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Taken from &lt;a href="https://github.com/sirupsen/napkin-math"&gt;https://github.com/sirupsen/napkin-math&lt;/a&gt;.&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Whoa! That&amp;rsquo;s a lot. I don&amp;rsquo;t know about you, but I don&amp;rsquo;t really feel like memorizing this table. It&amp;rsquo;s a lot of values that don&amp;rsquo;t really
+mean much to me right now. We can get around this by learning the table incrementally &amp;ndash; we do a practice problem, looking up the numbers as we
+need them, and then we add them to our Anki deck. We review our Anki deck every day, and hopefully we have it in our heads the next time we see
+a similar problem.&lt;/p&gt;
+&lt;p&gt;My next step in my systems design journey is to in fact go through the problems accompanying sirupsen&amp;rsquo;s talk, where problem n can be found at
+&lt;code&gt;https://sirupsen.com/napkin/problem-{n}&lt;/code&gt;. I highly encourage you to watch it, and then go through these problems yourself. But that&amp;rsquo;s all I
+have to say about systems design for now.&lt;/p&gt;</content:encoded></item><item><title>Napkin Math 1: Fermi Estimation</title><link>https://zoravur.com/systems-design-1/</link><pubDate>Mon, 13 Jan 2025 19:40:15 -0500</pubDate><guid>https://zoravur.com/systems-design-1/</guid><description>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;
+&lt;p&gt;One common technique used in napkin math is Fermi estimation, which I&amp;rsquo;ll demonstrate below. Given the breadth of this topic, I&amp;rsquo;ll be breaking this discussion into digestible parts, with this serving as the first in what I hope will be a series of posts on systems design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 1: How many text messages are sent in the United States in a single day?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Think about how you would go about solving a question like this. Most people don&amp;rsquo;t think about this number a lot, so it&amp;rsquo;s hard to build an
+intuition for it. However, if you&amp;rsquo;re tempted to estimate it using some known reference points, it suddenly isn&amp;rsquo;t so difficult, at least to get
+an approximate answer. You might think about how many texts you send in a day, and how many people there are in the United States. You might do
+a little better by estimating the average number of texts instead of using your own, because you might have some idea whether or not you text
+more or fewer people than average. A good estimate for this might be between 20-40 texts a day. Multiplying this by the current population of
+the United States, you get around 340 million * 30 = 10.2 billion texts per day.&lt;/p&gt;
+&lt;p&gt;We can get a precise estimate by taking the number of yearly texts in 2021 (2 trillion), and divide it by the number of days in a year (365). This
+yields about 6 billion texts a year, in 2021. So, our answer is not terribly precise, but not bad for an answer that took thirty seconds and is
+within a factor of 2.&lt;/p&gt;
+&lt;p&gt;A problem where this technique, of multiplying known or estimated reference points, is known as a Fermi problem. Let&amp;rsquo;s look at a slightly more
+complicated example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 2: How many pizzas are eaten in New York City on a typical Friday night?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was the first problem that I attempted with Claude. I found practicing with an LLM made this process much easier and more intuitive than
+it was in the beginning. Here&amp;rsquo;s my original attempt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;There are around 10 million people in NYC.&lt;/li&gt;
+&lt;li&gt;I probably order pizza around once every 2-3 months. But I also don&amp;rsquo;t get out much. So maybe the average person eats pizza once a month,
+and when they do, they eat maybe 3 slices (on average).&lt;/li&gt;
+&lt;li&gt;So maybe the average person a whole pizza every 4 months&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 3 pizzas per year.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 30 million pizzas a year.&lt;/li&gt;
+&lt;li&gt;Pizza is a party food, so let&amp;rsquo;s say that roughly a third of all pizzas are eaten on a friday night.&lt;/li&gt;
+&lt;li&gt;So that drops it back down to 10 million on fridays. Divided by the number of fridays (52 ~= 50), we get around 200000 pizzas on a Friday
+night.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This seems high to me&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oftentimes, it helps to validate the same problem using multiple techniques. Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help analyze your reasoning and suggest another approach:&lt;/p&gt;
+&lt;p&gt;Your method is logical, but you&amp;rsquo;re right to be skeptical of the final number. Let&amp;rsquo;s try another way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;NYC Population: ~10 million&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On a Friday night, what percentage of people eat pizza?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a popular Friday dinner option&lt;/li&gt;
+&lt;li&gt;But competes with other takeout, restaurants, home cooking&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say 10% of people eat pizza on a given Friday&lt;/li&gt;
+&lt;li&gt;So that&amp;rsquo;s 1 million people eating pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Average pizza serves 2-3 people on Friday night&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some eat alone (whole pizza)&lt;/li&gt;
+&lt;li&gt;Some families/groups share (1/3 or 1/4 pizza per person)&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say average is 2.5 people per pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculation:
+1 million people ÷ 2.5 people per pizza = 400,000 pizzas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Interestingly, we got to a similar order of magnitude through a different method! This suggests we might be closer than you think. Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NYC has thousands of pizza places&lt;/li&gt;
+&lt;li&gt;Many are extremely busy on Friday nights&lt;/li&gt;
+&lt;li&gt;A busy pizzeria might make 100-200 pizzas on a Friday&lt;/li&gt;
+&lt;li&gt;With several thousand pizzerias, these numbers become plausible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Would you like to try estimating this a third way to further validate our thinking?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude makes a calculation error here &amp;ndash; it assumes that it takes between 3 and 4 people to finish a pizza, and then assumes an average of
+2.5 people per pizza, which is incorrect. Interestingly, if we plug in 3.5, we get something closer to our original 200 000 number. In this way,
+we can begin verifying our estimate by arriving at a similar result using different assumptions.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s move on to a different example, before I start getting hungry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 3: How many people are on airplanes over the United States right now?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My answer follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The US doesn&amp;rsquo;t really seem like a flyover country, just given the geography, except for the case when you&amp;rsquo;re traveling from countries below canada up to canada or vice versa. Let&amp;rsquo;s discount this, and focus on flights into and out of the US.&lt;/p&gt;
+&lt;p&gt;The average US citizen flies about once every 6 months, I&amp;rsquo;d say, with frequent flyers dominating. So let&amp;rsquo;s say that 2/365 * 330 million = 500000 people are in planes over the united states.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to gut check this.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d estimate the carrying capacity of a plane taking the number of rows (around 40) and multiply it by the number of seats in a row (let&amp;rsquo;s say 6 on average). Then, we get around 240 passengers per plane. Dividing 500000 by this figure yields 2000 planes over the US, which seems reasonable?&lt;/p&gt;
+&lt;p&gt;There are probably at least 100 airports, and an average of 20 planes at an airport at any time doesn&amp;rsquo;t seem that bad. So maybe our original answer isn&amp;rsquo;t too bad. I&amp;rsquo;m locking in 500k.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help verify this with another approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Major airlines in the US typically operate around 15,000-20,000 flights per day&lt;/li&gt;
+&lt;li&gt;Average flight duration is about 2 hours&lt;/li&gt;
+&lt;li&gt;There are roughly 24 hours in a day&lt;/li&gt;
+&lt;li&gt;So at any given moment: (15,000 flights × 2 hours) ÷ 24 hours = about 1,250 flights in the air&lt;/li&gt;
+&lt;li&gt;With your estimate of 240 passengers per plane: 1,250 × 240 = 300,000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our two estimates (500,000 vs 300,000) are remarkably close - within the same order of magnitude and differing by less than a factor of 2! This suggests we&amp;rsquo;re probably in the right ballpark.&lt;/p&gt;
+&lt;p&gt;Your gut check using airports was clever too. The fact that three different ways of thinking about it (passenger-based, flight-based, and airport-based) all lead to similar numbers gives us confidence in the estimate.&lt;/p&gt;
+&lt;p&gt;Would you like to try another problem? This time I can give you one with even fewer moving parts to minimize compounding errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once again, within a factor of 2! We&amp;rsquo;re getting pretty lucky, but that&amp;rsquo;s also because I didn&amp;rsquo;t include the one I got wrong. Here&amp;rsquo;s one I skipped
+over from earlier. I encourage you to try this one yourself, for a challenge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How many books are in all US public libraries combined?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 330 million people in the US.
+Let&amp;rsquo;s say 5% of them visit libraries regularly.
+When I go to a library, I&amp;rsquo;d say there&amp;rsquo;s usually around an average of 50 people there. There&amp;rsquo;s more at some times (during summer, during exam week, in student libraries), and less in others, but let&amp;rsquo;s say 50 is a good average.
+Let&amp;rsquo;s say the average person visits a library for about 2 hours when they do go. There are shorter visits, but also many students who grind out a lot of work.
+Let&amp;rsquo;s say the library is open for 8 hours a day on average.
+Then let&amp;rsquo;s say the average daily visitors to a library is about 50 * 8 / 2 = 200.
+So, there must be 0.05 * 330 = 15.5 million library users.
+I&amp;rsquo;d say the average person that does visit a library does so about once a month. So we can divide this figure by 30 to get ~500,000 daily library visitors, throughout the entire US.
+500000 / 200 yields about 25000 libraries in the entire US.
+This seems high to me. But compared to the number of pizzerias in new york (6680), it doesn&amp;rsquo;t seem like that high a number.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The average library, is probably 2 floors on average, with big, public libraries and university libraries being much much larger. This counteracts the smaller libraries.
+Let&amp;rsquo;s say that the average floor of a library is about four times the area of the house that I&amp;rsquo;m currently in, which kind of makes sense given I have a pretty good feel for the size of this place. I know that the square footage of this is 3600, so multiplying that by 4, I get 13400 sq ft.
+13400 sq ft * 2 =~ 25000 sq ft. A bookshelf takes up about 10 sq ft, and would contain, by my estimation, about 400 books.
+We can get more precise here. Let&amp;rsquo;s say that the average library bookshelf is double sided, has 8 shelves, and is about 8 feet long, and about 2 feet wide. this yields an area of about 16 sq ft.
+This yields a total shelf space of 8 * 8 = 64 feet, which is 64 12 ~= 664 inches. *
+The average book is, I&amp;rsquo;d say, 1.2 inches thick, including the cover. This is just from lived experience.
+So 664 / 1.2 ~= 110 books per book shelf. Double sided, that&amp;rsquo;s 220. So fewer than I originally thought.
+25000 sq ft&amp;hellip; The lower floor is usually more open, with upper floors having more books. You need to accommodate for reading areas. Let&amp;rsquo;s say that 20% of floor space is used by actual bookshelves. This also makes the math easier (5000 sq ft of just bookshelves).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5000 / 16 ~= 512 / 16 * 10 = 320 bookshelves 110 books per shelf * * 25000 libraries *= 35200 * 25000 = 35 25 * 10 ^ 5 = 87,500,000 books.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude suggests that it should be closer to 1 billion. I&amp;rsquo;d be interested in hearing what you think. If you&amp;rsquo;d like to discuss it, I&amp;rsquo;ve enable
+discussions on the blog repo at &lt;a href="https://github.com/zoravur/zoravur.github.io/discussions"&gt;https://github.com/zoravur/zoravur.github.io/discussions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Like Mr. Miyagi and Daniel-san, Fermi estimation is the fence-painting you need to practice in order to become better at napkin math, and
+eventually systems design. Part 2 will apply the technique of fermi estimation to computer related problems.&lt;/p&gt;</description><content:encoded>&lt;p&gt;Napkin math - also known as back-of-the-envelope calculation - is a powerful technique for quickly estimating answers to complex problems using simplifying assumptions and rules of thumb. This approach is particularly valuable in systems design, where quick approximations often need to be made about performance, capacity, and resource requirements. In programming specifically, these calculations help establish upper and lower bounds, typically aiming to be within an order of magnitude of the actual answer.&lt;/p&gt;
+&lt;p&gt;One common technique used in napkin math is Fermi estimation, which I&amp;rsquo;ll demonstrate below. Given the breadth of this topic, I&amp;rsquo;ll be breaking this discussion into digestible parts, with this serving as the first in what I hope will be a series of posts on systems design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 1: How many text messages are sent in the United States in a single day?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Think about how you would go about solving a question like this. Most people don&amp;rsquo;t think about this number a lot, so it&amp;rsquo;s hard to build an
+intuition for it. However, if you&amp;rsquo;re tempted to estimate it using some known reference points, it suddenly isn&amp;rsquo;t so difficult, at least to get
+an approximate answer. You might think about how many texts you send in a day, and how many people there are in the United States. You might do
+a little better by estimating the average number of texts instead of using your own, because you might have some idea whether or not you text
+more or fewer people than average. A good estimate for this might be between 20-40 texts a day. Multiplying this by the current population of
+the United States, you get around 340 million * 30 = 10.2 billion texts per day.&lt;/p&gt;
+&lt;p&gt;We can get a precise estimate by taking the number of yearly texts in 2021 (2 trillion), and divide it by the number of days in a year (365). This
+yields about 6 billion texts a year, in 2021. So, our answer is not terribly precise, but not bad for an answer that took thirty seconds and is
+within a factor of 2.&lt;/p&gt;
+&lt;p&gt;A problem where this technique, of multiplying known or estimated reference points, is known as a Fermi problem. Let&amp;rsquo;s look at a slightly more
+complicated example.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 2: How many pizzas are eaten in New York City on a typical Friday night?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was the first problem that I attempted with Claude. I found practicing with an LLM made this process much easier and more intuitive than
+it was in the beginning. Here&amp;rsquo;s my original attempt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;There are around 10 million people in NYC.&lt;/li&gt;
+&lt;li&gt;I probably order pizza around once every 2-3 months. But I also don&amp;rsquo;t get out much. So maybe the average person eats pizza once a month,
+and when they do, they eat maybe 3 slices (on average).&lt;/li&gt;
+&lt;li&gt;So maybe the average person a whole pizza every 4 months&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 3 pizzas per year.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s 30 million pizzas a year.&lt;/li&gt;
+&lt;li&gt;Pizza is a party food, so let&amp;rsquo;s say that roughly a third of all pizzas are eaten on a friday night.&lt;/li&gt;
+&lt;li&gt;So that drops it back down to 10 million on fridays. Divided by the number of fridays (52 ~= 50), we get around 200000 pizzas on a Friday
+night.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This seems high to me&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oftentimes, it helps to validate the same problem using multiple techniques. Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help analyze your reasoning and suggest another approach:&lt;/p&gt;
+&lt;p&gt;Your method is logical, but you&amp;rsquo;re right to be skeptical of the final number. Let&amp;rsquo;s try another way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;NYC Population: ~10 million&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;On a Friday night, what percentage of people eat pizza?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s a popular Friday dinner option&lt;/li&gt;
+&lt;li&gt;But competes with other takeout, restaurants, home cooking&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say 10% of people eat pizza on a given Friday&lt;/li&gt;
+&lt;li&gt;So that&amp;rsquo;s 1 million people eating pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Average pizza serves 2-3 people on Friday night&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some eat alone (whole pizza)&lt;/li&gt;
+&lt;li&gt;Some families/groups share (1/3 or 1/4 pizza per person)&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s say average is 2.5 people per pizza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Calculation:
+1 million people ÷ 2.5 people per pizza = 400,000 pizzas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Interestingly, we got to a similar order of magnitude through a different method! This suggests we might be closer than you think. Consider:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NYC has thousands of pizza places&lt;/li&gt;
+&lt;li&gt;Many are extremely busy on Friday nights&lt;/li&gt;
+&lt;li&gt;A busy pizzeria might make 100-200 pizzas on a Friday&lt;/li&gt;
+&lt;li&gt;With several thousand pizzerias, these numbers become plausible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Would you like to try estimating this a third way to further validate our thinking?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude makes a calculation error here &amp;ndash; it assumes that it takes between 3 and 4 people to finish a pizza, and then assumes an average of
+2.5 people per pizza, which is incorrect. Interestingly, if we plug in 3.5, we get something closer to our original 200 000 number. In this way,
+we can begin verifying our estimate by arriving at a similar result using different assumptions.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s move on to a different example, before I start getting hungry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question 3: How many people are on airplanes over the United States right now?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My answer follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The US doesn&amp;rsquo;t really seem like a flyover country, just given the geography, except for the case when you&amp;rsquo;re traveling from countries below canada up to canada or vice versa. Let&amp;rsquo;s discount this, and focus on flights into and out of the US.&lt;/p&gt;
+&lt;p&gt;The average US citizen flies about once every 6 months, I&amp;rsquo;d say, with frequent flyers dominating. So let&amp;rsquo;s say that 2/365 * 330 million = 500000 people are in planes over the united states.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try to gut check this.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d estimate the carrying capacity of a plane taking the number of rows (around 40) and multiply it by the number of seats in a row (let&amp;rsquo;s say 6 on average). Then, we get around 240 passengers per plane. Dividing 500000 by this figure yields 2000 planes over the US, which seems reasonable?&lt;/p&gt;
+&lt;p&gt;There are probably at least 100 airports, and an average of 20 planes at an airport at any time doesn&amp;rsquo;t seem that bad. So maybe our original answer isn&amp;rsquo;t too bad. I&amp;rsquo;m locking in 500k.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude&amp;rsquo;s response:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let me help verify this with another approach:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Major airlines in the US typically operate around 15,000-20,000 flights per day&lt;/li&gt;
+&lt;li&gt;Average flight duration is about 2 hours&lt;/li&gt;
+&lt;li&gt;There are roughly 24 hours in a day&lt;/li&gt;
+&lt;li&gt;So at any given moment: (15,000 flights × 2 hours) ÷ 24 hours = about 1,250 flights in the air&lt;/li&gt;
+&lt;li&gt;With your estimate of 240 passengers per plane: 1,250 × 240 = 300,000 people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Our two estimates (500,000 vs 300,000) are remarkably close - within the same order of magnitude and differing by less than a factor of 2! This suggests we&amp;rsquo;re probably in the right ballpark.&lt;/p&gt;
+&lt;p&gt;Your gut check using airports was clever too. The fact that three different ways of thinking about it (passenger-based, flight-based, and airport-based) all lead to similar numbers gives us confidence in the estimate.&lt;/p&gt;
+&lt;p&gt;Would you like to try another problem? This time I can give you one with even fewer moving parts to minimize compounding errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once again, within a factor of 2! We&amp;rsquo;re getting pretty lucky, but that&amp;rsquo;s also because I didn&amp;rsquo;t include the one I got wrong. Here&amp;rsquo;s one I skipped
+over from earlier. I encourage you to try this one yourself, for a challenge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How many books are in all US public libraries combined?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are 330 million people in the US.
+Let&amp;rsquo;s say 5% of them visit libraries regularly.
+When I go to a library, I&amp;rsquo;d say there&amp;rsquo;s usually around an average of 50 people there. There&amp;rsquo;s more at some times (during summer, during exam week, in student libraries), and less in others, but let&amp;rsquo;s say 50 is a good average.
+Let&amp;rsquo;s say the average person visits a library for about 2 hours when they do go. There are shorter visits, but also many students who grind out a lot of work.
+Let&amp;rsquo;s say the library is open for 8 hours a day on average.
+Then let&amp;rsquo;s say the average daily visitors to a library is about 50 * 8 / 2 = 200.
+So, there must be 0.05 * 330 = 15.5 million library users.
+I&amp;rsquo;d say the average person that does visit a library does so about once a month. So we can divide this figure by 30 to get ~500,000 daily library visitors, throughout the entire US.
+500000 / 200 yields about 25000 libraries in the entire US.
+This seems high to me. But compared to the number of pizzerias in new york (6680), it doesn&amp;rsquo;t seem like that high a number.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The average library, is probably 2 floors on average, with big, public libraries and university libraries being much much larger. This counteracts the smaller libraries.
+Let&amp;rsquo;s say that the average floor of a library is about four times the area of the house that I&amp;rsquo;m currently in, which kind of makes sense given I have a pretty good feel for the size of this place. I know that the square footage of this is 3600, so multiplying that by 4, I get 13400 sq ft.
+13400 sq ft * 2 =~ 25000 sq ft. A bookshelf takes up about 10 sq ft, and would contain, by my estimation, about 400 books.
+We can get more precise here. Let&amp;rsquo;s say that the average library bookshelf is double sided, has 8 shelves, and is about 8 feet long, and about 2 feet wide. this yields an area of about 16 sq ft.
+This yields a total shelf space of 8 * 8 = 64 feet, which is 64 12 ~= 664 inches. *
+The average book is, I&amp;rsquo;d say, 1.2 inches thick, including the cover. This is just from lived experience.
+So 664 / 1.2 ~= 110 books per book shelf. Double sided, that&amp;rsquo;s 220. So fewer than I originally thought.
+25000 sq ft&amp;hellip; The lower floor is usually more open, with upper floors having more books. You need to accommodate for reading areas. Let&amp;rsquo;s say that 20% of floor space is used by actual bookshelves. This also makes the math easier (5000 sq ft of just bookshelves).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;5000 / 16 ~= 512 / 16 * 10 = 320 bookshelves 110 books per shelf * * 25000 libraries *= 35200 * 25000 = 35 25 * 10 ^ 5 = 87,500,000 books.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Claude suggests that it should be closer to 1 billion. I&amp;rsquo;d be interested in hearing what you think. If you&amp;rsquo;d like to discuss it, I&amp;rsquo;ve enable
+discussions on the blog repo at &lt;a href="https://github.com/zoravur/zoravur.github.io/discussions"&gt;https://github.com/zoravur/zoravur.github.io/discussions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Like Mr. Miyagi and Daniel-san, Fermi estimation is the fence-painting you need to practice in order to become better at napkin math, and
+eventually systems design. Part 2 will apply the technique of fermi estimation to computer related problems.&lt;/p&gt;</content:encoded></item><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
 started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
 and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
-a week.&lt;/p&gt;</description></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+a week.&lt;/p&gt;
+&lt;p&gt;Also in the month of December 2024, I started learning Rust, a programming language which I hadn&amp;rsquo;t touched since 2018, when I read
+a book on the syntax that I&amp;rsquo;d now forgotten nearly completely. The first few days were painful, even trying to do simple problems, with
+the assistance of LLMs for the syntax. But after about 7-10 days once again, I was able to set up the initial scaffolding for the project
+much much faster than I could at the start of the week. I found myself recalling syntax and patterns that I&amp;rsquo;d used 3 or 4 days ago &amp;ndash; I was
+thinking something like &amp;ldquo;wow, I just used this language feature in day [n-3], how did it go again?&amp;rdquo; and then I would reinforce that
+neural pathway by re-implementing that same pattern.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s call this pattern of working on something a little bit every day, type B productivity.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t believe that working consistently on a project every single day is the key to productivity. I actually think that in terms of
+absolute productivity, working on something a little bit at a time every single day is more of a morale booster than a productivity
+booster. Working on something for, say, 15 minutes a day necessarily means that you&amp;rsquo;re switching contexts more. Plus, there&amp;rsquo;s the added
+fact that working on a project is essentially a time-sink / cost, and you don&amp;rsquo;t yield the benefit from a project until it is actually
+completed. Real productivity comes when you&amp;rsquo;re neck deep in something, with all of the context loaded into your brain, and you can make
+changes lightning fast because you know where everything is. That&amp;rsquo;s just not possible with 15 minutes a day.&lt;/p&gt;
+&lt;p&gt;This latter pattern, of getting neck deep into something and really pushing on it, and allowing it to take over your life &amp;ndash; let&amp;rsquo;s call that
+type A productivity. It&amp;rsquo;s what you use when you&amp;rsquo;re first building out a project, and it&amp;rsquo;s how I&amp;rsquo;ve worked on so many of my side projects
+this past year, from ssdb (link), to canvas-datatable, to spock-lang (link), to novadyne (link). The best example of type B productivity
+is probably the initial prototype I built out for the order processing software for the company I work at. I was
+able to get that into production in about 3 months as a solo dev, when previously I had never deployed anything on my own.&lt;/p&gt;
+&lt;p&gt;If you can get out of the trap of running after the new shiny thing for a couple weeks, and really commit to something, then type BA
+productivity is really how you get shit done.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s compare and contrast type A and B productivity[1].&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://zoravur.com/ebbinghaus.png" alt="The Ebbinghaus &amp;ldquo;Forgetting&amp;rdquo; Curve" title="Ebbinghaus Curve"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Forgetting Curve. The amount of information we remember after initial exposure to it follows a pattern for exponential decay; however,
+this can be staved off by reviewing the information at intervals spaced exponentially further apart. Every time the information is
+reinforced, the rate at which it is forgotten decreases. The time between reinforcement is critical to long term retention of a concept.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Firstly, on a time crunch, it&amp;rsquo;s obvious that type A prevails. You simply can&amp;rsquo;t go anywhere fast on 15 minutes a day. Conversely anyone who&amp;rsquo;s
+crammed for a college assignment (which is pretty much everyone who&amp;rsquo;s been to college) knows what monumental feats can be achieved if you
+have a large project due in a few days. So, type A has the advantage of being better under the constraint of a deadline. Furthermore,
+with the added penalty of context switching, you&amp;rsquo;re not really getting anything done at all until you violate your time constraint because
+you actually want to get something done.[2]&lt;/p&gt;
+&lt;p&gt;In what situations do you want type B productivity? Well, the most obvious case is one where you get paid for the number of hours you work.
+In this case, you&amp;rsquo;re bound to have time left over, because 8 hours doesn&amp;rsquo;t take up your whole day &amp;ndash; you may, however, after factoring in
+your daily routine, have only about an hour or less of actual free time per day. Obviously, in this scenario, it makes sense to use that time
+on whichever project you deem most important. What if you don&amp;rsquo;t get paid hourly, and instead need to optimize for actual output such as
+the number of features delivered?&lt;/p&gt;
+&lt;p&gt;In this case, it isn&amp;rsquo;t so clear that type B productivity makes sense. Like I mentioned previously, the more projects you work on
+simultaneously, the longer it takes for you to reap the benefit of any one of them, since they hold no value while incomplete. The primary
+use case for it, in my opinion, is when the primary goal is &lt;strong&gt;learning or maintaining skill&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re learning a new skill, especially a complex one, it&amp;rsquo;s essential to reinforce that skill over time, instead of trying to cram
+learning it into a short window. This is how I was able to be so time efficient in learning the piano and Rust. By reinforcing the activity
+every single day, and allowing my brain to work in the background in between the different tasks, I was able to be much more time efficient,
+and much better at the end of a week than I would have been had I simply did all the practice on a single day. Essentially, you&amp;rsquo;re getting
+spacing for free.&lt;/p&gt;
+&lt;p&gt;The synergy goes further than just that, though. Unless you&amp;rsquo;re a student, you don&amp;rsquo;t really have time to just learn all day, but spending 15
+minutes a day on something is well within most people&amp;rsquo;s schedule. Add to that the fact that it&amp;rsquo;s pretty convenient to work on something for
+15 minutes without getting distracted or interrupted, and it&amp;rsquo;s clear to see why strategy makes a lot of sense, at least for learning new
+skills.&lt;/p&gt;
+&lt;p&gt;[1] I recognize that I&amp;rsquo;m overloading the word productivity here, as it&amp;rsquo;s almost paradoxical to say, as I do later in the essay, that type B
+productivity isn&amp;rsquo;t actually that productive. I thought about using a less specific word, such as &amp;ldquo;work&amp;rdquo;, but I want to avoid association
+&amp;ldquo;work&amp;rdquo;&amp;rsquo;s association with employment, and all the rituals surrounding it that aren&amp;rsquo;t necessarily core to getting the job done. Productivity,
+on the other hand, has to do with completing the task that achieves the desired result, the thing that directly impacts the bottom line.&lt;/p&gt;
+&lt;p&gt;[2] I don&amp;rsquo;t know if I should be saying this with as much conviction as I am. I&amp;rsquo;m certainly not an expert in type B productivity. Maybe it&amp;rsquo;s
+the case that after numerous days of genuinely trying to get productive work done in 15 minutes, it starts working, just as a married person
+with children is more efficient with their time than someone who is unattached, just out of necessity.&lt;/p&gt;</description><content:encoded>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
+and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
+a week.&lt;/p&gt;
+&lt;p&gt;Also in the month of December 2024, I started learning Rust, a programming language which I hadn&amp;rsquo;t touched since 2018, when I read
+a book on the syntax that I&amp;rsquo;d now forgotten nearly completely. The first few days were painful, even trying to do simple problems, with
+the assistance of LLMs for the syntax. But after about 7-10 days once again, I was able to set up the initial scaffolding for the project
+much much faster than I could at the start of the week. I found myself recalling syntax and patterns that I&amp;rsquo;d used 3 or 4 days ago &amp;ndash; I was
+thinking something like &amp;ldquo;wow, I just used this language feature in day [n-3], how did it go again?&amp;rdquo; and then I would reinforce that
+neural pathway by re-implementing that same pattern.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s call this pattern of working on something a little bit every day, type B productivity.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t believe that working consistently on a project every single day is the key to productivity. I actually think that in terms of
+absolute productivity, working on something a little bit at a time every single day is more of a morale booster than a productivity
+booster. Working on something for, say, 15 minutes a day necessarily means that you&amp;rsquo;re switching contexts more. Plus, there&amp;rsquo;s the added
+fact that working on a project is essentially a time-sink / cost, and you don&amp;rsquo;t yield the benefit from a project until it is actually
+completed. Real productivity comes when you&amp;rsquo;re neck deep in something, with all of the context loaded into your brain, and you can make
+changes lightning fast because you know where everything is. That&amp;rsquo;s just not possible with 15 minutes a day.&lt;/p&gt;
+&lt;p&gt;This latter pattern, of getting neck deep into something and really pushing on it, and allowing it to take over your life &amp;ndash; let&amp;rsquo;s call that
+type A productivity. It&amp;rsquo;s what you use when you&amp;rsquo;re first building out a project, and it&amp;rsquo;s how I&amp;rsquo;ve worked on so many of my side projects
+this past year, from ssdb (link), to canvas-datatable, to spock-lang (link), to novadyne (link). The best example of type B productivity
+is probably the initial prototype I built out for the order processing software for the company I work at. I was
+able to get that into production in about 3 months as a solo dev, when previously I had never deployed anything on my own.&lt;/p&gt;
+&lt;p&gt;If you can get out of the trap of running after the new shiny thing for a couple weeks, and really commit to something, then type BA
+productivity is really how you get shit done.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s compare and contrast type A and B productivity[1].&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://zoravur.com/ebbinghaus.png" alt="The Ebbinghaus &amp;ldquo;Forgetting&amp;rdquo; Curve" title="Ebbinghaus Curve"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Forgetting Curve. The amount of information we remember after initial exposure to it follows a pattern for exponential decay; however,
+this can be staved off by reviewing the information at intervals spaced exponentially further apart. Every time the information is
+reinforced, the rate at which it is forgotten decreases. The time between reinforcement is critical to long term retention of a concept.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Firstly, on a time crunch, it&amp;rsquo;s obvious that type A prevails. You simply can&amp;rsquo;t go anywhere fast on 15 minutes a day. Conversely anyone who&amp;rsquo;s
+crammed for a college assignment (which is pretty much everyone who&amp;rsquo;s been to college) knows what monumental feats can be achieved if you
+have a large project due in a few days. So, type A has the advantage of being better under the constraint of a deadline. Furthermore,
+with the added penalty of context switching, you&amp;rsquo;re not really getting anything done at all until you violate your time constraint because
+you actually want to get something done.[2]&lt;/p&gt;
+&lt;p&gt;In what situations do you want type B productivity? Well, the most obvious case is one where you get paid for the number of hours you work.
+In this case, you&amp;rsquo;re bound to have time left over, because 8 hours doesn&amp;rsquo;t take up your whole day &amp;ndash; you may, however, after factoring in
+your daily routine, have only about an hour or less of actual free time per day. Obviously, in this scenario, it makes sense to use that time
+on whichever project you deem most important. What if you don&amp;rsquo;t get paid hourly, and instead need to optimize for actual output such as
+the number of features delivered?&lt;/p&gt;
+&lt;p&gt;In this case, it isn&amp;rsquo;t so clear that type B productivity makes sense. Like I mentioned previously, the more projects you work on
+simultaneously, the longer it takes for you to reap the benefit of any one of them, since they hold no value while incomplete. The primary
+use case for it, in my opinion, is when the primary goal is &lt;strong&gt;learning or maintaining skill&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re learning a new skill, especially a complex one, it&amp;rsquo;s essential to reinforce that skill over time, instead of trying to cram
+learning it into a short window. This is how I was able to be so time efficient in learning the piano and Rust. By reinforcing the activity
+every single day, and allowing my brain to work in the background in between the different tasks, I was able to be much more time efficient,
+and much better at the end of a week than I would have been had I simply did all the practice on a single day. Essentially, you&amp;rsquo;re getting
+spacing for free.&lt;/p&gt;
+&lt;p&gt;The synergy goes further than just that, though. Unless you&amp;rsquo;re a student, you don&amp;rsquo;t really have time to just learn all day, but spending 15
+minutes a day on something is well within most people&amp;rsquo;s schedule. Add to that the fact that it&amp;rsquo;s pretty convenient to work on something for
+15 minutes without getting distracted or interrupted, and it&amp;rsquo;s clear to see why strategy makes a lot of sense, at least for learning new
+skills.&lt;/p&gt;
+&lt;p&gt;[1] I recognize that I&amp;rsquo;m overloading the word productivity here, as it&amp;rsquo;s almost paradoxical to say, as I do later in the essay, that type B
+productivity isn&amp;rsquo;t actually that productive. I thought about using a less specific word, such as &amp;ldquo;work&amp;rdquo;, but I want to avoid association
+&amp;ldquo;work&amp;rdquo;&amp;rsquo;s association with employment, and all the rituals surrounding it that aren&amp;rsquo;t necessarily core to getting the job done. Productivity,
+on the other hand, has to do with completing the task that achieves the desired result, the thing that directly impacts the bottom line.&lt;/p&gt;
+&lt;p&gt;[2] I don&amp;rsquo;t know if I should be saying this with as much conviction as I am. I&amp;rsquo;m certainly not an expert in type B productivity. Maybe it&amp;rsquo;s
+the case that after numerous days of genuinely trying to get productive work done in 15 minutes, it starts working, just as a married person
+with children is more efficient with their time than someone who is unattached, just out of necessity.&lt;/p&gt;</content:encoded></item><item><title>New Year's Resolutions 2025</title><link>https://zoravur.com/new-years-resolutions/</link><pubDate>Wed, 01 Jan 2025 17:06:06 -0500</pubDate><guid>https://zoravur.com/new-years-resolutions/</guid><description>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
 what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
 post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
 &lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
-more generally.&lt;/p&gt;</description></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</description><content:encoded>&lt;p&gt;I feel the urge to Paul Graham this one &amp;ndash; really break down New Year&amp;rsquo;s Resolutions, talk about why they work, why they don&amp;rsquo;t work,
+what constitutes a good New Year&amp;rsquo;s resolution, and the like. But then I stand the risk of becoming a little too meta. The goal of this
+post is not to write about New Year&amp;rsquo;s resolutions, but rather to make the resolutions themselves.&lt;/p&gt;
+&lt;p&gt;It seems best if I start, though, by talking about what constitutes a good New Year&amp;rsquo;s resolution, and what constitutes a good habit,
+more generally.&lt;/p&gt;
+&lt;p&gt;The parable of the rocks, pebbles, sand and water makes sense here, and is well known, but I will re-tell it here for self-containment
+and because I like my version better.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say that you&amp;rsquo;re at a beach, and you want to take home a souvenir. To store your souvenir, you have a single jar. How would you
+fill up your jar? Maybe you&amp;rsquo;d put in some smooth rocks, volcanic rocks, a seashell, some sand, etc. If you wanted to maximize
+the value of your jar, you&amp;rsquo;d probably want to fill it as much as you can, while taking a variety of different items. If you put the pebbles
+in first, then all the rocks and seashells would sit on top, leaving no room for them. Similarly, if you put sand, then when you put
+the pebbles in, there would be empty space between them. Conversely, if you put the big items in first &amp;ndash; seashells, rocks &amp;ndash; and then the
+smaller items, the small stuff would settle in between the big stuff, allowing you to maximize the variety and amount of things in your
+jar.&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s say that the jar is 2025, and the beach consists of the possibilities for the year. I can only realize so many of them &amp;ndash;
+hangouts, achievements, new skills, goals &amp;ndash; and it&amp;rsquo;s up to me to fit in the ones that I believe are most important. Some activities are
+easy and short but have a small impact &amp;ndash; like spending 5 minutes on learning the piano. Other activities are big and valuable, like
+finishing a large work project, or achieving a fitness goal. But I ought to fit the big possibilities in first, because the only way they
+get done is if I plan around them, and fit in the smaller goals.&lt;/p&gt;
+&lt;p&gt;To add to the complexity, each activity that you could partake in has a different cadence. A couple of examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Planning a hangout with friends may involve exchanging a couple of messages asynchronously, followed by the event itself&lt;/li&gt;
+&lt;li&gt;Doing a work project is flexible, unless you have a deadline, in which case it makes sense to fit everything in prior to the deadline&lt;/li&gt;
+&lt;li&gt;Tasks which involve coordination with others would necessitate intermediate meetings, so a series of deadlines&lt;/li&gt;
+&lt;li&gt;Most solo tasks are genuinely flexible, but benefit from taking breaks. How long the breaks should be depends on your focus stamina.&lt;/li&gt;
+&lt;li&gt;Weightlifting should happen at least twice a week per muscle group&lt;/li&gt;
+&lt;li&gt;Cardio should be 3 hours per week, ideally at 45-60 minute intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;re setting your own schedule, it&amp;rsquo;s essential to be aware of the different things you&amp;rsquo;re trying to do and their respective cadences.
+If morale / sticking with something is an issue, scheduling becomes even more important. You want to do something for long enough each day
+that you see results quickly enough, but slowly enough that you don&amp;rsquo;t burn out and are able to build up a habit.&lt;/p&gt;
+&lt;p&gt;For me, my primary goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue to grow my skills as a developer &amp;ndash; currently I&amp;rsquo;m working on systems design, but this might also
+include more ML at some point.&lt;/li&gt;
+&lt;li&gt;Lose weight / build muscle / improve overall health&lt;/li&gt;
+&lt;li&gt;Be more social (still in lockdown mode somewhat)&lt;/li&gt;
+&lt;li&gt;Backpacking + hostels while I&amp;rsquo;m still young enough to do so&lt;/li&gt;
+&lt;li&gt;Move to a new city&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minor goals include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a stronger online presence (portfolio, blogs, etc.)&lt;/li&gt;
+&lt;li&gt;Learn to swim&lt;/li&gt;
+&lt;li&gt;More sports / games (goes hand in hand with social activities)&lt;/li&gt;
+&lt;li&gt;Improve my fashion sense&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some nice-to-haves include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning a new language&lt;/li&gt;
+&lt;li&gt;Learning piano / guitar / harmonium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;d like to cultivate some traits as well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Being someone who is easy to help &amp;ndash; diligence and organization are key here.&lt;/li&gt;
+&lt;li&gt;High morale: this one is from the book I&amp;rsquo;m reading, about Napoleon. To paraphrase from the book: high morale is sufficient to overcome
+most problems. I will talk about this more, because I find this concept quite interesting. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In terms of fitting all of these into the year, while maximizing productivity, it&amp;rsquo;s essential that I both respect the cadences of each
+individual task, such as working out. My current trainer has me working out 4x a week, and 30 minutes of walking per day. Missing individual
+workouts is bad because it slows my rate of progress, which in turn makes it less likely that I show up for the next one, because I&amp;rsquo;m not
+consistently making progress.&lt;/p&gt;
+&lt;p&gt;The min-max on social activities for me seems to be between 2-10 per month, but I&amp;rsquo;d like to increase this number. Spacing them out is good
+because it serves as a counterbalance to isolation. Always having at least one thing to look forward to helps a lot. It&amp;rsquo;s hard to schedule
+things in advance, but it&amp;rsquo;s always good when I can.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a proposed schedule on some of the blog posts I&amp;rsquo;d like to write this year:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;January 6 - how to plan a backpacking trip (for non-planners)&lt;/li&gt;
+&lt;li&gt;January 8 - lessons learned from a year of solo-ish dev as a new grad&lt;/li&gt;
+&lt;li&gt;January 13 - systems design series part 1 (will talk more about this later)&lt;/li&gt;
+&lt;li&gt;January 20 - systems design series part 2&lt;/li&gt;
+&lt;li&gt;January 27 - systems design series part 3 (the conclusion, hopefully)&lt;/li&gt;
+&lt;li&gt;Esprit de corps: notes on Andrew Robert&amp;rsquo;s &lt;em&gt;Napoleon: A Life&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Novadyne&lt;/li&gt;
+&lt;li&gt;Mechanistic interpretability notes: Bloomin Gardens, Hanabi, Chess, and other games&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;6-8 are more tentative, and so I don&amp;rsquo;t really care so much when they get done by, or if at all.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Jan 3, 2024: I anticipate adding more to this post in the coming days.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title>Examples of Non-functional Requirements</title><link>https://zoravur.com/functional-and-nonfunctional-requirements/</link><pubDate>Mon, 16 Sep 2024 12:07:58 -0400</pubDate><guid>https://zoravur.com/functional-and-nonfunctional-requirements/</guid><description>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
 &amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
 describe how it does it.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
@@ -66,15 +1704,154 @@ describe how it does it.&amp;rdquo;&lt;/p&gt;
 &lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Adopting Hugo</title><link>https://zoravur.com/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.com/adopting-hugo/</guid><description>&lt;p&gt;I am changing from raw html to the static site generator Hugo.
+&lt;/ul&gt;</description><content:encoded>&lt;p&gt;The common refrain when determining functional and nonfunctional requirements is that
+&amp;ldquo;functional requirements describe what the application does, and nonfunctional requirements
+describe how it does it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Here are some examples of nonfunctional requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Performance
+&lt;ul&gt;
+&lt;li&gt;Latency of various actions (page loads, content loading, server processing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Availability
+&lt;ul&gt;
+&lt;li&gt;Uptime requirements (which may vary from system to system)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scalability
+&lt;ul&gt;
+&lt;li&gt;Number of users&lt;/li&gt;
+&lt;li&gt;Expected growth in users in 3 months, 6 months, a year, etc.&lt;/li&gt;
+&lt;li&gt;Throughput&lt;/li&gt;
+&lt;li&gt;Read vs Write heaviness (how many users read a post for each time it is written? 10:1? 50:1?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Observability
+&lt;ul&gt;
+&lt;li&gt;How easy it is to tell what is going on (or going wrong) with your application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Reliability&lt;/li&gt;
+&lt;li&gt;Technology Stack&lt;/li&gt;
+&lt;li&gt;Security requirements
+&lt;ul&gt;
+&lt;li&gt;Authentication&lt;/li&gt;
+&lt;li&gt;Authorization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Maintainability&lt;/li&gt;
+&lt;li&gt;Compliance
+&lt;ul&gt;
+&lt;li&gt;GDPR, COPPA, HIPAA, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Adopting Hugo</title><link>https://zoravur.com/adopting-hugo/</link><pubDate>Sun, 15 Sep 2024 21:40:14 -0400</pubDate><guid>https://zoravur.com/adopting-hugo/</guid><description>&lt;p&gt;I am changing from raw html to the static site generator Hugo.
 As I plan to put more writing on my blog, writing in markdown instead
 of plain HTML will become more important. Stay tuned for overviews of
 system design concepts (as I prepare to find more permanent employment),
 as well as security and statistics.&lt;/p&gt;
-&lt;p&gt;Get excited.&lt;/p&gt;</description></item><item><title>Spock: A Spoken Programming Language</title><link>https://zoravur.com/spock-a-spoken/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://zoravur.com/spock-a-spoken/</guid><description>&lt;p&gt;In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:&lt;/p&gt;
+&lt;p&gt;Get excited.&lt;/p&gt;</description><content:encoded>&lt;p&gt;I am changing from raw html to the static site generator Hugo.
+As I plan to put more writing on my blog, writing in markdown instead
+of plain HTML will become more important. Stay tuned for overviews of
+system design concepts (as I prepare to find more permanent employment),
+as well as security and statistics.&lt;/p&gt;
+&lt;p&gt;Get excited.&lt;/p&gt;</content:encoded></item><item><title>Spock: A Spoken Programming Language</title><link>https://zoravur.com/spock-a-spoken/</link><pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate><guid>https://zoravur.com/spock-a-spoken/</guid><description>&lt;p&gt;In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;It would allow you to program on the go without a laptop, while still approaching threshold efficiency (130wpm output&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;). Also, reducing the time from thought → action seemed like a powerful way to increase productivity.&lt;/li&gt;
 &lt;li&gt;It would be an interesting experiment to see how voice programming would change software: Would being able to speak algorithms increase fluency with them? Would programming languages naturally become more terse and expressive, mirroring natural language? Would voice-written software libraries become spaghetti, or would the necessity of fitting the entire problem domain in your brain at once lead to more elegant solutions?&lt;/li&gt;
 &lt;li&gt;There are many voice assistants which run code on your behalf, but none that are Turing complete. A language that allows you to communicate any task that a computer can conceivably do would be the ultimate in power and flexibility.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;At the time, I couldn&amp;rsquo;t really pursue the idea due to other projects, nor had I really done any work in programming languages since second year, so I was forced to give up on the idea. Nonetheless, I briefly reviewed my course notes and kept the idea on the back burner.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;At the time, I couldn&amp;rsquo;t really pursue the idea due to other projects, nor had I really done any work in programming languages since second year, so I was forced to give up on the idea. Nonetheless, I briefly reviewed my course notes and kept the idea on the back burner.&lt;/p&gt;
+&lt;p&gt;In the past week, I&amp;rsquo;ve decided to pick the idea back up, and due to the beautifully written &lt;a href="https://craftinginterpreters.com/"&gt;Crafting Interpreters&lt;/a&gt;, along with the real-time speech-to-text software &lt;a href="https://github.com/ufal/whisper_streaming"&gt;whisper_streaming&lt;/a&gt;, I&amp;rsquo;ve been able to make surprisingly swift progress toward making the language a reality. Here is some example code (euler1.spk):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;define sum of multiples as lambda takes limit and divisor does begin
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; define m as call quotient with limit and divisor
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; define total as zero
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; while m begin
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; set total as call sum with total and call product with m and divisor
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; set m as call difference with m and one
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; finish
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; return total
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;finish
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;define total as call sum of multiples with 999 and 3
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set total as call sum with total and call sum of multiples with 999 and 5
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set total as call difference with total and call sum of multiples with 999 and 15
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print total
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As you may have been able to guess by reading (either the code or the file name!), this code prints 233168, and is the solution to &lt;a href="https://projecteuler.net/problem=1"&gt;Project Euler Problem 1&lt;/a&gt;. (As there are no non-scalar data types, I stuck to more mathematical problems while building up the language.)&lt;/p&gt;
+&lt;p&gt;Of note, this language consists of only numbers and easily pronounceable English words, and numbers are interchangeable with their word equivalents. Symbols can be multiple words, due to a carefully constructed grammar. There is no punctuation of any kind, and in fact, all punctuation and indentation is stripped during preprocessing. This leaves only a list of words, which are ideally 1-1 mapped to sounds.&lt;/p&gt;
+&lt;p&gt;The language features themselves are similar to Lox, except this language is (to start) even simpler. Classes are missing, and regular functions are replaced with lambdas—given that lambdas are just functions that you can pass around, it seems perfectly reasonable to just replace functions with lambdas. Recursion is possible, although that&amp;rsquo;s only due to an unintuitive bug (arguably)—I&amp;rsquo;m referring to the fact that the language is dynamically scoped, instead of lexically scoped.&lt;/p&gt;
+&lt;p&gt;Classes and types are missing, and the interpreter itself is written in Python—which means all I&amp;rsquo;m doing is translating Spock to a highly restricted subset of Python. This makes for a very slow and cumbersome language, for now.&lt;/p&gt;
+&lt;p&gt;I hope to implement it as a bytecode VM as described in part 3 of Crafting Interpreters, written primarily in C, but also with a Foreign Function Interface to Python, that allows me to steal a lot of the useful code that already exists in Python libraries, for all different types of automation and machine learning.&lt;/p&gt;
+&lt;p&gt;Other features I want to include are: garbage collection, a standard library, and static typing. I also want to add facilities to the interpreter to improve the developer experience (being forced to one shot your code without misspeaking even once is too difficult to be useful).&lt;/p&gt;
+&lt;h3 id="working-with-voice"&gt;Working with Voice&lt;/h3&gt;
+&lt;p&gt;Working with whisper_streaming and programming with voice has been interesting so far. It&amp;rsquo;s not really natural for me yet, and I&amp;rsquo;m still agonizingly slow compared to how quickly I can write code with a keyboard and screen in front of me. Nonetheless, with very straightforward code, or when I&amp;rsquo;ve pre-written the code and I&amp;rsquo;m just saying it into Whisper, I can definitely say it much faster than I could ever type it.&lt;/p&gt;
+&lt;p&gt;If it were this simple though, then I&amp;rsquo;d be well on my way to making this idea a reality. One of the big hurdles, however, is &lt;em&gt;working around the limitations of Whisper.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Whisper is an audio-to-text model, designed mainly for the purposes of transcribing media. As such, it automatically performs a number of tricks and hallucinations that allow it to generate an unnaturally polished transcription of most of the media in its training set. The problem, however, is that Spock follows a different grammar to regular English, and Whisper alters the text stream in subtle but important ways. Here are a few hurdles that I&amp;rsquo;ve encountered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mixing up similar sounding words: n, and, end&lt;/li&gt;
+&lt;li&gt;Whisper removing repeated words: an earlier version of the grammar denoted argument lists using the words &amp;ldquo;left&amp;rdquo; and &amp;ldquo;right&amp;rdquo; for left and right parentheses. Some programs would have multiple &amp;ldquo;right&amp;rdquo; parentheses next to each other, which Whisper would then deduplicate, presumably because it&amp;rsquo;s assuming that the speaker is stuttering, even when they are not.&lt;/li&gt;
+&lt;li&gt;The infamous &lt;a href="https://www.reddit.com/r/ChatGPT/comments/15mmraf/why_does_it_keep_transcribing_thank_you_for/"&gt;&amp;ldquo;Thank you for watching!&amp;rdquo; bug&lt;/a&gt;, and random text in other languages: on silence, whisper transcribes a bunch of garbage (quite frequently), presumably because the subtitles it was trained on would contain some text that isn&amp;rsquo;t matching the audio that it should. I imagine something similar to threshold probabilities would remedy this, but this is not easily configurable within Whisper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;ve addressed the first two by modifying the grammar slightly, (notice, &amp;ldquo;begin&amp;rdquo; is normally paired with &amp;ldquo;end&amp;rdquo;, but here it is paired with &amp;ldquo;finish&amp;rdquo;, and instead of left and right, we have lists joined with the word &amp;ldquo;and&amp;rdquo;. The logical AND function is consequently called conj), but the garbage transcription is something I&amp;rsquo;m still dealing with.&lt;/p&gt;
+&lt;p&gt;One idea that I had for improving the annoying situations where the transcription fails is fine-tuning—by providing labeled examples of programs, I could greatly improve Whisper&amp;rsquo;s ability to detect the words that are common in the language. Hopefully, this would deal with the garbage transcription as well, as some of these examples may contain long pauses in which I&amp;rsquo;m thinking about the next line of code to write.&lt;/p&gt;
+&lt;p&gt;I have more to say about the fine-tuning problem (it would fix the grammar of the language, possible methods of generating data/programs), but I think I&amp;rsquo;ll continue this part of the discussion in a future post.&lt;/p&gt;
+&lt;h3 id="the-far-future"&gt;The Far Future&lt;/h3&gt;
+&lt;p&gt;With a large repository of language data, one may see spoken programming languages diverge from how English is spoken (though cross-pollination would always exist). Perhaps, like natural language, language constructs could be assigned to shorter and shorter sounds depending on how frequently they are used. One could maybe group syntax based on the pauses between words, allowing one to generate mathematical expressions by saying things in exactly the right way. Maybe one day, we&amp;rsquo;ll all be talking to computers—&lt;a href="https://www.youtube.com/watch?v=Drr6_zikuZQ"&gt;like in Star Trek&lt;/a&gt;: perfectly logical and precise, not flaky, unreliable, and too-emotional LLMs.&lt;/p&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;The average speaking rate is 100-130 wpm according to Google, and I know people personally that type 130+ wpm, so it seems that speaking is comparable to typing in terms of max speed. Typing may win on an increased character set, but a fast speaker can easily go 160 wpm, so my not-so-scientific guess is that they&amp;rsquo;re pretty comparable. Both, of course, are ultimately limited by the speed of thought.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><content:encoded>&lt;p&gt;In December 2023, I came up with the idea of a programming language you would be able to speak out loud, into your phone or computer, hands-free. I thought it was an interesting idea for a couple of reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It would allow you to program on the go without a laptop, while still approaching threshold efficiency (130wpm output&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;). Also, reducing the time from thought → action seemed like a powerful way to increase productivity.&lt;/li&gt;
+&lt;li&gt;It would be an interesting experiment to see how voice programming would change software: Would being able to speak algorithms increase fluency with them? Would programming languages naturally become more terse and expressive, mirroring natural language? Would voice-written software libraries become spaghetti, or would the necessity of fitting the entire problem domain in your brain at once lead to more elegant solutions?&lt;/li&gt;
+&lt;li&gt;There are many voice assistants which run code on your behalf, but none that are Turing complete. A language that allows you to communicate any task that a computer can conceivably do would be the ultimate in power and flexibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At the time, I couldn&amp;rsquo;t really pursue the idea due to other projects, nor had I really done any work in programming languages since second year, so I was forced to give up on the idea. Nonetheless, I briefly reviewed my course notes and kept the idea on the back burner.&lt;/p&gt;
+&lt;p&gt;In the past week, I&amp;rsquo;ve decided to pick the idea back up, and due to the beautifully written &lt;a href="https://craftinginterpreters.com/"&gt;Crafting Interpreters&lt;/a&gt;, along with the real-time speech-to-text software &lt;a href="https://github.com/ufal/whisper_streaming"&gt;whisper_streaming&lt;/a&gt;, I&amp;rsquo;ve been able to make surprisingly swift progress toward making the language a reality. Here is some example code (euler1.spk):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;define sum of multiples as lambda takes limit and divisor does begin
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; define m as call quotient with limit and divisor
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; define total as zero
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; while m begin
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; set total as call sum with total and call product with m and divisor
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; set m as call difference with m and one
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; finish
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; return total
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;finish
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;define total as call sum of multiples with 999 and 3
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set total as call sum with total and call sum of multiples with 999 and 5
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;set total as call difference with total and call sum of multiples with 999 and 15
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print total
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As you may have been able to guess by reading (either the code or the file name!), this code prints 233168, and is the solution to &lt;a href="https://projecteuler.net/problem=1"&gt;Project Euler Problem 1&lt;/a&gt;. (As there are no non-scalar data types, I stuck to more mathematical problems while building up the language.)&lt;/p&gt;
+&lt;p&gt;Of note, this language consists of only numbers and easily pronounceable English words, and numbers are interchangeable with their word equivalents. Symbols can be multiple words, due to a carefully constructed grammar. There is no punctuation of any kind, and in fact, all punctuation and indentation is stripped during preprocessing. This leaves only a list of words, which are ideally 1-1 mapped to sounds.&lt;/p&gt;
+&lt;p&gt;The language features themselves are similar to Lox, except this language is (to start) even simpler. Classes are missing, and regular functions are replaced with lambdas—given that lambdas are just functions that you can pass around, it seems perfectly reasonable to just replace functions with lambdas. Recursion is possible, although that&amp;rsquo;s only due to an unintuitive bug (arguably)—I&amp;rsquo;m referring to the fact that the language is dynamically scoped, instead of lexically scoped.&lt;/p&gt;
+&lt;p&gt;Classes and types are missing, and the interpreter itself is written in Python—which means all I&amp;rsquo;m doing is translating Spock to a highly restricted subset of Python. This makes for a very slow and cumbersome language, for now.&lt;/p&gt;
+&lt;p&gt;I hope to implement it as a bytecode VM as described in part 3 of Crafting Interpreters, written primarily in C, but also with a Foreign Function Interface to Python, that allows me to steal a lot of the useful code that already exists in Python libraries, for all different types of automation and machine learning.&lt;/p&gt;
+&lt;p&gt;Other features I want to include are: garbage collection, a standard library, and static typing. I also want to add facilities to the interpreter to improve the developer experience (being forced to one shot your code without misspeaking even once is too difficult to be useful).&lt;/p&gt;
+&lt;h3 id="working-with-voice"&gt;Working with Voice&lt;/h3&gt;
+&lt;p&gt;Working with whisper_streaming and programming with voice has been interesting so far. It&amp;rsquo;s not really natural for me yet, and I&amp;rsquo;m still agonizingly slow compared to how quickly I can write code with a keyboard and screen in front of me. Nonetheless, with very straightforward code, or when I&amp;rsquo;ve pre-written the code and I&amp;rsquo;m just saying it into Whisper, I can definitely say it much faster than I could ever type it.&lt;/p&gt;
+&lt;p&gt;If it were this simple though, then I&amp;rsquo;d be well on my way to making this idea a reality. One of the big hurdles, however, is &lt;em&gt;working around the limitations of Whisper.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Whisper is an audio-to-text model, designed mainly for the purposes of transcribing media. As such, it automatically performs a number of tricks and hallucinations that allow it to generate an unnaturally polished transcription of most of the media in its training set. The problem, however, is that Spock follows a different grammar to regular English, and Whisper alters the text stream in subtle but important ways. Here are a few hurdles that I&amp;rsquo;ve encountered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mixing up similar sounding words: n, and, end&lt;/li&gt;
+&lt;li&gt;Whisper removing repeated words: an earlier version of the grammar denoted argument lists using the words &amp;ldquo;left&amp;rdquo; and &amp;ldquo;right&amp;rdquo; for left and right parentheses. Some programs would have multiple &amp;ldquo;right&amp;rdquo; parentheses next to each other, which Whisper would then deduplicate, presumably because it&amp;rsquo;s assuming that the speaker is stuttering, even when they are not.&lt;/li&gt;
+&lt;li&gt;The infamous &lt;a href="https://www.reddit.com/r/ChatGPT/comments/15mmraf/why_does_it_keep_transcribing_thank_you_for/"&gt;&amp;ldquo;Thank you for watching!&amp;rdquo; bug&lt;/a&gt;, and random text in other languages: on silence, whisper transcribes a bunch of garbage (quite frequently), presumably because the subtitles it was trained on would contain some text that isn&amp;rsquo;t matching the audio that it should. I imagine something similar to threshold probabilities would remedy this, but this is not easily configurable within Whisper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;ve addressed the first two by modifying the grammar slightly, (notice, &amp;ldquo;begin&amp;rdquo; is normally paired with &amp;ldquo;end&amp;rdquo;, but here it is paired with &amp;ldquo;finish&amp;rdquo;, and instead of left and right, we have lists joined with the word &amp;ldquo;and&amp;rdquo;. The logical AND function is consequently called conj), but the garbage transcription is something I&amp;rsquo;m still dealing with.&lt;/p&gt;
+&lt;p&gt;One idea that I had for improving the annoying situations where the transcription fails is fine-tuning—by providing labeled examples of programs, I could greatly improve Whisper&amp;rsquo;s ability to detect the words that are common in the language. Hopefully, this would deal with the garbage transcription as well, as some of these examples may contain long pauses in which I&amp;rsquo;m thinking about the next line of code to write.&lt;/p&gt;
+&lt;p&gt;I have more to say about the fine-tuning problem (it would fix the grammar of the language, possible methods of generating data/programs), but I think I&amp;rsquo;ll continue this part of the discussion in a future post.&lt;/p&gt;
+&lt;h3 id="the-far-future"&gt;The Far Future&lt;/h3&gt;
+&lt;p&gt;With a large repository of language data, one may see spoken programming languages diverge from how English is spoken (though cross-pollination would always exist). Perhaps, like natural language, language constructs could be assigned to shorter and shorter sounds depending on how frequently they are used. One could maybe group syntax based on the pauses between words, allowing one to generate mathematical expressions by saying things in exactly the right way. Maybe one day, we&amp;rsquo;ll all be talking to computers—&lt;a href="https://www.youtube.com/watch?v=Drr6_zikuZQ"&gt;like in Star Trek&lt;/a&gt;: perfectly logical and precise, not flaky, unreliable, and too-emotional LLMs.&lt;/p&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;The average speaking rate is 100-130 wpm according to Google, and I know people personally that type 130+ wpm, so it seems that speaking is comparable to typing in terms of max speed. Typing may win on an increased character set, but a fast speaker can easily go 160 wpm, so my not-so-scientific guess is that they&amp;rsquo;re pretty comparable. Both, of course, are ultimately limited by the speed of thought.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>
