@@ -2,6 +2,7 @@
 title = 'An Introductory Verification Exercise'
 date = 2026-06-04T15:44:42-04:00
 draft = false
+summary = "In the past month, I\\'ve been learning Lean4, because of my interest in software verification. Here's what made it click..."
 +++
 
 _[Github Gist](https://gist.github.com/zoravur/c80c1eb4636f1a335d764b8e97b47e6d)_
