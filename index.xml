@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2026 15:44:42 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>An Introductory Verification Exercise</title><link>https://zoravur.com/an-introductory-verification-exercise/</link><pubDate>Thu, 04 Jun 2026 15:44:42 -0400</pubDate><guid>https://zoravur.com/an-introductory-verification-exercise/</guid><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://gist.github.com/zoravur/c80c1eb4636f1a335d764b8e97b47e6d"&gt;Github Gist&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Jun 2026 10:40:40 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Learning How to Learn</title><link>https://zoravur.com/learning-how-to-learn/</link><pubDate>Mon, 08 Jun 2026 10:40:40 -0400</pubDate><guid>https://zoravur.com/learning-how-to-learn/</guid><description>&lt;p&gt;Here are my condensed notes (WIP) on &lt;a href="https://www.coursera.org/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory"&gt;the classic Coursera course about learning how to learn&lt;/a&gt;.
+The working repository is &lt;a href="https://github.com/zoravur/learning-how-to-learn-notes"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="module-1-abridged"&gt;Module 1, Abridged&lt;/h1&gt;
+&lt;h2 id="focused-vs-diffuse-mode"&gt;Focused vs Diffuse mode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your brain has two modes of thinking, focused and diffuse.&lt;/li&gt;
+&lt;li&gt;Focused thinking is defined by sustained effort and attention on something external.&lt;/li&gt;
+&lt;li&gt;Diffuse thinking is basically everything that happens when you&amp;rsquo;re not focused on something.
+&lt;ul&gt;
+&lt;li&gt;The diffuse mode is associated with neural resting states, such as sleep, or restful wakefulness.
+&lt;ul&gt;
+&lt;li&gt;Taking a shower, going on a walk, making a cup of tea &amp;ndash; anything that is not cognitively demanding,
+that allows your mind to wander.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Solving difficult problems and learning new things can be improved by the alternation between these two
+states of thinking. Focused thinking to grasp a new concept / understand a problem, diffuse to process
+the information / problem in the background, and finally focused again to finalize the details of a
+solution or recall the information in a different setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="procrastination"&gt;Procrastination&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When we procrastinate, studies show that what&amp;rsquo;s happening is thinking about the task triggers the
+part of the brain associated with feeling pain &amp;ndash; the insular cortex.&lt;/li&gt;
+&lt;li&gt;Therefore, procrastination is conditioned avoidance. What happens is exactly as follows:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;You observe the need to do something that you don&amp;rsquo;t want to do, such as fulfill some obligation &amp;ndash; cue&lt;/li&gt;
+&lt;li&gt;You think some thought associated with that activity that triggers a negative thought / emotion.&lt;/li&gt;
+&lt;li&gt;In order to avoid the negative feeling, you shift your attention elsewhere, short circuiting the process
+of completing that task.&lt;/li&gt;
+&lt;li&gt;As a result, the negative stimuli is removed, leading to a positive feeling.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;As such, you become conditioned to avoid certain tasks / activities.&lt;/li&gt;
+&lt;li&gt;The way to deal with procrastination is to make it easy to get started. The pomodoro technique is useful
+for this, because it means that effort is constrained to 25 minutes, which makes the task tolerable.&lt;/li&gt;
+&lt;li&gt;And research suggests that once we get started, the negative feeling associated with the activity goes
+away, and we are able to complete the task. - To put my own little spin on things &amp;ndash; if you feel like procrastinating, make it easy to start. Schedule a single pomodoro session, with the understanding that if you want to stop after, you can. This way, you&amp;rsquo;ll overcome the initial resistance, and detrain the condition negative feeling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pomodoro-technique"&gt;Pomodoro technique&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The pomodoro technique (for studying) consists of:
+&lt;ul&gt;
+&lt;li&gt;A 25 minute study session, where you turn off all distractions and focus intently on the current task&lt;/li&gt;
+&lt;li&gt;2-5 minutes of diffuse recall / consolidation, where you write down what you&amp;rsquo;ve just learned
+&lt;ul&gt;
+&lt;li&gt;Do not look at your notes, if possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2-3 minutes of restful wakefulness, where you do some non-demanding task which does not require focus.
+&lt;ul&gt;
+&lt;li&gt;Go on a walk, make some tea, stare out the window, tidy up a bit, take a shower.&lt;/li&gt;
+&lt;li&gt;Most importantly, do not pick up your phone, as it interferes with the diffuse mode processing that
+occurs in the background as you subconsciously process the material.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s helpful to not view the 4 - 8 minutes of recall and wakefulness as a free-for-all break. You&amp;rsquo;re still
+studying, just in a different sort of way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="working-and-long-term-memory"&gt;Working and Long Term Memory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Working memory is your mental scratchpad
+&lt;ul&gt;
+&lt;li&gt;Localized to your prefrontal cortex&lt;/li&gt;
+&lt;li&gt;You have to keep re-upping what&amp;rsquo;s in your working memory by repeating it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Long term memory is your mental warehouse
+&lt;ul&gt;
+&lt;li&gt;Stored throughout the entire brain&lt;/li&gt;
+&lt;li&gt;There can be so many memories that they literally bury each other and are hard to recall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;To move something from working into long term memory, you should be practicing recall.
+&lt;ul&gt;
+&lt;li&gt;First, repeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-study-practice-makes-permanent"&gt;How to Study: &amp;ldquo;Practice Makes Permanent&amp;rdquo;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When studying ,&lt;/li&gt;
+&lt;/ul&gt;</description><content:encoded>&lt;p&gt;Here are my condensed notes (WIP) on &lt;a href="https://www.coursera.org/learn/learning-how-to-learn/lecture/X7E9r/introduction-to-memory"&gt;the classic Coursera course about learning how to learn&lt;/a&gt;.
+The working repository is &lt;a href="https://github.com/zoravur/learning-how-to-learn-notes"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id="module-1-abridged"&gt;Module 1, Abridged&lt;/h1&gt;
+&lt;h2 id="focused-vs-diffuse-mode"&gt;Focused vs Diffuse mode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your brain has two modes of thinking, focused and diffuse.&lt;/li&gt;
+&lt;li&gt;Focused thinking is defined by sustained effort and attention on something external.&lt;/li&gt;
+&lt;li&gt;Diffuse thinking is basically everything that happens when you&amp;rsquo;re not focused on something.
+&lt;ul&gt;
+&lt;li&gt;The diffuse mode is associated with neural resting states, such as sleep, or restful wakefulness.
+&lt;ul&gt;
+&lt;li&gt;Taking a shower, going on a walk, making a cup of tea &amp;ndash; anything that is not cognitively demanding,
+that allows your mind to wander.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Solving difficult problems and learning new things can be improved by the alternation between these two
+states of thinking. Focused thinking to grasp a new concept / understand a problem, diffuse to process
+the information / problem in the background, and finally focused again to finalize the details of a
+solution or recall the information in a different setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="procrastination"&gt;Procrastination&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When we procrastinate, studies show that what&amp;rsquo;s happening is thinking about the task triggers the
+part of the brain associated with feeling pain &amp;ndash; the insular cortex.&lt;/li&gt;
+&lt;li&gt;Therefore, procrastination is conditioned avoidance. What happens is exactly as follows:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;You observe the need to do something that you don&amp;rsquo;t want to do, such as fulfill some obligation &amp;ndash; cue&lt;/li&gt;
+&lt;li&gt;You think some thought associated with that activity that triggers a negative thought / emotion.&lt;/li&gt;
+&lt;li&gt;In order to avoid the negative feeling, you shift your attention elsewhere, short circuiting the process
+of completing that task.&lt;/li&gt;
+&lt;li&gt;As a result, the negative stimuli is removed, leading to a positive feeling.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;As such, you become conditioned to avoid certain tasks / activities.&lt;/li&gt;
+&lt;li&gt;The way to deal with procrastination is to make it easy to get started. The pomodoro technique is useful
+for this, because it means that effort is constrained to 25 minutes, which makes the task tolerable.&lt;/li&gt;
+&lt;li&gt;And research suggests that once we get started, the negative feeling associated with the activity goes
+away, and we are able to complete the task. - To put my own little spin on things &amp;ndash; if you feel like procrastinating, make it easy to start. Schedule a single pomodoro session, with the understanding that if you want to stop after, you can. This way, you&amp;rsquo;ll overcome the initial resistance, and detrain the condition negative feeling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pomodoro-technique"&gt;Pomodoro technique&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The pomodoro technique (for studying) consists of:
+&lt;ul&gt;
+&lt;li&gt;A 25 minute study session, where you turn off all distractions and focus intently on the current task&lt;/li&gt;
+&lt;li&gt;2-5 minutes of diffuse recall / consolidation, where you write down what you&amp;rsquo;ve just learned
+&lt;ul&gt;
+&lt;li&gt;Do not look at your notes, if possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2-3 minutes of restful wakefulness, where you do some non-demanding task which does not require focus.
+&lt;ul&gt;
+&lt;li&gt;Go on a walk, make some tea, stare out the window, tidy up a bit, take a shower.&lt;/li&gt;
+&lt;li&gt;Most importantly, do not pick up your phone, as it interferes with the diffuse mode processing that
+occurs in the background as you subconsciously process the material.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s helpful to not view the 4 - 8 minutes of recall and wakefulness as a free-for-all break. You&amp;rsquo;re still
+studying, just in a different sort of way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="working-and-long-term-memory"&gt;Working and Long Term Memory&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Working memory is your mental scratchpad
+&lt;ul&gt;
+&lt;li&gt;Localized to your prefrontal cortex&lt;/li&gt;
+&lt;li&gt;You have to keep re-upping what&amp;rsquo;s in your working memory by repeating it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Long term memory is your mental warehouse
+&lt;ul&gt;
+&lt;li&gt;Stored throughout the entire brain&lt;/li&gt;
+&lt;li&gt;There can be so many memories that they literally bury each other and are hard to recall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;To move something from working into long term memory, you should be practicing recall.
+&lt;ul&gt;
+&lt;li&gt;First, repeat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-study-practice-makes-permanent"&gt;How to Study: &amp;ldquo;Practice Makes Permanent&amp;rdquo;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When studying ,&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>An Introductory Verification Exercise</title><link>https://zoravur.com/an-introductory-verification-exercise/</link><pubDate>Thu, 04 Jun 2026 15:44:42 -0400</pubDate><guid>https://zoravur.com/an-introductory-verification-exercise/</guid><description>&lt;p&gt;&lt;em&gt;&lt;a href="https://gist.github.com/zoravur/c80c1eb4636f1a335d764b8e97b47e6d"&gt;Github Gist&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In the past month, I&amp;rsquo;ve been learning Lean4, because of my interest in software verification.
 Here&amp;rsquo;s what I did that really made it click for me:&lt;/p&gt;
 &lt;ol&gt;
