@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 12 Jun 2026 08:58:09 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Resources</title><link>https://zoravur.com/go-resources/</link><pubDate>Fri, 12 Jun 2026 08:58:09 -0400</pubDate><guid>https://zoravur.com/go-resources/</guid><description>&lt;p&gt;I enjoy working with golang (or at least the idea of working in golang), but I&amp;rsquo;m still very much
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Zoravur's Blog</title><link>https://zoravur.com/</link><description>Recent content on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2026 17:26:08 -0400</lastBuildDate><atom:link href="https://zoravur.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Thought and Action</title><link>https://zoravur.com/thought-and-action/</link><pubDate>Fri, 19 Jun 2026 17:26:08 -0400</pubDate><guid>https://zoravur.com/thought-and-action/</guid><description>&lt;p&gt;How do you get more done? Thinking takes less effort than action, but action has the benefit of
+accomplishing something. Therefore, if a domain is well understood, it sometimes makes more sense
+to do the thing than it does to keep mulling it over.&lt;/p&gt;
+&lt;p&gt;To this end, it&amp;rsquo;s probably a good idea to turn every single &amp;ldquo;I should&amp;rdquo; into a decision process.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Do it now, or reschedule to a future date where I have more information.&lt;/li&gt;
+&lt;li&gt;After rescheduling to a future date, either do it immediately and add it to the done list, or
+satisfy myself with never doing it.&lt;/li&gt;
+&lt;/ol&gt;</description><content:encoded>&lt;p&gt;How do you get more done? Thinking takes less effort than action, but action has the benefit of
+accomplishing something. Therefore, if a domain is well understood, it sometimes makes more sense
+to do the thing than it does to keep mulling it over.&lt;/p&gt;
+&lt;p&gt;To this end, it&amp;rsquo;s probably a good idea to turn every single &amp;ldquo;I should&amp;rdquo; into a decision process.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Do it now, or reschedule to a future date where I have more information.&lt;/li&gt;
+&lt;li&gt;After rescheduling to a future date, either do it immediately and add it to the done list, or
+satisfy myself with never doing it.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title>Go Resources</title><link>https://zoravur.com/go-resources/</link><pubDate>Fri, 12 Jun 2026 08:58:09 -0400</pubDate><guid>https://zoravur.com/go-resources/</guid><description>&lt;p&gt;I enjoy working with golang (or at least the idea of working in golang), but I&amp;rsquo;m still very much
 a novice &amp;ndash; not to mention the fact that AI makes it easy to stay a beginner.
 Here&amp;rsquo;s some of the resources I plan on going through:&lt;/p&gt;
 &lt;ul&gt;
