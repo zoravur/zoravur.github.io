@@ -2,6 +2,7 @@
 title = 'Thought and Action'
 date = 2026-06-19T17:26:08-04:00
 draft = false
+summary = 'To be more productive, reduce the amount of time it takes to make a decision.'
 +++
 
 How do you get more done? Thinking takes less effort than action, but action has the benefit of 
