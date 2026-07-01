@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Productivity on Zoravur's Blog</title><link>https://zoravur.com/tags/productivity/</link><description>Recent content in Productivity on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Jan 2025 07:05:38 -0500</lastBuildDate><atom:link href="https://zoravur.com/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Productivity on Zoravur's Blog</title><link>https://zoravur.com/tags/productivity/</link><description>Recent content in Productivity on Zoravur's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2026 03:44:04 -0400</lastBuildDate><atom:link href="https://zoravur.com/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Stable Externalization</title><link>https://zoravur.com/stable-externalization/</link><pubDate>Wed, 01 Jul 2026 03:44:04 -0400</pubDate><guid>https://zoravur.com/stable-externalization/</guid><description>&lt;p&gt;&lt;em&gt;Full disclaimer: the following post is poorly researched, &amp;ldquo;folk productivity&amp;rdquo; advice. It borrows
+terms from neuroscience without strong research into those ideas, which makes it no more than
+useful anecdotes of the self-help genre.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One thing that helps me get more done is being more organized. If I think of myself as a
+meat-computer, a self-improving algorithm, I would say that my constraints are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I have two cognitive systems, system 1 and system 2.&lt;/li&gt;
+&lt;li&gt;System 1 is automatic, intuitive, and emotional.&lt;/li&gt;
+&lt;li&gt;System 2 thinks deeply, but requires sustained effort.&lt;/li&gt;
+&lt;li&gt;System 2 responds poorly to attention fragmentation, has low bandwidth.&lt;/li&gt;
+&lt;li&gt;System 2 can be consciously controlled.&lt;/li&gt;
+&lt;li&gt;System 1 imputes a policy (chooses a next thought or action) where system 2 does not or cannot.&lt;/li&gt;
+&lt;li&gt;System 2 shuts off once attentional resources are exhausted, for which blood glucose is a proxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System 2 actions can be taken over by system 1 if reinforced.&lt;/li&gt;
+&lt;li&gt;System 1 is in the driver seat most of the time, just due to the sheer cost of deploying system 2
+reasoning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The question, therefore, is how can I offload as much useful productivity to system 1 as possible?
+If it&amp;rsquo;s a skill, then I think the answer is deliberate practice. If it&amp;rsquo;s decision making,
+then I think the answer is &lt;em&gt;precommitment&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve done precommitment if you&amp;rsquo;ve ever rehearsed anything. System 2 sets the intention of what to
+do if a particular scenario occurs, and when the cue occurs, you automatically execute the
+rehearsed routine&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;. One example is telling a lie. You rehearse it in your head, and when it comes
+time to actually say it, you don&amp;rsquo;t hesitate, because you&amp;rsquo;ve precommitted to a particular story.&lt;/p&gt;
+&lt;p&gt;Precommitment allows you to set useful defaults. Once you&amp;rsquo;ve made a particular behaviour the default,
+the probability that it continues to happen is extraordinarily high, because it requires conscious
+effort by system 2 to override the default. If that default results in you automatically doing useful
+things, then you&amp;rsquo;ve solved a large part of what it takes to be productive.&lt;/p&gt;
+&lt;p&gt;Rely on system 2 to make the critical changes necessary to &lt;em&gt;keep&lt;/em&gt; the productivity machine moving,
+instead of relying on system 2 to be the muscle that creates productivity out of nothing. This means
+self-reflection and setting implementation intentions, so that the next time you reach a critical
+junction you can make the right choice.&lt;/p&gt;
+&lt;p&gt;What does this have to do with organization, or as I like to put it, a stable externalization?
+Well, we know how much our environment affects our ability to get things done. The reason is that
+the environment can be understood as cues for certain behaviours&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;. By setting correct, consistent,
+and intuitive cues in our environment, we can make it easier for system 1 to automatically complete
+the desired behaviours.&lt;/p&gt;
+&lt;p&gt;Stability is critical because we can only (en?)train the correct response when we&amp;rsquo;ve been exposed to
+it repeatedly.&lt;/p&gt;
+&lt;p&gt;Therefore, create a stable environment that cues you into doing the correct thing in each scenario.
+This is all what I mean by organization.&lt;/p&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;If you think about it, precommitment operates on the same mechanism that skills do. They&amp;rsquo;re
+both automatic responses calibrated through experience and repetition. It&amp;rsquo;s just that we think of
+precommitment as deciding to do a particular action, not as a step in a larger routine.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;In certain RL algorithms, &lt;em&gt;ALL&lt;/em&gt; an environment is is a collection of cues to behaviour. The
+neural net takes in an a raw observation from the environment, and directly scores each action
+depending on its expected reward. This expected reward can be thought of as the strength of the cue
+toward that behaviour (again, folk-intuition)&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description><content:encoded>&lt;p&gt;&lt;em&gt;Full disclaimer: the following post is poorly researched, &amp;ldquo;folk productivity&amp;rdquo; advice. It borrows
+terms from neuroscience without strong research into those ideas, which makes it no more than
+useful anecdotes of the self-help genre.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;One thing that helps me get more done is being more organized. If I think of myself as a
+meat-computer, a self-improving algorithm, I would say that my constraints are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I have two cognitive systems, system 1 and system 2.&lt;/li&gt;
+&lt;li&gt;System 1 is automatic, intuitive, and emotional.&lt;/li&gt;
+&lt;li&gt;System 2 thinks deeply, but requires sustained effort.&lt;/li&gt;
+&lt;li&gt;System 2 responds poorly to attention fragmentation, has low bandwidth.&lt;/li&gt;
+&lt;li&gt;System 2 can be consciously controlled.&lt;/li&gt;
+&lt;li&gt;System 1 imputes a policy (chooses a next thought or action) where system 2 does not or cannot.&lt;/li&gt;
+&lt;li&gt;System 2 shuts off once attentional resources are exhausted, for which blood glucose is a proxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System 2 actions can be taken over by system 1 if reinforced.&lt;/li&gt;
+&lt;li&gt;System 1 is in the driver seat most of the time, just due to the sheer cost of deploying system 2
+reasoning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The question, therefore, is how can I offload as much useful productivity to system 1 as possible?
+If it&amp;rsquo;s a skill, then I think the answer is deliberate practice. If it&amp;rsquo;s decision making,
+then I think the answer is &lt;em&gt;precommitment&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ve done precommitment if you&amp;rsquo;ve ever rehearsed anything. System 2 sets the intention of what to
+do if a particular scenario occurs, and when the cue occurs, you automatically execute the
+rehearsed routine&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;. One example is telling a lie. You rehearse it in your head, and when it comes
+time to actually say it, you don&amp;rsquo;t hesitate, because you&amp;rsquo;ve precommitted to a particular story.&lt;/p&gt;
+&lt;p&gt;Precommitment allows you to set useful defaults. Once you&amp;rsquo;ve made a particular behaviour the default,
+the probability that it continues to happen is extraordinarily high, because it requires conscious
+effort by system 2 to override the default. If that default results in you automatically doing useful
+things, then you&amp;rsquo;ve solved a large part of what it takes to be productive.&lt;/p&gt;
+&lt;p&gt;Rely on system 2 to make the critical changes necessary to &lt;em&gt;keep&lt;/em&gt; the productivity machine moving,
+instead of relying on system 2 to be the muscle that creates productivity out of nothing. This means
+self-reflection and setting implementation intentions, so that the next time you reach a critical
+junction you can make the right choice.&lt;/p&gt;
+&lt;p&gt;What does this have to do with organization, or as I like to put it, a stable externalization?
+Well, we know how much our environment affects our ability to get things done. The reason is that
+the environment can be understood as cues for certain behaviours&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;. By setting correct, consistent,
+and intuitive cues in our environment, we can make it easier for system 1 to automatically complete
+the desired behaviours.&lt;/p&gt;
+&lt;p&gt;Stability is critical because we can only (en?)train the correct response when we&amp;rsquo;ve been exposed to
+it repeatedly.&lt;/p&gt;
+&lt;p&gt;Therefore, create a stable environment that cues you into doing the correct thing in each scenario.
+This is all what I mean by organization.&lt;/p&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;If you think about it, precommitment operates on the same mechanism that skills do. They&amp;rsquo;re
+both automatic responses calibrated through experience and repetition. It&amp;rsquo;s just that we think of
+precommitment as deciding to do a particular action, not as a step in a larger routine.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;In certain RL algorithms, &lt;em&gt;ALL&lt;/em&gt; an environment is is a collection of cues to behaviour. The
+neural net takes in an a raw observation from the environment, and directly scores each action
+depending on its expected reward. This expected reward can be thought of as the strength of the cue
+toward that behaviour (again, folk-intuition)&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded></item><item><title>Type A and Type B Productivity</title><link>https://zoravur.com/type-a-and-type-b-productivity/</link><pubDate>Thu, 02 Jan 2025 07:05:38 -0500</pubDate><guid>https://zoravur.com/type-a-and-type-b-productivity/</guid><description>&lt;p&gt;In the month of December 2024, I started messing around on the piano a bit. I started practicing every day, and the habit actually
 started to stick a little. I did it for about 10 days, practicing on single scales exercise in C major for about 10 minutes per day,
 and it was small enough that it was actually sustainable. Plus, it was just spaced out just enough that I could see improvement in about
 a week.&lt;/p&gt;
