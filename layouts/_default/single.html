@@ -1,0 +1,14 @@
+{{- /* Overrides themes/ultron/layouts/_default/single.html: skip the date on undated pages
+       (otherwise Go's zero time renders as "January 1, 1"). */ -}}
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Date }}{{ if not .IsZero }}
+  {{ $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := . | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  {{ end }}{{ end }}
+
+  {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ end }}
